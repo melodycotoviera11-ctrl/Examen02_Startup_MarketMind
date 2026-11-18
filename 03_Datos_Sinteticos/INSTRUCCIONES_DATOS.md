@@ -20,11 +20,11 @@ Doce meses de operación simulada, del 1 de noviembre de 2025 al 31 de octubre d
 |---|---|---|---|
 | clientes.csv | Dimensión | 40 | Sistema de facturación y CRM |
 | planes.csv | Dimensión | 3 | Sistema de facturación |
-| canales.csv | Dimensión | 4 | Catálogo interno |
-| campanas.xlsx | Dimensión | 440 | Hoja de control de campañas |
+| canales.csv | Dimensión | 5 | Catálogo interno |
+| campanas.xlsx | Dimensión | 430 | Hoja de control de campañas |
 | facturas.csv | Hechos comerciales | 210 | Sistema de facturación |
-| resultados_campanas.csv | Hechos de resultados del servicio | 14 600 | Exportación de la API de Meta, Google y TikTok |
-| uso_plataforma.csv | Hechos de uso del producto | 3 200 | Registro de actividad de la plataforma |
+| resultados_campanas.csv | Hechos de resultados del servicio | 15 050 | Exportación de la API de Meta, Google, TikTok y del canal de IA |
+| uso_plataforma.csv | Hechos de uso del producto | 3 210 | Registro de actividad de la plataforma |
 
 ## Diccionario de datos
 
@@ -38,7 +38,7 @@ Una fila por empresa o agencia que contrató MarketMind BI.
 | industria | Industria del cliente. Las agencias aparecen como "Agencia de marketing" |
 | tamano_empresa | Micro, Pequeña o Mediana |
 | provincia | Provincia de Costa Rica |
-| canal_adquisicion | Por dónde llegó el cliente a MarketMind (Instagram, LinkedIn, Webinar, Referido, Alianza) |
+| canal_adquisicion | Por dónde llegó el cliente a MarketMind (Instagram, LinkedIn, Webinar, Referido o Alianza cámara de comercio) |
 | fecha_alta | Día en que empezó la prueba gratis de 14 días |
 | id_plan_inicial | Plan con el que empezó (puede cambiar después, ver facturas) |
 | fecha_baja | Último día de servicio si canceló. Vacío si sigue activo |
@@ -49,16 +49,16 @@ Una fila por empresa o agencia que contrató MarketMind BI.
 | id_plan | PLN-01, PLN-02, PLN-03 |
 | nombre_plan | Starter, Growth, Agencia |
 | precio_mensual_crc | ₡10 000, ₡30 000 y ₡70 000 antes de IVA |
-| max_marcas, max_canales | Límites del plan |
+| max_marcas, max_canales | Límites del plan. Starter usa 2 canales, Growth y Agencia los 5 |
 | incluye_alertas | Sí o No |
 
 ### canales.csv
 | Columna | Descripción |
 |---|---|
-| id_canal | CAN-01 a CAN-04 |
-| nombre_canal | Facebook Ads, Instagram Ads, Google Ads, TikTok Ads |
-| plataforma | Meta, Google o TikTok |
-| tipo_canal | Redes sociales, Buscador o Video corto |
+| id_canal | CAN-01 a CAN-05 |
+| nombre_canal | Facebook Ads, Instagram Ads, Google Ads, TikTok Ads, Anuncios en IA (beta) |
+| plataforma | Meta, Google, TikTok o Asistentes de IA |
+| tipo_canal | Redes sociales, Buscador, Video corto o Conversacional |
 
 ### campanas.xlsx (hoja "campanas")
 Una fila por campaña publicitaria que un cliente conectó a MarketMind.
@@ -128,7 +128,8 @@ Estos patrones se programaron a propósito para que el análisis encuentre algo.
 4. **Estacionalidad.** Más gasto y ventas en noviembre (Black Friday), diciembre y agosto (Día de la Madre). Enero y Semana Santa bajan. Educación sube en febrero por el regreso a clases.
 5. **Rendimiento distinto por canal e industria.** Google rinde más en salud, educación y tecnología. Instagram y TikTok funcionan mejor en moda y fitness. Restaurantes casi no recupera lo que invierte en TikTok.
 6. **Valor entregado.** Con el paso de los meses los clientes bajan su costo por conversión y suben su retorno, sobre todo en los planes con alertas, porque mueven el presupuesto al canal que mejor les funciona.
-7. **Fines de semana.** Restaurantes y moda venden más los sábados y domingos.
+7. **Canal de anuncios en IA en versión beta.** Desde junio de 2026 MarketMind conecta, en prueba, anuncios dentro de asistentes de IA. Solo está disponible para los planes Growth y Agencia, se usa con menos presupuesto y no se ofrece a salud y estética, que es una categoría sensible. Rinde bien en tecnología y educación.
+8. **Fines de semana.** Restaurantes y moda venden más los sábados y domingos.
 
 ## Anomalías sembradas
 

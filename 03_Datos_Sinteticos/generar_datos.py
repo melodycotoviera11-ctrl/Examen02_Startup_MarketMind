@@ -36,8 +36,8 @@ TASA_IVA = 0.13
 PLANES = [
     # id, nombre, precio mensual en colones, marcas, canales, alertas
     ("PLN-01", "Starter", 10000, 1, 2, "No"),
-    ("PLN-02", "Growth", 30000, 1, 4, "Sí"),
-    ("PLN-03", "Agencia", 70000, 10, 4, "Sí"),
+    ("PLN-02", "Growth", 30000, 1, 5, "Sí"),
+    ("PLN-03", "Agencia", 70000, 10, 5, "Sí"),
 ]
 PRECIO_PLAN = {p[0]: p[2] for p in PLANES}
 CANALES_PERMITIDOS = {p[0]: p[4] for p in PLANES}
@@ -48,7 +48,13 @@ CANALES = [
     ("CAN-02", "Instagram Ads", "Meta", "Redes sociales", 2200, 0.009, 0.026),
     ("CAN-03", "Google Ads", "Google", "Buscador", 9500, 0.040, 0.024),
     ("CAN-04", "TikTok Ads", "TikTok", "Video corto", 1200, 0.007, 0.012),
+    ("CAN-05", "Anuncios en IA (beta)", "Asistentes de IA", "Conversacional", 9000, 0.020, 0.032),
 ]
+# Canal en versión beta. Solo para planes Growth y Agencia desde junio de 2026.
+# Las categorías de salud quedan excluidas, como en los pilotos reales de anuncios en IA.
+INICIO_BETA_IA = date(2026, 6, 1)
+AFINIDAD_IA = {"Moda y accesorios": 0.9, "Restaurantes y cafeterías": 0.6, "Salud y estética": 0.0,
+               "Fitness y gimnasios": 0.9, "Educación y cursos": 1.25, "Tecnología y electrónica": 1.35}
 CANAL_INFO = {c[0]: c for c in CANALES}
 
 # Industria: ticket promedio (colones) y afinidad por canal (multiplica la conversión)
@@ -287,7 +293,8 @@ class Generador:
         objetivos = {"CAN-01": ["Ventas", "Mensajes a WhatsApp", "Reconocimiento"],
                      "CAN-02": ["Ventas", "Mensajes a WhatsApp", "Reconocimiento"],
                      "CAN-03": ["Ventas", "Tráfico al sitio web"],
-                     "CAN-04": ["Reconocimiento", "Ventas", "Tráfico al sitio web"]}
+                     "CAN-04": ["Reconocimiento", "Ventas", "Tráfico al sitio web"],
+                     "CAN-05": ["Tráfico al sitio web", "Ventas"]}
         temas = ["Lanzamiento", "Promo", "Temporada", "Remarketing", "Ofertas", "Marca", "Descuento"]
 
         for id_cliente, p in self.perfiles.items():
@@ -315,12 +322,16 @@ class Generador:
                     actual = inicio_cli + timedelta(days=int(rng.integers(0, 12)))
                     while actual <= fin_cli:
                         plan = self.plan_en_fecha(id_cliente, actual)
-                        permitidos = orden[:CANALES_PERMITIDOS[plan]]
+                        permitidos = orden[:min(CANALES_PERMITIDOS[plan], 4)]
                         # Con alertas, el cliente mueve poco a poco su presupuesto al canal que mejor le rinde
                         meses_uso = (actual - p["fecha_alta"]).days / 30.4
                         foco = 1 + (4 * min(meses_uso / 6, 1) if plan in ("PLN-02", "PLN-03") else 0.5)
                         pesos = np.array([afinidad[c] ** foco for c in permitidos])
                         canal = rng.choice(permitidos, p=pesos / pesos.sum())
+                        beta_ok = (plan in ("PLN-02", "PLN-03") and actual >= INICIO_BETA_IA
+                                   and AFINIDAD_IA[industria] > 0)
+                        if beta_ok and rng.random() < 0.18:
+                            canal = "CAN-05"
                         duracion = int(rng.integers(14, 61))
                         fin_camp = min(actual + timedelta(days=duracion - 1), fin_cli)
                         objetivo = rng.choice(objetivos[canal])
@@ -333,15 +344,18 @@ class Generador:
                             "id_cliente": id_cliente,
                             "marca": marca,
                             "industria_marca": industria,
-                            "nombre_campana": f"{rng.choice(temas)} {mes_txt} {actual.year} · {CANAL_INFO[canal][1].split()[0]}",
+                            "nombre_campana": f"{rng.choice(temas)} {mes_txt} {actual.year} · {"IA" if canal == "CAN-05" else CANAL_INFO[canal][1].split()[0]}",
                             "canal": CANAL_INFO[canal][1],
                             "objetivo": objetivo,
                             "fecha_inicio": actual,
                             "fecha_fin": None if fin_camp >= FECHA_FIN and p["fecha_baja"] is None else fin_camp,
                             "presupuesto_diario_crc": int(round(diario, -2)),
                         })
+                        if canal == "CAN-05":
+                            diario *= 0.6  # en beta se prueba con menos presupuesto
                         self._resultados_diarios(resultados, id_camp, id_cliente, canal, industria, ticket,
-                                                 afinidad, actual, fin_camp, diario, objetivo)
+                                                 {**afinidad, "CAN-05": AFINIDAD_IA[industria]},
+                                                 actual, fin_camp, diario, objetivo)
                         actual = fin_camp + timedelta(days=int(rng.integers(1, 11)))
 
         self.campanas = pd.DataFrame(campanas)
@@ -359,7 +373,7 @@ class Generador:
             meses_uso = (d - p["fecha_alta"]).days / 30.4
             # Valor entregado: los clientes mejoran su conversión al usar el panel.
             # Con alertas (Growth y Agencia) el efecto es mayor.
-            tope = 0.35 if plan in ("PLN-02", "PLN-03") else 0.10
+            tope = 0.50 if plan in ("PLN-02", "PLN-03") else 0.10
             aprendizaje = 1 + tope * (0.5 + p["compromiso"]) * (1 - np.exp(-meses_uso / 3))
             est = ESTACIONALIDAD[d.month]
             if industria == "Educación y cursos" and d.month == 2:
@@ -488,7 +502,8 @@ class Generador:
         variantes = {"Facebook Ads": ["facebook ads", "Facebook", "FB Ads", " Facebook Ads "],
                      "Instagram Ads": ["instagram", "IG Ads", "Insta Ads", "INSTAGRAM ADS"],
                      "Google Ads": ["google ads", "Google", "GOOGLE ADS ", "Google Adwords"],
-                     "TikTok Ads": ["tiktok", "Tik Tok Ads", "TIKTOK ADS", "TikTok"]}
+                     "TikTok Ads": ["tiktok", "Tik Tok Ads", "TIKTOK ADS", "TikTok"],
+                     "Anuncios en IA (beta)": ["anuncios en ia", "IA beta", "Anuncios IA (Beta)", "ANUNCIOS EN IA"]}
         idx = rng.choice(len(self.campanas), size=int(len(self.campanas) * 0.18), replace=False)
         for i in idx:
             original = self.campanas.at[i, "canal"]
