@@ -60,22 +60,29 @@ d.h2("Modelo y medidas DAX")
 d.parrafo("El modelo tiene cuatro tablas de hechos (facturación, resultados de campañas, uso de la plataforma y "
           "costos), cinco dimensiones (cliente, plan, campaña, canal y calendario), de las cuales cliente, plan y "
           "calendario son compartidas, y relaciones de uno a muchos con filtro en una sola dirección. El detalle está en el documento 02_Arquitectura.", despues=80)
-d.leyenda("Medidas DAX del modelo")
-d.tabla(["Medida", "Fórmula"],
-        [["Ingresos", "SUM(Fact_Facturacion[subtotal_crc])"],
-         ["Clientes activos", "DISTINCTCOUNT(Fact_Facturacion[id_cliente])"],
-         ["Ticket medio", "DIVIDE([Ingresos], [Clientes activos])"],
-         ["Variación mensual de ingresos %", "VAR ant = CALCULATE([Ingresos], DATEADD(Dim_Calendario[Fecha], -1, MONTH)) RETURN DIVIDE([Ingresos] - ant, ant)"],
-         ["Ingresos acumulados del año", "TOTALYTD([Ingresos], Dim_Calendario[Fecha], \"10/31\")"],
-         ["Costos", "SUM(Fact_Costos[monto_crc])"],
-         ["Margen %", "DIVIDE([Ingresos] - [Costos], [Ingresos])"],
-         ["Clientes cancelados", "VAR ini = MIN(Dim_Calendario[Fecha]) VAR fin = MAX(Dim_Calendario[Fecha]) RETURN CALCULATE(COUNTROWS(Dim_Cliente), Dim_Cliente[fecha_baja] >= ini, Dim_Cliente[fecha_baja] <= fin)"],
-         ["Tasa de cancelación", "DIVIDE([Clientes cancelados], [Clientes activos])"],
-         ["CAC del cliente", "DIVIDE(SUM(Fact_ResultadosCampana[gasto_crc]), SUM(Fact_ResultadosCampana[conversiones]))"],
-         ["ROAS", "DIVIDE(SUM(Fact_ResultadosCampana[ingresos_atribuidos_crc]), SUM(Fact_ResultadosCampana[gasto_crc]))"],
-         ["Gasto promedio móvil 3 meses", "DIVIDE(CALCULATE(SUM(Fact_ResultadosCampana[gasto_crc]), DATESINPERIOD(Dim_Calendario[Fecha], MAX(Dim_Calendario[Fecha]), -3, MONTH)), 3)"],
-         ["Sesiones por cliente", "DIVIDE(COUNTROWS(Fact_UsoPlataforma), DISTINCTCOUNT(Fact_UsoPlataforma[id_cliente]))"]],
-        [3, 8.8], size=17, negrita_col1=True)
+d.leyenda("Medidas DAX del modelo, qué indican y su fórmula")
+d.tabla(["Medida", "Qué indica", "Fórmula"],
+        [["Ingresos", "Lo que MarketMind factura en el periodo, sin IVA", "SUM(Fact_Facturacion[subtotal_crc])"],
+         ["Clientes activos", "Cuántos clientes pagaron en el periodo", "DISTINCTCOUNT(Fact_Facturacion[id_cliente])"],
+         ["Ticket medio", "Cuánto paga en promedio cada cliente", "DIVIDE([Ingresos], [Clientes activos])"],
+         ["Variación mensual de ingresos %", "Cuánto subieron o bajaron los ingresos frente al mes anterior",
+          "VAR ant = CALCULATE([Ingresos], DATEADD(Dim_Calendario[Fecha], -1, MONTH)) RETURN DIVIDE([Ingresos] - ant, ant)"],
+         ["Ingresos acumulados del año", "La suma de ingresos desde noviembre, inicio del año de operación, hasta el mes elegido",
+          "TOTALYTD([Ingresos], Dim_Calendario[Fecha], \"10/31\")"],
+         ["Costos", "Lo que cuesta operar MarketMind en el periodo", "SUM(Fact_Costos[monto_crc])"],
+         ["Margen %", "Qué parte de los ingresos queda después de cubrir los costos", "DIVIDE([Ingresos] - [Costos], [Ingresos])"],
+         ["Clientes cancelados", "Cuántos clientes dejaron el servicio dentro de las fechas elegidas",
+          "VAR ini = MIN(Dim_Calendario[Fecha]) VAR fin = MAX(Dim_Calendario[Fecha]) RETURN CALCULATE(COUNTROWS(Dim_Cliente), Dim_Cliente[fecha_baja] >= ini, Dim_Cliente[fecha_baja] <= fin)"],
+         ["Tasa de cancelación", "Qué proporción de los clientes activos se perdió", "DIVIDE([Clientes cancelados], [Clientes activos])"],
+         ["CAC del cliente", "Cuánto le cuesta al cliente conseguir cada venta con sus anuncios",
+          "DIVIDE(SUM(Fact_ResultadosCampana[gasto_crc]), SUM(Fact_ResultadosCampana[conversiones]))"],
+         ["ROAS", "Cuántos colones de venta recupera el cliente por cada colón invertido en publicidad",
+          "DIVIDE(SUM(Fact_ResultadosCampana[ingresos_atribuidos_crc]), SUM(Fact_ResultadosCampana[gasto_crc]))"],
+         ["Gasto promedio móvil 3 meses", "El gasto publicitario promedio de los últimos tres meses, que suaviza los picos de temporada",
+          "DIVIDE(CALCULATE(SUM(Fact_ResultadosCampana[gasto_crc]), DATESINPERIOD(Dim_Calendario[Fecha], MAX(Dim_Calendario[Fecha]), -3, MONTH)), 3)"],
+         ["Sesiones por cliente", "Con qué frecuencia los clientes usan el panel, señal temprana de cancelación",
+          "DIVIDE(COUNTROWS(Fact_UsoPlataforma), DISTINCTCOUNT(Fact_UsoPlataforma[id_cliente]))"]],
+        [2.4, 3.8, 5.6], size=17, negrita_col1=True)
 d.nota("[[Valeria ajusta nombres y fórmulas para que coincidan con las medidas del archivo .pbix.]]")
 
 d.h2("Publicación, enlaces y evidencias")

@@ -109,13 +109,13 @@ d.parrafo("El problema no es la falta de datos, sino que nadie los integra ni lo
           "presupuesto con evidencia y no por intuición.")
 
 d.h2("Mercado y primeros clientes")
-d.parrafo("Nos enfocamos en pymes de comercio y servicios que ya invierten en anuncios (moda, restaurantes, salud y "
+d.parrafo("MarketMind se enfoca en pymes de comercio y servicios que ya invierten en anuncios (moda, restaurantes, salud y "
           "estética, gimnasios, academias y tecnología) y en agencias pequeñas que manejan varias marcas a la vez. "
           "Las agencias son las primeras clientas ideales, porque cada mes deben presentar resultados a cada "
-          "marca y hoy lo hacen de forma manual. Iniciamos en la GAM, donde es posible visitar a los clientes, y "
-          "luego crecemos por medio de referidos y alianzas con cámaras de comercio.")
+          "marca y hoy lo hacen de forma manual. La startup inicia en la GAM, donde es posible visitar a los clientes, y "
+          "luego crece por medio de referidos y alianzas con cámaras de comercio.")
 
-d.h2("En qué nos diferenciamos")
+d.h2("Diferencia frente a las alternativas existentes")
 d.parrafo("Hoy el cliente tiene tres caminos. Puede revisar cada plataforma por separado, lo cual es gratuito pero no le "
           "muestra el panorama completo. Puede construir un Excel o un tablero propio, que depende de que alguien sepa "
           "hacerlo y tenga tiempo cada mes. O puede pagar una herramienta extranjera de reportes, que cobra en "
@@ -136,8 +136,8 @@ d.parrafo("En los datos simulados, Tienda Colibrí Express, una tienda de moda e
 d.h2("Escenario de monetización")
 d.parrafo("El escenario parte de supuestos explícitos. Los precios son mensuales y sin IVA. Cada cliente tiene 14 "
           "días de prueba gratis y empieza a pagar el mes siguiente. Quienes entraron en el lanzamiento (noviembre "
-          "y diciembre de 2025) tuvieron 50 % de descuento en sus dos primeras facturas. Usamos un tipo de cambio "
-          "de ₡450 por dólar para las licencias y suponemos que las tres fundadoras no cobran salario el primer año. "
+          "y diciembre de 2025) tuvieron 50 % de descuento en sus dos primeras facturas. Se usa un tipo de cambio "
+          "de ₡450 por dólar para las licencias y se supone que las tres fundadoras no cobran salario el primer año. "
           "Con estos supuestos, la operación simulada llega a 32 clientes activos en octubre de 2026.", despues=80)
 d.leyenda("Ingreso mensual simulado al cierre del primer año (octubre de 2026)")
 d.tabla(["Plan", "Precio mensual", "Clientes activos", "Ingreso mensual"],
