@@ -1,0 +1,5 @@
+﻿id_canal,nombre_canal,plataforma,tipo_canal
+CAN-01,Facebook Ads,Meta,Redes sociales
+CAN-02,Instagram Ads,Meta,Redes sociales
+CAN-03,Google Ads,Google,Buscador
+CAN-04,TikTok Ads,TikTok,Video corto

@@ -1,0 +1,12 @@
+﻿codigo,tipo,archivo,columna,filas_afectadas,descripcion,correccion_esperada_en_power_query
+A-01,Duplicados,resultados_campanas.csv,fila completa,215,La exportación de la API repitió algunas filas diarias.,Quitar filas duplicadas con base en id_resultado.
+A-02,Duplicados,facturas.csv,fila completa,6,El sistema de facturación exportó dos veces algunas facturas.,Quitar duplicados con base en id_factura.
+A-03,Duplicados,uso_plataforma.csv,fila completa,25,El registro de actividad guardó dos veces algunas sesiones.,Quitar duplicados con base en id_sesion.
+A-04,Faltantes,resultados_campanas.csv,ingresos_atribuidos_crc,291,La plataforma deja el campo vacío cuando el día no tuvo conversiones.,"Reemplazar nulos por 0, ya que conversiones es 0 en esas filas."
+A-05,Faltantes,clientes.csv,"provincia, canal_adquisicion",4,Clientes registrados sin provincia o sin canal de adquisición.,Reemplazar nulos por 'Sin dato'.
+A-06,Categorías inconsistentes,campanas.xlsx,canal,78,El nombre del canal se escribió a mano de varias formas.,"Recortar espacios, homologar con una tabla de equivalencias y unir con canales.csv para obtener id_canal."
+A-07,Categorías inconsistentes,clientes.csv y facturas.csv,"provincia, metodo_pago",30,"Mayúsculas, tildes, abreviaturas y espacios distintos.","Recortar, poner en formato de título y reemplazar valores con una tabla de equivalencias."
+A-08,Valores fuera de rango,resultados_campanas.csv,gasto_crc,12,Gasto registrado con signo negativo por un error de la exportación.,Convertir a valor absoluto.
+A-09,Valores fuera de rango,resultados_campanas.csv,"impresiones, clics",10,Filas con más clics que impresiones porque las columnas venían invertidas.,"Cuando clics > impresiones, intercambiar ambos valores."
+A-10,Integridad referencial,resultados_campanas.csv,id_campana,15,Resultados de campañas de prueba que no existen en campanas.xlsx.,Eliminar con una combinación interna (inner join) contra campanas.
+A-11,Formato de clave inconsistente,uso_plataforma.csv,id_cliente,40,Algunos códigos de cliente se guardaron en minúscula (cli-012).,Pasar id_cliente a mayúsculas antes de relacionar.

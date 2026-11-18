@@ -1,0 +1,4 @@
+﻿id_plan,nombre_plan,precio_mensual_crc,max_marcas,max_canales,incluye_alertas
+PLN-01,Starter,10000,1,2,No
+PLN-02,Growth,30000,1,4,Sí
+PLN-03,Agencia,70000,10,4,Sí
