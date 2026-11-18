@@ -91,25 +91,25 @@ d.parrafo("[[Insertar aquí las capturas de las tres páginas del dashboard, del
 
 d.h2("Hallazgos")
 d.parrafo("**Hallazgo 1. El plan Starter concentra las cancelaciones.** De los 25 clientes que empezaron en Starter, "
-          "9 cancelaron durante el año (36 %). En Growth canceló 1 de 9 (11 %) y en Agencia ninguno de 6. El plan más "
-          "barato trae clientes, pero también es el que más se pierde.")
+          "9 cancelaron durante el año (36 %). En Growth canceló 1 de 9 (11 %) y en Agencia ninguno de 6. El plan de "
+          "menor precio atrae clientes, pero también es el que presenta mayor cancelación.")
 d.parrafo("**Hallazgo 2. El uso del panel avisa antes de una cancelación.** Los clientes que cancelaron usaban el "
-          "panel 3,3 veces por semana en promedio, pero en sus últimas seis semanas bajaron a 1,1 veces, una caída de "
+          "panel 3,3 veces por semana en promedio, pero en sus últimas seis semanas pasaron a 1,1 veces, una caída de "
           "dos tercios. Los clientes que siguen activos se mantuvieron estables, cerca de 3,6 sesiones por semana.")
 d.parrafo("**Hallazgo 3. Las alertas generan más valor para el cliente.** Los clientes que empezaron en Growth o "
-          "Agencia, que incluyen alertas, bajaron su costo por venta de ₡9.460 en sus dos primeros meses a ₡6.060 desde "
-          "el sexto mes, un 36 % menos. Los que empezaron en Starter bajaron de ₡9.048 a ₡7.035, un 22 %. Además, en "
-          "restaurantes el retorno de TikTok fue de 0,49 y el de los anuncios en IA de 0,63, o sea que esos canales "
-          "les hacen perder plata, mientras que Facebook e Instagram rondan 1,4.")
+          "Agencia, que incluyen alertas, redujeron su costo por venta de ₡9.460 en sus dos primeros meses a ₡6.060 desde "
+          "el sexto mes, un 36 % menos. Los que empezaron en Starter pasaron de ₡9.048 a ₡7.035, un 22 %. Además, en "
+          "restaurantes el retorno de TikTok fue de 0,49 y el de los anuncios en IA de 0,63, es decir, esos canales "
+          "les generan pérdidas, mientras que Facebook e Instagram se ubican cerca de 1,4.")
 d.nota("[[Valeria confirma que los números coinciden con lo que muestra el dashboard.]]")
 
 d.h2("Recomendaciones")
 d.parrafo("**Recomendación 1. Activar un programa de retención para Starter.** Crear una alerta interna cuando un "
-          "cliente baje de dos sesiones por semana, para llamarlo antes de que cancele, y ofrecer a los clientes "
-          "Starter activos un mes de prueba del plan Growth. Así conocen las alertas, que son las que más bajan su "
-          "costo por venta, y pasan al plan que menos cancela.")
+          "cliente baje de dos sesiones por semana, para contactarlo antes de que cancele, y ofrecer a los clientes "
+          "Starter activos un mes de prueba del plan Growth. De esta forma conocen las alertas, que son las que más reducen su "
+          "costo por venta, y migran al plan con menor cancelación.")
 d.parrafo("**Recomendación 2. Dar recomendaciones por industria.** Agregar al panel un aviso cuando el retorno de un "
-          "canal sea menor a 1 para la industria del cliente. A los restaurantes, por ejemplo, se les sugeriría pasar "
+          "canal sea menor a 1 para la industria del cliente. A los restaurantes, por ejemplo, se les sugeriría trasladar "
           "el presupuesto de TikTok y de los anuncios en IA hacia Instagram y Facebook. El canal de IA en beta conviene "
           "ofrecerlo primero a tecnología y educación, donde el retorno simulado fue de 6,2 y 5,4.", despues=0)
 

@@ -16,29 +16,29 @@ d = Documento("Examen parcial 02.", "MarketMind BI, Lean Canvas y propuesta de v
 # ----------------------------------------------------------------------
 d.h1("Lean Canvas de MarketMind BI")
 d.parrafo("MarketMind BI es una startup de inteligencia de negocios que ayuda a pymes y agencias pequeñas de "
-          "Costa Rica a saber cuánto les deja la plata que invierten en publicidad digital. Junta en un solo "
+          "Costa Rica a medir el retorno de lo que invierten en publicidad digital. Integra en un solo "
           "panel los resultados de Meta, Google, TikTok y un canal de anuncios en IA en versión beta, y los cruza "
           "con las ventas del cliente. El lienzo resume las hipótesis del negocio.", despues=120)
 
 bloques = {
     "problema": ["1. Problema",
-                 "**a.** Los resultados de los anuncios están separados en Meta, Google y TikTok, y las ventas reales quedan en SINPE, WhatsApp o la tienda en línea. No se sabe qué campaña vendió.",
-                 "**b.** No conocen su costo por venta (CAC) ni su retorno (ROAS), así que invierten a ojo.",
-                 "**c.** Armar el reporte mensual en Excel toma horas y casi siempre llega tarde.",
-                 "**Alternativas actuales.** Excel, el panel de cada red social por aparte, el PDF de una agencia o herramientas extranjeras en dólares."],
+                 "**a.** Los resultados de los anuncios están separados en Meta, Google y TikTok, y las ventas reales quedan en SINPE, WhatsApp o la tienda en línea. No es posible saber qué campaña generó las ventas.",
+                 "**b.** No conocen su costo por venta (CAC) ni su retorno (ROAS), por lo que toman decisiones de inversión sin datos que las respalden.",
+                 "**c.** Preparar el reporte mensual en Excel toma varias horas y suele entregarse tarde.",
+                 "**Alternativas actuales.** Excel, el panel de cada red social por separado, el PDF de una agencia o herramientas extranjeras en dólares."],
     "solucion": ["4. Solución",
-                 "Une las campañas de todos los canales con las ventas del cliente.",
+                 "Integra las campañas de todos los canales con las ventas del cliente.",
                  "Compara CAC, ROAS y conversiones por canal, campaña y marca.",
                  "Alertas cuando una campaña gasta sin vender.",
                  "Reporte mensual automático.",
                  "**MVP.** Informe en Power BI con 12 meses de datos simulados y tres páginas."],
     "puv": ["3. Propuesta única de valor",
-            "**Sabé en un solo panel cuánto te deja cada colón que invertís en publicidad.**",
+            "**Conozca en un solo panel cuánto le genera cada colón invertido en publicidad.**",
             "El reporte mensual pasa de unas 8 horas a menos de 1.",
-            "Meta medible, bajar 15 % el costo por venta en los primeros tres meses.",
-            "Pensado para Costa Rica, en colones y con ventas por SINPE y WhatsApp."],
+            "Meta medible, reducir 15 % el costo por venta en los primeros tres meses.",
+            "Diseñado para Costa Rica, en colones y con ventas por SINPE y WhatsApp."],
     "ventaja": ["9. Ventaja especial",
-                "Todavía no existe. Se construye con el conocimiento del mercado tico y con una base de comparación por industria que crece con cada cliente nuevo.",
+                "Todavía no existe. Se construye con el conocimiento del mercado costarricense y con una base de comparación por industria que crece con cada cliente nuevo.",
                 "Acceso temprano al canal de anuncios en IA en versión beta."],
     "segmentos": ["2. Segmentos de clientes",
                   "**Cliente que paga.** Dueños de pymes que invierten en publicidad digital y agencias pequeñas de marketing.",
@@ -49,7 +49,7 @@ bloques = {
                  "Clientes activos por plan",
                  "Tasa de cancelación mensual",
                  "Sesiones semanales por cliente",
-                 "Baja del CAC de los clientes"],
+                 "Reducción del CAC de los clientes"],
     "canales": ["5. Canales",
                 "**Atraer.** Instagram, LinkedIn, webinars gratis y cámaras de comercio.",
                 "**Vender.** Prueba gratis de 14 días y precio de lanzamiento.",
@@ -98,47 +98,47 @@ d.nota("Todos los montos, clientes y resultados son simulados y no corresponden 
 # ----------------------------------------------------------------------
 d.h1("Justificación")
 d.h2("Por qué este problema merece una solución de BI")
-d.parrafo("Una pyme que anuncia en redes sociales recibe muchísimos datos, pero repartidos. Facebook e Instagram "
-          "muestran sus números en un panel, Google en otro y TikTok en otro, y ninguno sabe qué pasó después del "
-          "clic, porque en Costa Rica mucha gente compra por WhatsApp y paga por SINPE Móvil. El dueño del negocio "
-          "termina viendo métricas sueltas, como alcance o “me gusta”, que no le dicen si la campaña le dejó plata.")
-d.parrafo("El problema no es la falta de datos, es que nadie los junta ni los convierte en una decisión. Eso es "
+d.parrafo("Una pyme que anuncia en redes sociales recibe una gran cantidad de datos, pero dispersos. Facebook e Instagram "
+          "muestran sus resultados en un panel, Google en otro y TikTok en otro, y ninguno sabe qué pasó después del "
+          "clic, porque en Costa Rica muchas personas compran por WhatsApp y paga por SINPE Móvil. Al final, la persona "
+          "dueña del negocio ve métricas aisladas, como el alcance o los “me gusta”, que no indican si la campaña fue rentable.")
+d.parrafo("El problema no es la falta de datos, sino que nadie los integra ni los convierte en decisiones. Eso es "
           "justo lo que hace la inteligencia de negocios. MarketMind recibe los datos de las plataformas y de las "
           "ventas, los limpia, los integra en un modelo y los presenta como indicadores que cualquier persona "
-          "entiende, como el costo por venta y el retorno de cada colón invertido. Así el cliente puede mover su "
+          "puede interpretar, como el costo por venta y el retorno de cada colón invertido. Así el cliente puede redistribuir su "
           "presupuesto con evidencia y no por intuición.")
 
 d.h2("Mercado y primeros clientes")
 d.parrafo("Nos enfocamos en pymes de comercio y servicios que ya invierten en anuncios (moda, restaurantes, salud y "
           "estética, gimnasios, academias y tecnología) y en agencias pequeñas que manejan varias marcas a la vez. "
-          "Las agencias son nuestras mejores primeras clientas, porque cada mes tienen que rendirle cuentas a cada "
-          "marca y hoy lo hacen a mano. Empezamos en la GAM, cerca de donde podemos visitar a los clientes, y "
-          "después crecemos con referidos y alianzas con cámaras de comercio.")
+          "Las agencias son las primeras clientas ideales, porque cada mes deben presentar resultados a cada "
+          "marca y hoy lo hacen de forma manual. Iniciamos en la GAM, donde es posible visitar a los clientes, y "
+          "luego crecemos por medio de referidos y alianzas con cámaras de comercio.")
 
 d.h2("En qué nos diferenciamos")
-d.parrafo("Hoy el cliente tiene tres caminos. Puede revisar cada plataforma por aparte, que es gratis pero no le "
-          "muestra el panorama completo. Puede armar un Excel o un tablero propio, que depende de que alguien sepa "
+d.parrafo("Hoy el cliente tiene tres caminos. Puede revisar cada plataforma por separado, lo cual es gratuito pero no le "
+          "muestra el panorama completo. Puede construir un Excel o un tablero propio, que depende de que alguien sepa "
           "hacerlo y tenga tiempo cada mes. O puede pagar una herramienta extranjera de reportes, que cobra en "
           "dólares, está pensada para agencias grandes y no conecta ventas que entran por WhatsApp o SINPE.")
 d.parrafo("MarketMind se diferencia en cuatro cosas. Cruza la inversión con las ventas reales y no solo con métricas "
-          "de la red social. Habla el idioma del mercado local, con precios en colones y canales de venta ticos. "
+          "de la red social. Se adapta al mercado local, con precios en colones y los canales de venta que se usan en el país. "
           "Incluye alertas que avisan cuando una campaña gasta sin vender. Y tiene un plan para agencias donde cada "
           "marca ve solo su información, gracias a la seguridad por filas (RLS) de Power BI.")
 
 d.h2("Ejemplo del valor para un cliente")
 d.parrafo("En los datos simulados, Tienda Colibrí Express, una tienda de moda en el plan Growth, invertía cerca de "
-          "₡327.000 al mes y todo lo ponía en Facebook. En sus dos primeros meses cada venta le costaba ₡31.800 y "
-          "por cada colón invertido recuperaba apenas 62 céntimos, o sea que perdía plata. El panel le mostró que "
-          "en Instagram vendía mucho más barato, y con las alertas fue moviendo el presupuesto. Seis meses después "
+          "₡327.000 al mes y destinaba todo a Facebook. En sus dos primeros meses cada venta le costaba ₡31.800 y "
+          "por cada colón invertido recuperaba apenas 62 céntimos, es decir, su publicidad le generaba pérdidas. El panel le mostró que "
+          "en Instagram cada venta tenía un costo mucho menor, y con ayuda de las alertas fue trasladando el presupuesto. Seis meses después "
           "el 74 % de su inversión estaba en Instagram, cada venta le costaba ₡11.100 y recuperaba ₡1,68 por cada "
-          "colón. Por ₡33.900 al mes, IVA incluido, pasó de perder dinero a ganar con sus anuncios.")
+          "colón. Por ₡33.900 al mes, IVA incluido, su inversión publicitaria pasó de generar pérdidas a ser rentable.")
 
 d.h2("Escenario de monetización")
 d.parrafo("El escenario parte de supuestos explícitos. Los precios son mensuales y sin IVA. Cada cliente tiene 14 "
           "días de prueba gratis y empieza a pagar el mes siguiente. Quienes entraron en el lanzamiento (noviembre "
           "y diciembre de 2025) tuvieron 50 % de descuento en sus dos primeras facturas. Usamos un tipo de cambio "
           "de ₡450 por dólar para las licencias y suponemos que las tres fundadoras no cobran salario el primer año. "
-          "Con esas reglas, la operación simulada llega a 32 clientes activos en octubre de 2026.", despues=80)
+          "Con estos supuestos, la operación simulada llega a 32 clientes activos en octubre de 2026.", despues=80)
 d.leyenda("Ingreso mensual simulado al cierre del primer año (octubre de 2026)")
 d.tabla(["Plan", "Precio mensual", "Clientes activos", "Ingreso mensual"],
         [["Starter", "₡10.000", "14", "₡140.000"],
@@ -147,10 +147,10 @@ d.tabla(["Plan", "Precio mensual", "Clientes activos", "Ingreso mensual"],
          ["**Total**", "", "**32**", "**₡920.000**"]],
         [3, 3, 3, 3])
 d.parrafo(antes=160, texto="Ese mes los costos simulados suman ₡475.900, así que el margen es de ₡444.100, cerca del 48 % de los "
-          "ingresos. El negocio pierde plata los primeros cinco meses, mientras junta clientes, y llega al punto de "
-          "equilibrio en abril de 2026, con 19 clientes que pagan. En el año completo factura ₡5.590.000 contra "
-          "₡5.509.900 de costos, es decir, recupera lo invertido en el arranque. El riesgo principal es la "
-          "cancelación del plan Starter, por eso la meta comercial es pasar a los clientes más activos al plan "
+          "ingresos. El negocio registra pérdidas durante los primeros cinco meses, mientras construye su base de clientes, y alcanza el punto de "
+          "equilibrio en abril de 2026, con 19 clientes que pagan. En el año completo factura ₡5.590.000 frente a "
+          "₡5.509.900 de costos, es decir, recupera la inversión inicial. El riesgo principal es la "
+          "cancelación del plan Starter, por eso la meta comercial es trasladar a los clientes más activos al plan "
           "Growth.", despues=0)
 
 d.guardar("/home/claude/examen2/01_LeanCanvas/01_LeanCanvas.docx")

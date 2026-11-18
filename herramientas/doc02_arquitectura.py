@@ -12,10 +12,10 @@ d = Documento("Examen parcial 02.", "MarketMind BI, arquitectura de datos y mode
 B = "/home/claude/examen2/02_Arquitectura/"
 
 d.h1("Arquitectura de datos de MarketMind BI")
-d.parrafo("MarketMind vende un servicio de inteligencia de negocios, así que su arquitectura tiene dos trabajos. "
+d.parrafo("MarketMind vende un servicio de inteligencia de negocios, por lo que su arquitectura cumple dos funciones. "
           "El primero es entregarle a cada cliente un panel con los resultados de sus campañas. El segundo es "
-          "darle a la dirección de la startup el seguimiento de sus ventas, costos, uso y cancelaciones. Las dos "
-          "cosas salen del mismo flujo de datos, que se describe a continuación. Todos los datos del prototipo son "
+          "darle a la dirección de la startup el seguimiento de sus ventas, costos, uso y cancelaciones. Ambas "
+          "salen del mismo flujo de datos, que se describe a continuación. Todos los datos del prototipo son "
           "simulados y se generan con el script de la carpeta 03_Datos_Sinteticos.")
 
 d.h2("Orígenes de datos")
@@ -44,7 +44,7 @@ d.parrafo("Las fuentes dejan sus archivos sin cambios en la carpeta datos_brutos
           "lo ven las pymes y agencias, cada una solo con sus datos. Las páginas comercial y de uso las ve la dirección.")
 
 d.h2("Datos operacionales y hechos analíticos")
-d.parrafo("Los archivos de origen son datos operacionales, porque registran lo que pasa en el día a día y vienen "
+d.parrafo("Los archivos de origen son datos operacionales, porque registran lo que ocurre en la operación diaria y vienen "
           "con errores de captura. En el modelo se separan en dimensiones, que describen el quién, el qué y el "
           "cuándo, y en tablas de hechos, que guardan lo que se mide. Cada tabla de hechos tiene un grano definido.", despues=80)
 d.leyenda("Tablas de hechos del modelo")
