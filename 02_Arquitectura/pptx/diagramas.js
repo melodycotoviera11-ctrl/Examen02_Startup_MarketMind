@@ -69,47 +69,59 @@ flecha(s, 11.7, 5.25, 12.0, 4.75);
 // ---------------------------------------------------------------- Diapositiva 2
 s = pres.addSlide();
 s.background = { color: "FFFFFF" };
-s.addText("Modelo dimensional de MarketMind BI", { x: 0.4, y: 0.25, w: 12.5, h: 0.6, fontFace: F, fontSize: 26, bold: true,
-  color: "1F1F1F", margin: 0, isTextBox: true, objectName: "Título" });
-
-const K = 0.0105, OX = 1.25, OY = 1.0; // escala desde el boceto en píxeles
-const px = v => OX + v * K, py = v => OY + v * K;
-function entidad(nombre, x1, y1, x2, lineas, hecho) {
-  const x = px(x1), y = py(y1), w = (x2 - x1) * K, hh = 0.3, fila = 0.255;
-  const h = hh + lineas.length * fila + 0.08;
-  s.addShape(pres.shapes.RECTANGLE, { x, y, w, h, fill: { color: hecho ? "EEF3F8" : "FFFFFF" },
-    line: { color: hecho ? "1F4E79" : GRIS, width: 1.5 }, objectName: nombre + " marco" });
-  s.addText(nombre, { x: x + 0.03, y: y + 0.03, w: w - 0.06, h: hh - 0.03, shape: pres.shapes.RECTANGLE,
-    fill: { color: hecho ? "BDD7EE" : "D9D9D9" }, line: { color: hecho ? "BDD7EE" : "D9D9D9", width: 0 },
+const LH = 0.18, HH = 0.32;
+const altura = n => HH + n * LH + 0.1;
+function ent(nombre, x, y, w, campos, fact) {
+  const h = altura(campos.length);
+  s.addShape(pres.shapes.RECTANGLE, { x, y, w, h, fill: { color: fact ? "EEF3F8" : "FFFFFF" },
+    line: { color: fact ? "1F4E79" : GRIS, width: 1.5 }, objectName: nombre + " marco" });
+  s.addText(nombre, { x: x + 0.03, y: y + 0.03, w: w - 0.06, h: HH - 0.04, shape: pres.shapes.RECTANGLE,
+    fill: { color: fact ? "BDD7EE" : "D9D9D9" }, line: { color: fact ? "BDD7EE" : "D9D9D9", width: 0 },
     fontFace: F, fontSize: 11, bold: true, color: "1F1F1F", align: "center", valign: "middle", margin: 0, objectName: nombre });
-  s.addText(lineas.map((l, i) => ({ text: l.replace(/^_/, ""), options: { italic: l.startsWith("_"), breakLine: i < lineas.length - 1 } })),
-    { x: x + 0.06, y: y + hh + 0.02, w: w - 0.1, h: lineas.length * fila, fontFace: F, fontSize: 10, color: "1F1F1F",
-      align: "left", valign: "top", margin: 0, paraSpaceAfter: 5.5, isTextBox: true, objectName: nombre + " campos" });
+  s.addText(campos.map((c, k) => {
+      const clave = /^(PK|FK) /.test(c);
+      return { text: clave ? c : "      " + c, options: { breakLine: k < campos.length - 1 } };
+    }), { x: x + 0.07, y: y + HH + 0.03, w: w - 0.1, h: campos.length * LH, fontFace: F, fontSize: 10,
+      color: "1F1F1F", align: "left", valign: "top", margin: 0, lineSpacing: 13, isTextBox: true, objectName: nombre + " campos" });
+  return { x, y, w, h, cx: x + w / 2, cy: y + h / 2, r: x + w, b: y + h };
 }
-function rel(x1, y1, x2, y2, lx, ly) {
-  flecha(s, px(x1), py(y1), px(x2), py(y2), false);
-  s.addText("1 : *", { x: px(lx), y: py(ly), w: 0.45, h: 0.22, fontFace: F, fontSize: 9, color: "1F1F1F", margin: 0,
-    isTextBox: true, objectName: "Cardinalidad" });
+function linea(x1, y1, x2, y2, dimEnX1 = true) {
+  flecha(s, x1, y1, x2, y2, false);
+  const dx = x2 - x1, dy = y2 - y1, L = Math.hypot(dx, dy), ux = dx / L, uy = dy / L;
+  const etq = (t, px, py) => s.addText(t, { x: px - 0.12, y: py - 0.12, w: 0.24, h: 0.24, fontFace: F, fontSize: 11,
+    bold: true, color: "1F1F1F", align: "center", valign: "middle", margin: 0, isTextBox: true, objectName: "Cardinalidad " + t });
+  const off = (px, py) => [px + uy * 0.15, py - ux * 0.15];
+  const d = Math.min(0.3, L * 0.3); const a = off(x1 + ux * d, y1 + uy * d), b = off(x2 - ux * d, y2 - uy * d);
+  etq(dimEnX1 ? "1" : "*", a[0], a[1]);
+  etq(dimEnX1 ? "*" : "1", b[0], b[1]);
 }
-entidad("Dim_Plan", 35, 42, 195, ["PK id_plan", "nombre, precio, límites"], false);
-entidad("Fact_Facturacion", 265, 8, 510, ["PK id_factura", "FK id_cliente, id_plan", "FK fecha_emision", "subtotal, descuento, iva, total", "dias_para_pagar, estado_pago", "_Grano una factura por cliente y mes"], true);
-entidad("Dim_Cliente", 7, 222, 222, ["PK id_cliente", "nombre, industria, tamaño", "provincia, canal_adquisicion", "fecha_alta, fecha_baja, estado"], false);
-entidad("Fact_UsoPlataforma", 275, 209, 502, ["PK id_sesion", "FK id_cliente, fecha", "duracion_min, alertas_revisadas", "reporte_descargado, pagina", "_Grano una sesión"], true);
-entidad("Dim_Calendario", 557, 222, 765, ["PK Fecha", "Año, Mes, NombreMes", "Trimestre, DíaSemana", "EsFinDeSemana, Temporada"], false);
-entidad("Fact_Costos", 812, 222, 1027, ["PK id_costo", "FK fecha, concepto, tipo_costo", "monto_crc", "_Grano un concepto por mes"], true);
-entidad("Fact_ResultadosCampana", 281, 394, 495, ["PK id_resultado", "FK id_campana, id_cliente", "FK id_canal, fecha", "impresiones, clics, gasto", "conversiones, ingresos", "_Grano una campaña por día"], true);
-entidad("Dim_Campana", 10, 455, 217, ["PK id_campana", "marca, industria_marca", "objetivo, fechas, presupuesto"], false);
-entidad("Dim_Canal", 574, 475, 748, ["PK id_canal", "nombre, plataforma, tipo"], false);
+const XC = 4.85, WC = 2.4;
+const fac = ent("Fact_Facturacion", XC, 0.2, WC, ["PK id_factura", "FK id_cliente", "FK id_plan", "FK fecha_emision", "subtotal", "descuento", "iva", "total", "dias_para_pagar", "estado_pago"], true);
+const uso = ent("Fact_UsoPlataforma", XC, fac.b + 0.25, WC, ["PK id_sesion", "FK id_cliente", "FK fecha", "duracion_min", "alertas_revisadas", "reporte_descargado", "pagina", "dispositivo", "rol_usuario"], true);
+const res = ent("Fact_ResultadosCampana", XC, uso.b + 0.25, WC, ["PK id_resultado", "FK id_campana", "FK id_cliente", "FK id_canal", "FK id_plan", "FK fecha", "impresiones", "clics", "gasto", "conversiones", "ingresos"], true);
+const cliCampos = ["PK id_cliente", "nombre", "industria", "tamaño", "provincia", "canal_adquisicion", "fecha_alta", "fecha_baja", "estado"];
+const cli = ent("Dim_Cliente", 2.15, uso.cy - altura(cliCampos.length) / 2, 2.0, cliCampos, false);
+const plaCampos = ["PK id_plan", "nombre", "precio", "límites"];
+const pla = ent("Dim_Plan", 0.25, uso.cy - altura(plaCampos.length) / 2, 1.55, plaCampos, false);
+const calCampos = ["PK Fecha", "Año", "Mes", "NombreMes", "AñoMes", "Trimestre", "DíaSemana", "EsFinDeSemana", "Temporada"];
+const cal = ent("Dim_Calendario", 7.95, uso.cy - altura(calCampos.length) / 2, 2.1, calCampos, false);
+const cosCampos = ["PK id_costo", "FK fecha", "concepto", "tipo_costo", "monto_crc"];
+const cos = ent("Fact_Costos", 10.75, uso.cy - altura(cosCampos.length) / 2, 2.15, cosCampos, true);
+const can = ent("Dim_Canal", 7.95, res.y + 0.28, 1.85, ["PK id_canal", "nombre", "plataforma", "tipo"], false);
+const cam = ent("Dim_Campana", 10.35, res.y + 0.45, 2.4, ["PK id_campana", "nombre_campana", "marca", "industria_marca", "objetivo", "fecha_inicio", "fecha_fin", "presupuesto_diario"], false);
 
-rel(195, 88, 265, 92, 205, 70);
-rel(205, 222, 265, 185, 210, 192);
-rel(510, 180, 570, 222, 530, 178);
-rel(222, 288, 275, 288, 228, 270);
-rel(502, 288, 557, 288, 510, 270);
-rel(765, 288, 812, 288, 770, 270);
-rel(195, 355, 281, 410, 212, 378);
-rel(570, 355, 495, 410, 540, 378);
-rel(217, 500, 281, 497, 228, 480);
-rel(495, 500, 574, 508, 515, 482);
+// Lado izquierdo
+linea(pla.x + 0.75, pla.y, XC, fac.y + 0.45);            // Plan - Facturación
+linea(pla.x + 0.75, pla.b, XC, res.b - 0.45);            // Plan - Resultados
+linea(cli.r - 0.25, cli.y, XC, fac.b - 0.3);             // Cliente - Facturación
+linea(cli.r, uso.cy, XC, uso.cy);                        // Cliente - Uso
+linea(cli.r - 0.25, cli.b, XC, res.y + 0.35);            // Cliente - Resultados
+// Lado derecho
+linea(cal.x + 0.25, cal.y, XC + WC, fac.b - 0.3, true);  // Calendario - Facturación
+linea(cal.x, uso.cy, XC + WC, uso.cy, true);             // Calendario - Uso
+linea(cal.x + 0.25, cal.b, XC + WC, res.y + 0.3, true);  // Calendario - Resultados
+linea(cal.r, cos.cy, cos.x, cos.cy, true);               // Calendario - Costos
+linea(can.x, can.cy, XC + WC, can.cy, true);             // Canal - Resultados
+linea(cam.x, cam.cy + 0.3, XC + WC, res.b - 0.35, true); // Campaña - Resultados
 
 pres.writeFile({ fileName: "Diagramas_Arquitectura_MarketMind.pptx" }).then(() => console.log("ok"));

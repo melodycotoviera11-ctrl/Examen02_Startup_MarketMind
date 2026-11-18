@@ -58,8 +58,8 @@ d.tabla(["Validación", "Tabla", "Antes", "Después", "Resultado"],
 
 d.h2("Modelo y medidas DAX")
 d.parrafo("El modelo tiene cuatro tablas de hechos (facturación, resultados de campañas, uso de la plataforma y "
-          "costos), cinco dimensiones (cliente, plan, campaña, canal y calendario) y relaciones de uno a muchos con "
-          "filtro en una sola dirección. El detalle está en el documento 02_Arquitectura.", despues=80)
+          "costos), cinco dimensiones (cliente, plan, campaña, canal y calendario), de las cuales cliente, plan y "
+          "calendario son compartidas, y relaciones de uno a muchos con filtro en una sola dirección. El detalle está en el documento 02_Arquitectura.", despues=80)
 d.leyenda("Medidas DAX del modelo")
 d.tabla(["Medida", "Fórmula"],
         [["Ingresos", "SUM(Fact_Facturacion[subtotal_crc])"],
@@ -69,7 +69,8 @@ d.tabla(["Medida", "Fórmula"],
          ["Ingresos acumulados del año", "TOTALYTD([Ingresos], Dim_Calendario[Fecha], \"10/31\")"],
          ["Costos", "SUM(Fact_Costos[monto_crc])"],
          ["Margen %", "DIVIDE([Ingresos] - [Costos], [Ingresos])"],
-         ["Tasa de cancelación", "DIVIDE(COUNTROWS(FILTER(Dim_Cliente, NOT ISBLANK(Dim_Cliente[fecha_baja]))), DISTINCTCOUNT(Dim_Cliente[id_cliente]))"],
+         ["Clientes cancelados", "VAR ini = MIN(Dim_Calendario[Fecha]) VAR fin = MAX(Dim_Calendario[Fecha]) RETURN CALCULATE(COUNTROWS(Dim_Cliente), Dim_Cliente[fecha_baja] >= ini, Dim_Cliente[fecha_baja] <= fin)"],
+         ["Tasa de cancelación", "DIVIDE([Clientes cancelados], [Clientes activos])"],
          ["CAC del cliente", "DIVIDE(SUM(Fact_ResultadosCampana[gasto_crc]), SUM(Fact_ResultadosCampana[conversiones]))"],
          ["ROAS", "DIVIDE(SUM(Fact_ResultadosCampana[ingresos_atribuidos_crc]), SUM(Fact_ResultadosCampana[gasto_crc]))"],
          ["Gasto promedio móvil 3 meses", "DIVIDE(CALCULATE(SUM(Fact_ResultadosCampana[gasto_crc]), DATESINPERIOD(Dim_Calendario[Fecha], MAX(Dim_Calendario[Fecha]), -3, MONTH)), 3)"],

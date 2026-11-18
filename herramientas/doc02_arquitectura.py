@@ -56,18 +56,20 @@ d.tabla(["Tabla de hechos (Fact)", "Proceso", "Granularidad", "Medidas base"],
         [3.1, 2.3, 2.5, 3.9], size=18, negrita_col1=True)
 
 d.h2("Modelo dimensional")
-d.leyenda("Modelo lógico en estrella con claves primarias, foráneas y granularidad", tipo="Figura")
-d.imagen(B + "modelo_dimensional.png", 17.5)
-d.parrafo("Dim_Cliente y Dim_Calendario son dimensiones conformadas. Dim_Cliente filtra facturación, resultados y "
-          "uso, y Dim_Calendario filtra las cuatro tablas de hechos. Dim_Plan describe lo cobrado en cada factura, y "
-          "Dim_Campana y Dim_Canal describen los resultados. Todas las relaciones son de uno a muchos, con filtro en "
-          "una sola dirección desde la dimensión hacia el hecho, así no hay caminos ambiguos ni relaciones muchos a "
-          "muchos.")
+d.leyenda("Modelo lógico en estrella con claves primarias y foráneas (la granularidad está en la Tabla 2)", tipo="Figura")
+d.imagen(B + "modelo_dimensional.png", 18.0)
+d.parrafo("El modelo tiene tres dimensiones compartidas. Dim_Calendario filtra las cuatro tablas de hechos, Dim_Cliente "
+          "filtra facturación, uso y resultados, y Dim_Plan filtra facturación y resultados, lo que permite comparar el "
+          "valor que recibe cada plan. Dim_Campana y Dim_Canal describen los resultados. Todas las relaciones son de uno a "
+          "muchos, con filtro en una sola dirección desde la dimensión hacia el hecho, sin caminos ambiguos ni relaciones "
+          "muchos a muchos. Las cancelaciones de cada mes se cuentan con una medida que compara Dim_Cliente[fecha_baja] con "
+          "las fechas del calendario, sin agregar otra relación.")
 d.parrafo("Algunas claves se derivan en el ETL. El id_canal se obtiene al homologar el nombre del canal y combinarlo "
           "con canales.csv. El id_cliente de los resultados se trae desde campañas, para que el filtro por cliente no "
-          "tenga que pasar por Dim_Campana. La fecha de cada sesión sale de la columna fecha y hora. La tabla "
-          "calendario se crea en Power BI con DAX, del 1 de noviembre de 2025 al 31 de octubre de 2026, con año, mes, "
-          "trimestre, día de la semana, fin de semana y temporada comercial (Black Friday, Navidad, Día de la Madre).")
+          "pase por Dim_Campana. El id_plan de los resultados es el plan vigente del cliente en ese mes, tomado de la "
+          "factura del mismo periodo, o el plan inicial durante el mes de prueba gratis. La tabla calendario se crea en "
+          "Power BI con DAX, del 1 de noviembre de 2025 al 31 de octubre de 2026, e incluye año, mes, AñoMes para "
+          "ordenar, trimestre, día de la semana, fin de semana y temporada comercial.")
 
 d.h2("Calidad, seguridad y actualización")
 d.leyenda("Definición conceptual de controles")
