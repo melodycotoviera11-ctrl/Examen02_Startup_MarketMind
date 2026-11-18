@@ -5,7 +5,7 @@ A-03,Duplicados,uso_plataforma.csv,fila completa,25,El registro de actividad gua
 A-04,Faltantes,resultados_campanas.csv,ingresos_atribuidos_crc,300,La plataforma deja el campo vacío cuando el día no tuvo conversiones.,"Reemplazar nulos por 0, ya que conversiones es 0 en esas filas."
 A-05,Faltantes,clientes.csv,"provincia, canal_adquisicion",4,Clientes registrados sin provincia o sin canal de adquisición.,Reemplazar nulos por 'Sin dato'.
 A-06,Categorías inconsistentes,campanas.xlsx,canal,77,El nombre del canal se escribió a mano de varias formas.,"Recortar espacios, homologar con una tabla de equivalencias y unir con canales.csv para obtener id_canal."
-A-07,Categorías inconsistentes,clientes.csv y facturas.csv,"provincia, metodo_pago",30,"Mayúsculas, tildes, abreviaturas y espacios distintos.","Recortar, poner en formato de título y reemplazar valores con una tabla de equivalencias."
+A-07,Categorías inconsistentes,clientes.csv y facturas.csv,"provincia, metodo_pago",29,"Mayúsculas, tildes, abreviaturas y espacios distintos.","Recortar, poner en formato de título y reemplazar valores con una tabla de equivalencias."
 A-08,Valores fuera de rango,resultados_campanas.csv,gasto_crc,12,Gasto registrado con signo negativo por un error de la exportación.,Convertir a valor absoluto.
 A-09,Valores fuera de rango,resultados_campanas.csv,"impresiones, clics",10,Filas con más clics que impresiones porque las columnas venían invertidas.,"Cuando clics > impresiones, intercambiar ambos valores."
 A-10,Integridad referencial,resultados_campanas.csv,id_campana,15,Resultados de campañas de prueba que no existen en campanas.xlsx.,Eliminar con una combinación interna (inner join) contra campanas.

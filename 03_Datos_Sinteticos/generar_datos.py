@@ -449,6 +449,38 @@ class Generador:
         return w / w.sum()
 
     # ------------------------------------------------------------------
+    def generar_costos(self):
+        """Costos mensuales de operar MarketMind. Supuesto de tipo de cambio ₡450 por dólar."""
+        rng = self.rng
+        tc = 450
+        filas = []
+        n = 1
+        activos_por_mes = self.facturas.groupby("periodo")["id_cliente"].nunique().to_dict()
+        altas = pd.Series([p["fecha_alta"].strftime("%Y-%m") for p in self.perfiles.values()]).value_counts().to_dict()
+        ingresos = self.facturas.groupby("periodo")["subtotal_crc"].sum().to_dict()
+        for mes in meses_entre(FECHA_INICIO, FECHA_FIN):
+            per = mes.strftime("%Y-%m")
+            activos = activos_por_mes.get(per, 0)
+            nuevos = altas.get(per, 0)
+            publicidad = 250000 if per == "2025-11" else 120000 * ESTACIONALIDAD[mes.month] * rng.uniform(0.9, 1.1)
+            conceptos = [
+                ("Licencias Power BI Pro (3 fundadoras)", "Tecnológico", 3 * 14 * tc),
+                ("Capacidad Fabric F2 para publicar a clientes", "Tecnológico", 156 * tc),
+                ("Base de datos y almacenamiento en la nube", "Tecnológico", 9000 + 250 * activos),
+                ("Dominio, sitio web y correo", "Tecnológico", 12000),
+                ("Publicidad digital de MarketMind", "Comercial", publicidad),
+                ("Eventos, webinars y alianzas", "Comercial", 60000 if mes.month in (11, 2, 8) else 15000),
+                ("Soporte y configuración de clientes", "Operativo", 5000 * activos + 15000 * nuevos),
+                ("Contabilidad y facturación electrónica", "Operativo", 40000),
+                ("Comisiones de cobro", "Operativo", 0.02 * ingresos.get(per, 0)),
+            ]
+            for concepto, tipo, monto in conceptos:
+                filas.append({"id_costo": f"CST-{n:04d}", "periodo": per, "fecha": mes, "concepto": concepto,
+                              "tipo_costo": tipo, "monto_crc": int(round(monto, -2))})
+                n += 1
+        self.costos = pd.DataFrame(filas)
+
+    # ------------------------------------------------------------------
     # Anomalías controladas (se corrigen después en Power Query)
     # ------------------------------------------------------------------
     def registrar(self, codigo, tipo, archivo, columna, cantidad, descripcion, correccion):
@@ -577,6 +609,7 @@ class Generador:
         self.campanas.to_excel(os.path.join(carpeta, "campanas.xlsx"), index=False, sheet_name="campanas")
         self.resultados.to_csv(os.path.join(carpeta, "resultados_campanas.csv"), index=False, encoding=enc)
         self.uso.to_csv(os.path.join(carpeta, "uso_plataforma.csv"), index=False, encoding=enc)
+        self.costos.to_csv(os.path.join(carpeta, "costos_operativos.csv"), index=False, encoding=enc)
 
         doc = os.path.join(os.path.dirname(os.path.abspath(carpeta)), "documentacion")
         os.makedirs(doc, exist_ok=True)
@@ -594,6 +627,7 @@ def main():
     g.generar_facturas()
     g.generar_campanas_y_resultados()
     g.generar_uso()
+    g.generar_costos()
     g.sembrar_anomalias()
     g.guardar(args.salida)
 
@@ -604,6 +638,7 @@ def main():
     print(f"campanas.xlsx             {len(g.campanas):>7} filas")
     print(f"resultados_campanas.csv   {len(g.resultados):>7} filas")
     print(f"uso_plataforma.csv        {len(g.uso):>7} filas")
+    print(f"costos_operativos.csv     {len(g.costos):>7} filas")
     print(f"Archivos guardados en {args.salida}")
 
 

@@ -25,6 +25,7 @@ Doce meses de operación simulada, del 1 de noviembre de 2025 al 31 de octubre d
 | facturas.csv | Hechos comerciales | 210 | Sistema de facturación |
 | resultados_campanas.csv | Hechos de resultados del servicio | 15 050 | Exportación de la API de Meta, Google, TikTok y del canal de IA |
 | uso_plataforma.csv | Hechos de uso del producto | 3 210 | Registro de actividad de la plataforma |
+| costos_operativos.csv | Hechos de costos | 108 | Contabilidad de MarketMind |
 
 ## Diccionario de datos
 
@@ -118,6 +119,17 @@ Una fila por campaña publicitaria que un cliente conectó a MarketMind.
 | alertas_revisadas | Alertas que revisó (solo planes con alertas) |
 | reporte_descargado | Sí o No |
 
+### costos_operativos.csv
+**Granularidad, una fila por concepto de costo por mes.** Sirve para calcular margen y punto de equilibrio. Se usó un tipo de cambio de ₡450 por dólar y se supone que las fundadoras no cobran salario el primer año.
+
+| Columna | Descripción |
+|---|---|
+| id_costo | Clave, formato CST-0001 |
+| periodo, fecha | Mes del costo (fecha es el día 1 del mes) |
+| concepto | Licencias Power BI Pro, capacidad Fabric F2, nube, dominio, publicidad, eventos, soporte, contabilidad y comisiones |
+| tipo_costo | Tecnológico, Comercial u Operativo |
+| monto_crc | Monto del mes en colones |
+
 ## Comportamientos simulados
 
 Estos patrones se programaron a propósito para que el análisis encuentre algo.
@@ -129,7 +141,8 @@ Estos patrones se programaron a propósito para que el análisis encuentre algo.
 5. **Rendimiento distinto por canal e industria.** Google rinde más en salud, educación y tecnología. Instagram y TikTok funcionan mejor en moda y fitness. Restaurantes casi no recupera lo que invierte en TikTok.
 6. **Valor entregado.** Con el paso de los meses los clientes bajan su costo por conversión y suben su retorno, sobre todo en los planes con alertas, porque mueven el presupuesto al canal que mejor les funciona.
 7. **Canal de anuncios en IA en versión beta.** Desde junio de 2026 MarketMind conecta, en prueba, anuncios dentro de asistentes de IA. Solo está disponible para los planes Growth y Agencia, se usa con menos presupuesto y no se ofrece a salud y estética, que es una categoría sensible. Rinde bien en tecnología y educación.
-8. **Fines de semana.** Restaurantes y moda venden más los sábados y domingos.
+8. **Rentabilidad de MarketMind.** Los primeros cinco meses el negocio pierde plata, llega al punto de equilibrio en abril de 2026 y cierra octubre con margen positivo.
+9. **Fines de semana.** Restaurantes y moda venden más los sábados y domingos.
 
 ## Anomalías sembradas
 
@@ -156,8 +169,9 @@ planes.id_plan ─────────────< facturas.id_plan
 clientes.id_cliente ────────< facturas.id_cliente
 clientes.id_cliente ────────< campanas.id_cliente
 clientes.id_cliente ────────< uso_plataforma.id_cliente
+costos_operativos se relaciona solo con el calendario (por fecha)
 canales.nombre_canal ───────< campanas.canal        (después de homologar, se usa id_canal)
 campanas.id_campana ────────< resultados_campanas.id_campana
 ```
 
-La tabla calendario no viene en los archivos, se crea en Power BI y se relaciona con las fechas de facturas, resultados y uso.
+La tabla calendario no viene en los archivos, se crea en Power BI y se relaciona con las fechas de facturas, resultados, uso y costos.

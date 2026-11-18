@@ -1,0 +1,109 @@
+﻿id_costo,periodo,fecha,concepto,tipo_costo,monto_crc
+CST-0001,2025-11,2025-11-01,Licencias Power BI Pro (3 fundadoras),Tecnológico,18900
+CST-0002,2025-11,2025-11-01,Capacidad Fabric F2 para publicar a clientes,Tecnológico,70200
+CST-0003,2025-11,2025-11-01,Base de datos y almacenamiento en la nube,Tecnológico,9000
+CST-0004,2025-11,2025-11-01,"Dominio, sitio web y correo",Tecnológico,12000
+CST-0005,2025-11,2025-11-01,Publicidad digital de MarketMind,Comercial,250000
+CST-0006,2025-11,2025-11-01,"Eventos, webinars y alianzas",Comercial,60000
+CST-0007,2025-11,2025-11-01,Soporte y configuración de clientes,Operativo,60000
+CST-0008,2025-11,2025-11-01,Contabilidad y facturación electrónica,Operativo,40000
+CST-0009,2025-11,2025-11-01,Comisiones de cobro,Operativo,0
+CST-0010,2025-12,2025-12-01,Licencias Power BI Pro (3 fundadoras),Tecnológico,18900
+CST-0011,2025-12,2025-12-01,Capacidad Fabric F2 para publicar a clientes,Tecnológico,70200
+CST-0012,2025-12,2025-12-01,Base de datos y almacenamiento en la nube,Tecnológico,10000
+CST-0013,2025-12,2025-12-01,"Dominio, sitio web y correo",Tecnológico,12000
+CST-0014,2025-12,2025-12-01,Publicidad digital de MarketMind,Comercial,157600
+CST-0015,2025-12,2025-12-01,"Eventos, webinars y alianzas",Comercial,15000
+CST-0016,2025-12,2025-12-01,Soporte y configuración de clientes,Operativo,50000
+CST-0017,2025-12,2025-12-01,Contabilidad y facturación electrónica,Operativo,40000
+CST-0018,2025-12,2025-12-01,Comisiones de cobro,Operativo,800
+CST-0019,2026-01,2026-01-01,Licencias Power BI Pro (3 fundadoras),Tecnológico,18900
+CST-0020,2026-01,2026-01-01,Capacidad Fabric F2 para publicar a clientes,Tecnológico,70200
+CST-0021,2026-01,2026-01-01,Base de datos y almacenamiento en la nube,Tecnológico,10500
+CST-0022,2026-01,2026-01-01,"Dominio, sitio web y correo",Tecnológico,12000
+CST-0023,2026-01,2026-01-01,Publicidad digital de MarketMind,Comercial,84900
+CST-0024,2026-01,2026-01-01,"Eventos, webinars y alianzas",Comercial,15000
+CST-0025,2026-01,2026-01-01,Soporte y configuración de clientes,Operativo,90000
+CST-0026,2026-01,2026-01-01,Contabilidad y facturación electrónica,Operativo,40000
+CST-0027,2026-01,2026-01-01,Comisiones de cobro,Operativo,1600
+CST-0028,2026-02,2026-02-01,Licencias Power BI Pro (3 fundadoras),Tecnológico,18900
+CST-0029,2026-02,2026-02-01,Capacidad Fabric F2 para publicar a clientes,Tecnológico,70200
+CST-0030,2026-02,2026-02-01,Base de datos y almacenamiento en la nube,Tecnológico,11200
+CST-0031,2026-02,2026-02-01,"Dominio, sitio web y correo",Tecnológico,12000
+CST-0032,2026-02,2026-02-01,Publicidad digital de MarketMind,Comercial,125100
+CST-0033,2026-02,2026-02-01,"Eventos, webinars y alianzas",Comercial,60000
+CST-0034,2026-02,2026-02-01,Soporte y configuración de clientes,Operativo,120000
+CST-0035,2026-02,2026-02-01,Contabilidad y facturación electrónica,Operativo,40000
+CST-0036,2026-02,2026-02-01,Comisiones de cobro,Operativo,4200
+CST-0037,2026-03,2026-03-01,Licencias Power BI Pro (3 fundadoras),Tecnológico,18900
+CST-0038,2026-03,2026-03-01,Capacidad Fabric F2 para publicar a clientes,Tecnológico,70200
+CST-0039,2026-03,2026-03-01,Base de datos y almacenamiento en la nube,Tecnológico,12500
+CST-0040,2026-03,2026-03-01,"Dominio, sitio web y correo",Tecnológico,12000
+CST-0041,2026-03,2026-03-01,Publicidad digital de MarketMind,Comercial,122800
+CST-0042,2026-03,2026-03-01,"Eventos, webinars y alianzas",Comercial,15000
+CST-0043,2026-03,2026-03-01,Soporte y configuración de clientes,Operativo,160000
+CST-0044,2026-03,2026-03-01,Contabilidad y facturación electrónica,Operativo,40000
+CST-0045,2026-03,2026-03-01,Comisiones de cobro,Operativo,6000
+CST-0046,2026-04,2026-04-01,Licencias Power BI Pro (3 fundadoras),Tecnológico,18900
+CST-0047,2026-04,2026-04-01,Capacidad Fabric F2 para publicar a clientes,Tecnológico,70200
+CST-0048,2026-04,2026-04-01,Base de datos y almacenamiento en la nube,Tecnológico,13800
+CST-0049,2026-04,2026-04-01,"Dominio, sitio web y correo",Tecnológico,12000
+CST-0050,2026-04,2026-04-01,Publicidad digital de MarketMind,Comercial,98600
+CST-0051,2026-04,2026-04-01,"Eventos, webinars y alianzas",Comercial,15000
+CST-0052,2026-04,2026-04-01,Soporte y configuración de clientes,Operativo,125000
+CST-0053,2026-04,2026-04-01,Contabilidad y facturación electrónica,Operativo,40000
+CST-0054,2026-04,2026-04-01,Comisiones de cobro,Operativo,10600
+CST-0055,2026-05,2026-05-01,Licencias Power BI Pro (3 fundadoras),Tecnológico,18900
+CST-0056,2026-05,2026-05-01,Capacidad Fabric F2 para publicar a clientes,Tecnológico,70200
+CST-0057,2026-05,2026-05-01,Base de datos y almacenamiento en la nube,Tecnológico,13800
+CST-0058,2026-05,2026-05-01,"Dominio, sitio web y correo",Tecnológico,12000
+CST-0059,2026-05,2026-05-01,Publicidad digital de MarketMind,Comercial,129500
+CST-0060,2026-05,2026-05-01,"Eventos, webinars y alianzas",Comercial,15000
+CST-0061,2026-05,2026-05-01,Soporte y configuración de clientes,Operativo,140000
+CST-0062,2026-05,2026-05-01,Contabilidad y facturación electrónica,Operativo,40000
+CST-0063,2026-05,2026-05-01,Comisiones de cobro,Operativo,11000
+CST-0064,2026-06,2026-06-01,Licencias Power BI Pro (3 fundadoras),Tecnológico,18900
+CST-0065,2026-06,2026-06-01,Capacidad Fabric F2 para publicar a clientes,Tecnológico,70200
+CST-0066,2026-06,2026-06-01,Base de datos y almacenamiento en la nube,Tecnológico,14000
+CST-0067,2026-06,2026-06-01,"Dominio, sitio web y correo",Tecnológico,12000
+CST-0068,2026-06,2026-06-01,Publicidad digital de MarketMind,Comercial,119800
+CST-0069,2026-06,2026-06-01,"Eventos, webinars y alianzas",Comercial,15000
+CST-0070,2026-06,2026-06-01,Soporte y configuración de clientes,Operativo,160000
+CST-0071,2026-06,2026-06-01,Contabilidad y facturación electrónica,Operativo,40000
+CST-0072,2026-06,2026-06-01,Comisiones de cobro,Operativo,13200
+CST-0073,2026-07,2026-07-01,Licencias Power BI Pro (3 fundadoras),Tecnológico,18900
+CST-0074,2026-07,2026-07-01,Capacidad Fabric F2 para publicar a clientes,Tecnológico,70200
+CST-0075,2026-07,2026-07-01,Base de datos y almacenamiento en la nube,Tecnológico,15000
+CST-0076,2026-07,2026-07-01,"Dominio, sitio web y correo",Tecnológico,12000
+CST-0077,2026-07,2026-07-01,Publicidad digital de MarketMind,Comercial,132900
+CST-0078,2026-07,2026-07-01,"Eventos, webinars y alianzas",Comercial,15000
+CST-0079,2026-07,2026-07-01,Soporte y configuración de clientes,Operativo,165000
+CST-0080,2026-07,2026-07-01,Contabilidad y facturación electrónica,Operativo,40000
+CST-0081,2026-07,2026-07-01,Comisiones de cobro,Operativo,14400
+CST-0082,2026-08,2026-08-01,Licencias Power BI Pro (3 fundadoras),Tecnológico,18900
+CST-0083,2026-08,2026-08-01,Capacidad Fabric F2 para publicar a clientes,Tecnológico,70200
+CST-0084,2026-08,2026-08-01,Base de datos y almacenamiento en la nube,Tecnológico,15500
+CST-0085,2026-08,2026-08-01,"Dominio, sitio web y correo",Tecnológico,12000
+CST-0086,2026-08,2026-08-01,Publicidad digital de MarketMind,Comercial,149600
+CST-0087,2026-08,2026-08-01,"Eventos, webinars y alianzas",Comercial,60000
+CST-0088,2026-08,2026-08-01,Soporte y configuración de clientes,Operativo,160000
+CST-0089,2026-08,2026-08-01,Contabilidad y facturación electrónica,Operativo,40000
+CST-0090,2026-08,2026-08-01,Comisiones de cobro,Operativo,15600
+CST-0091,2026-09,2026-09-01,Licencias Power BI Pro (3 fundadoras),Tecnológico,18900
+CST-0092,2026-09,2026-09-01,Capacidad Fabric F2 para publicar a clientes,Tecnológico,70200
+CST-0093,2026-09,2026-09-01,Base de datos y almacenamiento en la nube,Tecnológico,16000
+CST-0094,2026-09,2026-09-01,"Dominio, sitio web y correo",Tecnológico,12000
+CST-0095,2026-09,2026-09-01,Publicidad digital de MarketMind,Comercial,131400
+CST-0096,2026-09,2026-09-01,"Eventos, webinars y alianzas",Comercial,15000
+CST-0097,2026-09,2026-09-01,Soporte y configuración de clientes,Operativo,215000
+CST-0098,2026-09,2026-09-01,Contabilidad y facturación electrónica,Operativo,40000
+CST-0099,2026-09,2026-09-01,Comisiones de cobro,Operativo,16000
+CST-0100,2026-10,2026-10-01,Licencias Power BI Pro (3 fundadoras),Tecnológico,18900
+CST-0101,2026-10,2026-10-01,Capacidad Fabric F2 para publicar a clientes,Tecnológico,70200
+CST-0102,2026-10,2026-10-01,Base de datos y almacenamiento en la nube,Tecnológico,17000
+CST-0103,2026-10,2026-10-01,"Dominio, sitio web y correo",Tecnológico,12000
+CST-0104,2026-10,2026-10-01,Publicidad digital de MarketMind,Comercial,124400
+CST-0105,2026-10,2026-10-01,"Eventos, webinars y alianzas",Comercial,15000
+CST-0106,2026-10,2026-10-01,Soporte y configuración de clientes,Operativo,160000
+CST-0107,2026-10,2026-10-01,Contabilidad y facturación electrónica,Operativo,40000
+CST-0108,2026-10,2026-10-01,Comisiones de cobro,Operativo,18400

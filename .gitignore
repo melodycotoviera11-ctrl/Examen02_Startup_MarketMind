@@ -3,3 +3,6 @@ __pycache__/
 .DS_Store
 ~$*
 *.zip
+pg-*.png
+0*/*.pdf
+__pycache__/

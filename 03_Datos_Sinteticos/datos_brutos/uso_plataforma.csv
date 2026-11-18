@@ -38,6 +38,7 @@ SES-00036,CLI-027,2025-11-30 17:22:00,Encargado de marketing,Computadora,Alertas
 SES-00037,CLI-001,2025-12-03 18:49:00,Encargado de marketing,Computadora,Resumen general,31,0,No
 SES-00038,CLI-024,2025-12-04 20:54:00,Dueño o dueña,Celular,Comparación de canales,6,1,No
 SES-00039,CLI-008,2025-12-07 16:27:00,Dueño o dueña,Computadora,Reporte mensual,4,0,Sí
+SES-00039,CLI-008,2025-12-07 16:27:00,Dueño o dueña,Computadora,Reporte mensual,4,0,Sí
 SES-00040,CLI-008,2025-12-07 17:32:00,Encargado de marketing,Celular,Campañas,6,0,No
 SES-00041,CLI-024,2025-12-07 19:55:00,Dueño o dueña,Computadora,Comparación de canales,5,1,No
 SES-00042,CLI-027,2025-12-08 11:15:00,Encargado de marketing,Computadora,Campañas,3,2,No
@@ -106,7 +107,7 @@ SES-00104,CLI-031,2026-01-05 10:47:00,Dueño o dueña,Computadora,Resumen genera
 SES-00105,CLI-031,2026-01-05 12:20:00,Dueño o dueña,Celular,Reporte mensual,7,0,Sí
 SES-00106,CLI-031,2026-01-05 16:37:00,Encargado de marketing,Computadora,Campañas,10,0,Sí
 SES-00107,CLI-020,2026-01-06 16:51:00,Director de cuentas,Computadora,Campañas,10,2,No
-SES-00108,cli-008,2026-01-06 18:59:00,Encargado de marketing,Celular,Reporte mensual,7,0,Sí
+SES-00108,CLI-008,2026-01-06 18:59:00,Encargado de marketing,Celular,Reporte mensual,7,0,Sí
 SES-00109,CLI-020,2026-01-07 12:03:00,Director de cuentas,Computadora,Alertas,8,1,No
 SES-00110,CLI-001,2026-01-07 16:45:00,Encargado de marketing,Computadora,Comparación de canales,12,0,No
 SES-00111,CLI-001,2026-01-08 08:22:00,Dueño o dueña,Computadora,Reporte mensual,13,0,Sí
@@ -128,9 +129,9 @@ SES-00126,CLI-027,2026-01-14 10:18:00,Dueño o dueña,Computadora,Alertas,4,1,No
 SES-00127,CLI-008,2026-01-14 17:18:00,Dueño o dueña,Computadora,Campañas,5,0,No
 SES-00128,CLI-020,2026-01-15 11:09:00,Analista de agencia,Tableta,Campañas,12,1,No
 SES-00129,CLI-008,2026-01-15 17:55:00,Dueño o dueña,Celular,Campañas,14,0,No
-SES-00130,CLI-020,2026-01-16 08:47:00,Director de cuentas,Tableta,Campañas,10,0,No
+SES-00130,cli-020,2026-01-16 08:47:00,Director de cuentas,Tableta,Campañas,10,0,No
 SES-00131,CLI-031,2026-01-17 10:04:00,Encargado de marketing,Computadora,Comparación de canales,17,0,No
-SES-00132,cli-008,2026-01-17 10:14:00,Encargado de marketing,Computadora,Resumen general,23,0,No
+SES-00132,CLI-008,2026-01-17 10:14:00,Encargado de marketing,Computadora,Resumen general,23,0,No
 SES-00133,CLI-040,2026-01-17 11:32:00,Dueño o dueña,Computadora,Comparación de canales,3,0,No
 SES-00134,CLI-040,2026-01-17 15:41:00,Encargado de marketing,Computadora,Reporte mensual,12,0,Sí
 SES-00135,CLI-031,2026-01-17 15:57:00,Encargado de marketing,Computadora,Campañas,4,0,No
@@ -144,10 +145,9 @@ SES-00142,CLI-008,2026-01-18 19:22:00,Encargado de marketing,Celular,Campañas,9
 SES-00143,CLI-008,2026-01-19 11:49:00,Dueño o dueña,Computadora,Resumen general,13,0,No
 SES-00144,CLI-024,2026-01-19 14:28:00,Dueño o dueña,Celular,Comparación de canales,7,1,No
 SES-00145,CLI-008,2026-01-19 15:05:00,Dueño o dueña,Celular,Reporte mensual,9,0,Sí
-SES-00146,CLI-031,2026-01-20 12:35:00,Dueño o dueña,Computadora,Comparación de canales,11,0,No
+SES-00146,cli-031,2026-01-20 12:35:00,Dueño o dueña,Computadora,Comparación de canales,11,0,No
 SES-00147,CLI-001,2026-01-21 06:17:00,Encargado de marketing,Computadora,Resumen general,5,0,No
 SES-00148,CLI-020,2026-01-21 11:55:00,Community manager,Computadora,Resumen general,7,1,No
-SES-00149,CLI-040,2026-01-22 11:24:00,Encargado de marketing,Celular,Resumen general,14,0,No
 SES-00149,CLI-040,2026-01-22 11:24:00,Encargado de marketing,Celular,Resumen general,14,0,No
 SES-00150,CLI-040,2026-01-22 11:27:00,Encargado de marketing,Computadora,Reporte mensual,5,0,Sí
 SES-00151,CLI-020,2026-01-22 13:58:00,Community manager,Celular,Comparación de canales,38,2,No
@@ -175,6 +175,7 @@ SES-00172,CLI-030,2026-01-25 16:08:00,Director de cuentas,Computadora,Campañas,
 SES-00173,CLI-010,2026-01-25 16:46:00,Dueño o dueña,Celular,Resumen general,8,0,No
 SES-00174,CLI-030,2026-01-25 20:57:00,Analista de agencia,Celular,Reporte mensual,8,1,Sí
 SES-00175,CLI-008,2026-01-26 12:44:00,Dueño o dueña,Tableta,Comparación de canales,19,0,No
+SES-00176,CLI-001,2026-01-26 19:33:00,Encargado de marketing,Celular,Resumen general,3,0,No
 SES-00176,CLI-001,2026-01-26 19:33:00,Encargado de marketing,Celular,Resumen general,3,0,No
 SES-00177,CLI-031,2026-01-26 20:58:00,Dueño o dueña,Computadora,Comparación de canales,19,0,No
 SES-00178,CLI-040,2026-01-26 21:11:00,Dueño o dueña,Celular,Campañas,11,0,No
@@ -245,7 +246,7 @@ SES-00242,CLI-019,2026-02-10 08:20:00,Dueño o dueña,Celular,Comparación de ca
 SES-00243,CLI-040,2026-02-10 08:23:00,Dueño o dueña,Computadora,Resumen general,7,0,No
 SES-00244,CLI-035,2026-02-10 13:36:00,Encargado de marketing,Tableta,Resumen general,8,0,No
 SES-00245,CLI-035,2026-02-10 14:12:00,Dueño o dueña,Tableta,Resumen general,8,0,No
-SES-00246,cli-030,2026-02-10 15:41:00,Community manager,Computadora,Resumen general,7,0,No
+SES-00246,CLI-030,2026-02-10 15:41:00,Community manager,Computadora,Resumen general,7,0,No
 SES-00247,CLI-008,2026-02-10 18:18:00,Encargado de marketing,Celular,Campañas,4,0,No
 SES-00248,CLI-008,2026-02-11 10:10:00,Dueño o dueña,Celular,Resumen general,16,0,No
 SES-00249,CLI-020,2026-02-11 10:24:00,Community manager,Celular,Campañas,14,0,No
@@ -278,7 +279,6 @@ SES-00275,CLI-018,2026-02-14 17:26:00,Dueño o dueña,Computadora,Campañas,5,0,
 SES-00276,CLI-008,2026-02-15 08:12:00,Encargado de marketing,Computadora,Resumen general,11,0,No
 SES-00277,CLI-004,2026-02-15 09:08:00,Encargado de marketing,Celular,Campañas,8,0,No
 SES-00278,CLI-035,2026-02-15 10:00:00,Encargado de marketing,Celular,Campañas,10,0,No
-SES-00279,CLI-001,2026-02-15 11:39:00,Dueño o dueña,Celular,Resumen general,11,0,No
 SES-00279,CLI-001,2026-02-15 11:39:00,Dueño o dueña,Celular,Resumen general,11,0,No
 SES-00280,CLI-024,2026-02-15 12:52:00,Dueño o dueña,Computadora,Campañas,2,0,No
 SES-00281,CLI-030,2026-02-15 15:06:00,Analista de agencia,Computadora,Resumen general,14,0,No
@@ -377,8 +377,8 @@ SES-00373,CLI-030,2026-03-01 06:31:00,Analista de agencia,Celular,Campañas,8,1,
 SES-00374,CLI-005,2026-03-01 08:42:00,Encargado de marketing,Celular,Resumen general,29,0,Sí
 SES-00375,CLI-005,2026-03-01 09:16:00,Encargado de marketing,Celular,Resumen general,9,0,No
 SES-00376,CLI-019,2026-03-01 17:13:00,Dueño o dueña,Computadora,Campañas,20,2,No
+SES-00376,CLI-019,2026-03-01 17:13:00,Dueño o dueña,Computadora,Campañas,20,2,No
 SES-00377,CLI-026,2026-03-01 19:19:00,Encargado de marketing,Celular,Campañas,5,0,No
-SES-00378,CLI-035,2026-03-02 07:18:00,Encargado de marketing,Computadora,Resumen general,8,0,No
 SES-00378,CLI-035,2026-03-02 07:18:00,Encargado de marketing,Computadora,Resumen general,8,0,No
 SES-00379,CLI-030,2026-03-02 14:50:00,Community manager,Computadora,Alertas,11,1,Sí
 SES-00380,CLI-026,2026-03-02 15:47:00,Dueño o dueña,Tableta,Campañas,3,0,No
@@ -392,7 +392,6 @@ SES-00387,CLI-026,2026-03-04 11:10:00,Dueño o dueña,Tableta,Campañas,10,0,No
 SES-00388,CLI-008,2026-03-04 11:38:00,Encargado de marketing,Celular,Resumen general,8,0,No
 SES-00389,CLI-035,2026-03-04 12:25:00,Encargado de marketing,Celular,Comparación de canales,7,0,Sí
 SES-00390,CLI-020,2026-03-04 13:02:00,Analista de agencia,Celular,Campañas,4,1,No
-SES-00390,CLI-020,2026-03-04 13:02:00,Analista de agencia,Celular,Campañas,4,1,No
 SES-00391,CLI-040,2026-03-04 17:46:00,Dueño o dueña,Celular,Campañas,4,0,Sí
 SES-00392,CLI-010,2026-03-04 20:47:00,Encargado de marketing,Tableta,Resumen general,10,0,No
 SES-00393,CLI-004,2026-03-04 20:58:00,Encargado de marketing,Computadora,Campañas,11,0,Sí
@@ -403,6 +402,7 @@ SES-00397,CLI-024,2026-03-05 15:13:00,Encargado de marketing,Computadora,Compara
 SES-00398,CLI-031,2026-03-05 20:48:00,Encargado de marketing,Computadora,Resumen general,9,0,No
 SES-00399,CLI-022,2026-03-06 06:24:00,Dueño o dueña,Celular,Resumen general,7,0,No
 SES-00400,CLI-018,2026-03-06 11:34:00,Dueño o dueña,Celular,Reporte mensual,11,0,Sí
+SES-00401,CLI-001,2026-03-06 11:37:00,Dueño o dueña,Computadora,Resumen general,3,0,No
 SES-00401,CLI-001,2026-03-06 11:37:00,Dueño o dueña,Computadora,Resumen general,3,0,No
 SES-00402,CLI-008,2026-03-06 12:55:00,Encargado de marketing,Computadora,Reporte mensual,6,0,Sí
 SES-00403,CLI-004,2026-03-06 16:37:00,Dueño o dueña,Celular,Reporte mensual,10,0,Sí
@@ -447,10 +447,10 @@ SES-00441,CLI-008,2026-03-12 12:38:00,Dueño o dueña,Computadora,Resumen genera
 SES-00442,CLI-019,2026-03-12 19:12:00,Encargado de marketing,Celular,Resumen general,7,0,No
 SES-00443,CLI-026,2026-03-12 19:48:00,Dueño o dueña,Computadora,Campañas,10,0,No
 SES-00444,CLI-030,2026-03-12 21:32:00,Analista de agencia,Computadora,Campañas,5,1,No
-SES-00445,CLI-001,2026-03-13 09:49:00,Encargado de marketing,Celular,Campañas,6,0,No
+SES-00445,cli-001,2026-03-13 09:49:00,Encargado de marketing,Celular,Campañas,6,0,No
 SES-00446,CLI-024,2026-03-13 10:04:00,Encargado de marketing,Tableta,Resumen general,6,1,No
 SES-00447,CLI-031,2026-03-13 11:16:00,Dueño o dueña,Celular,Campañas,1,0,No
-SES-00448,cli-010,2026-03-13 12:34:00,Dueño o dueña,Celular,Resumen general,11,0,No
+SES-00448,CLI-010,2026-03-13 12:34:00,Dueño o dueña,Celular,Resumen general,11,0,No
 SES-00449,CLI-004,2026-03-13 12:49:00,Encargado de marketing,Computadora,Campañas,4,0,No
 SES-00450,CLI-008,2026-03-13 16:31:00,Encargado de marketing,Computadora,Resumen general,18,0,No
 SES-00451,CLI-030,2026-03-13 20:43:00,Community manager,Computadora,Resumen general,6,2,No
@@ -471,10 +471,9 @@ SES-00465,CLI-001,2026-03-15 20:02:00,Dueño o dueña,Computadora,Resumen genera
 SES-00466,CLI-022,2026-03-16 09:02:00,Encargado de marketing,Celular,Comparación de canales,7,0,No
 SES-00467,CLI-003,2026-03-16 09:22:00,Dueño o dueña,Celular,Reporte mensual,3,1,Sí
 SES-00468,CLI-008,2026-03-16 10:55:00,Dueño o dueña,Tableta,Resumen general,10,0,No
-SES-00469,CLI-024,2026-03-16 11:29:00,Encargado de marketing,Computadora,Alertas,6,1,No
+SES-00469,cli-024,2026-03-16 11:29:00,Encargado de marketing,Computadora,Alertas,6,1,No
 SES-00470,CLI-026,2026-03-16 14:02:00,Encargado de marketing,Computadora,Campañas,16,0,No
-SES-00470,CLI-026,2026-03-16 14:02:00,Encargado de marketing,Computadora,Campañas,16,0,No
-SES-00471,cli-010,2026-03-16 14:50:00,Dueño o dueña,Celular,Campañas,6,0,No
+SES-00471,CLI-010,2026-03-16 14:50:00,Dueño o dueña,Celular,Campañas,6,0,No
 SES-00472,CLI-003,2026-03-16 16:02:00,Encargado de marketing,Computadora,Campañas,24,2,No
 SES-00473,CLI-040,2026-03-16 20:36:00,Dueño o dueña,Celular,Resumen general,10,0,No
 SES-00474,CLI-005,2026-03-17 12:16:00,Encargado de marketing,Computadora,Campañas,12,0,No
@@ -484,7 +483,7 @@ SES-00477,CLI-017,2026-03-18 07:51:00,Dueño o dueña,Celular,Resumen general,10
 SES-00478,CLI-031,2026-03-18 09:27:00,Encargado de marketing,Computadora,Resumen general,5,0,No
 SES-00479,CLI-017,2026-03-18 10:58:00,Dueño o dueña,Celular,Campañas,5,1,No
 SES-00480,CLI-040,2026-03-18 12:35:00,Dueño o dueña,Computadora,Resumen general,14,0,No
-SES-00481,cli-040,2026-03-18 12:38:00,Encargado de marketing,Computadora,Campañas,27,0,No
+SES-00481,CLI-040,2026-03-18 12:38:00,Encargado de marketing,Computadora,Campañas,27,0,No
 SES-00482,CLI-019,2026-03-18 20:12:00,Dueño o dueña,Computadora,Alertas,16,1,No
 SES-00483,CLI-026,2026-03-18 20:57:00,Dueño o dueña,Computadora,Resumen general,3,0,No
 SES-00484,CLI-008,2026-03-19 11:21:00,Encargado de marketing,Computadora,Campañas,12,0,No
@@ -498,9 +497,9 @@ SES-00491,CLI-001,2026-03-20 09:32:00,Dueño o dueña,Computadora,Reporte mensua
 SES-00492,CLI-024,2026-03-20 12:11:00,Encargado de marketing,Computadora,Campañas,11,1,No
 SES-00493,CLI-020,2026-03-20 12:28:00,Analista de agencia,Computadora,Resumen general,5,1,No
 SES-00494,CLI-035,2026-03-20 17:27:00,Encargado de marketing,Computadora,Resumen general,7,0,No
-SES-00495,CLI-003,2026-03-20 17:55:00,Encargado de marketing,Computadora,Resumen general,10,3,No
+SES-00495,cli-003,2026-03-20 17:55:00,Encargado de marketing,Computadora,Resumen general,10,3,No
 SES-00496,CLI-004,2026-03-21 08:45:00,Encargado de marketing,Computadora,Resumen general,14,0,No
-SES-00497,cli-040,2026-03-21 09:11:00,Encargado de marketing,Computadora,Comparación de canales,2,0,No
+SES-00497,CLI-040,2026-03-21 09:11:00,Encargado de marketing,Computadora,Comparación de canales,2,0,No
 SES-00498,CLI-040,2026-03-21 09:23:00,Encargado de marketing,Computadora,Comparación de canales,7,0,No
 SES-00499,CLI-008,2026-03-21 11:20:00,Encargado de marketing,Celular,Resumen general,5,0,No
 SES-00500,CLI-004,2026-03-21 13:26:00,Dueño o dueña,Computadora,Campañas,3,0,No
@@ -511,7 +510,7 @@ SES-00504,CLI-004,2026-03-21 19:14:00,Dueño o dueña,Tableta,Resumen general,5,
 SES-00505,CLI-017,2026-03-21 22:01:00,Encargado de marketing,Celular,Resumen general,10,2,No
 SES-00506,CLI-025,2026-03-22 06:21:00,Encargado de marketing,Computadora,Resumen general,7,0,No
 SES-00507,CLI-017,2026-03-22 07:07:00,Encargado de marketing,Celular,Campañas,6,1,No
-SES-00508,CLI-018,2026-03-22 17:07:00,Encargado de marketing,Celular,Campañas,15,0,No
+SES-00508,cli-018,2026-03-22 17:07:00,Encargado de marketing,Celular,Campañas,15,0,No
 SES-00509,CLI-031,2026-03-22 17:09:00,Encargado de marketing,Computadora,Comparación de canales,6,0,No
 SES-00510,CLI-025,2026-03-22 17:23:00,Encargado de marketing,Celular,Resumen general,8,0,No
 SES-00511,CLI-004,2026-03-22 18:30:00,Dueño o dueña,Celular,Resumen general,7,0,No
@@ -616,7 +615,7 @@ SES-00609,CLI-003,2026-04-01 14:51:00,Encargado de marketing,Celular,Reporte men
 SES-00610,CLI-017,2026-04-01 15:42:00,Dueño o dueña,Computadora,Alertas,6,0,No
 SES-00611,CLI-029,2026-04-01 16:27:00,Analista de agencia,Computadora,Comparación de canales,9,0,No
 SES-00612,CLI-008,2026-04-01 17:23:00,Encargado de marketing,Computadora,Resumen general,14,0,No
-SES-00613,cli-005,2026-04-01 17:24:00,Encargado de marketing,Celular,Comparación de canales,10,0,No
+SES-00613,CLI-005,2026-04-01 17:24:00,Encargado de marketing,Celular,Comparación de canales,10,0,No
 SES-00614,CLI-019,2026-04-01 18:13:00,Encargado de marketing,Computadora,Resumen general,4,1,Sí
 SES-00615,CLI-026,2026-04-01 20:27:00,Encargado de marketing,Computadora,Campañas,4,0,No
 SES-00616,CLI-008,2026-04-01 21:33:00,Encargado de marketing,Computadora,Campañas,3,0,No
@@ -650,6 +649,7 @@ SES-00643,CLI-038,2026-04-05 18:20:00,Analista de agencia,Computadora,Campañas,
 SES-00644,CLI-038,2026-04-05 20:57:00,Community manager,Computadora,Resumen general,15,0,No
 SES-00645,CLI-030,2026-04-05 21:17:00,Director de cuentas,Celular,Comparación de canales,10,2,No
 SES-00646,CLI-029,2026-04-06 09:19:00,Analista de agencia,Computadora,Resumen general,8,0,No
+SES-00647,CLI-020,2026-04-06 09:32:00,Community manager,Celular,Campañas,11,1,No
 SES-00647,CLI-020,2026-04-06 09:32:00,Community manager,Celular,Campañas,11,1,No
 SES-00648,CLI-029,2026-04-06 11:26:00,Analista de agencia,Celular,Resumen general,11,1,No
 SES-00649,CLI-003,2026-04-06 12:57:00,Dueño o dueña,Computadora,Comparación de canales,11,1,No
@@ -723,7 +723,7 @@ SES-00716,CLI-004,2026-04-14 12:40:00,Encargado de marketing,Computadora,Reporte
 SES-00717,CLI-004,2026-04-14 14:37:00,Encargado de marketing,Computadora,Comparación de canales,5,0,No
 SES-00718,CLI-004,2026-04-14 15:23:00,Dueño o dueña,Computadora,Comparación de canales,16,0,No
 SES-00719,CLI-010,2026-04-14 17:25:00,Encargado de marketing,Computadora,Resumen general,13,0,No
-SES-00720,CLI-005,2026-04-14 19:48:00,Encargado de marketing,Computadora,Resumen general,10,0,No
+SES-00720,cli-005,2026-04-14 19:48:00,Encargado de marketing,Computadora,Resumen general,10,0,No
 SES-00721,CLI-038,2026-04-14 19:51:00,Community manager,Celular,Alertas,12,2,No
 SES-00722,CLI-026,2026-04-14 20:10:00,Dueño o dueña,Computadora,Resumen general,5,0,No
 SES-00723,CLI-008,2026-04-15 10:31:00,Dueño o dueña,Celular,Resumen general,2,0,No
@@ -742,12 +742,12 @@ SES-00735,CLI-019,2026-04-16 12:37:00,Encargado de marketing,Computadora,Resumen
 SES-00736,CLI-031,2026-04-16 13:43:00,Dueño o dueña,Computadora,Reporte mensual,8,0,Sí
 SES-00737,CLI-026,2026-04-16 13:56:00,Encargado de marketing,Computadora,Resumen general,9,0,No
 SES-00738,CLI-015,2026-04-16 14:28:00,Dueño o dueña,Celular,Resumen general,3,3,No
-SES-00739,CLI-030,2026-04-16 16:25:00,Community manager,Celular,Comparación de canales,5,2,No
+SES-00739,cli-030,2026-04-16 16:25:00,Community manager,Celular,Comparación de canales,5,2,No
 SES-00740,CLI-020,2026-04-17 10:03:00,Director de cuentas,Computadora,Resumen general,2,0,No
 SES-00741,CLI-004,2026-04-17 10:24:00,Encargado de marketing,Computadora,Resumen general,9,0,No
 SES-00742,CLI-029,2026-04-17 11:41:00,Director de cuentas,Computadora,Comparación de canales,13,0,No
 SES-00743,CLI-005,2026-04-17 13:59:00,Dueño o dueña,Computadora,Campañas,4,0,No
-SES-00744,cli-010,2026-04-17 17:15:00,Dueño o dueña,Celular,Resumen general,7,0,No
+SES-00744,CLI-010,2026-04-17 17:15:00,Dueño o dueña,Celular,Resumen general,7,0,No
 SES-00745,CLI-015,2026-04-17 17:36:00,Encargado de marketing,Computadora,Campañas,9,0,No
 SES-00746,CLI-025,2026-04-18 06:27:00,Dueño o dueña,Computadora,Reporte mensual,7,0,Sí
 SES-00747,CLI-004,2026-04-18 09:19:00,Dueño o dueña,Computadora,Comparación de canales,4,0,No
@@ -786,6 +786,7 @@ SES-00779,CLI-008,2026-04-21 19:52:00,Dueño o dueña,Computadora,Resumen genera
 SES-00780,CLI-030,2026-04-21 21:02:00,Director de cuentas,Computadora,Reporte mensual,4,2,Sí
 SES-00781,CLI-030,2026-04-21 21:30:00,Analista de agencia,Computadora,Resumen general,5,3,No
 SES-00782,CLI-038,2026-04-22 10:08:00,Community manager,Celular,Resumen general,10,3,No
+SES-00782,CLI-038,2026-04-22 10:08:00,Community manager,Celular,Resumen general,10,3,No
 SES-00783,CLI-001,2026-04-22 12:15:00,Encargado de marketing,Computadora,Resumen general,6,0,No
 SES-00784,CLI-021,2026-04-22 13:57:00,Dueño o dueña,Computadora,Campañas,4,0,No
 SES-00785,CLI-008,2026-04-22 14:47:00,Dueño o dueña,Computadora,Campañas,5,1,No
@@ -802,6 +803,7 @@ SES-00795,CLI-024,2026-04-24 08:57:00,Encargado de marketing,Celular,Resumen gen
 SES-00796,CLI-026,2026-04-24 12:09:00,Encargado de marketing,Celular,Campañas,5,0,No
 SES-00797,CLI-018,2026-04-24 12:09:00,Encargado de marketing,Celular,Resumen general,5,0,No
 SES-00798,CLI-015,2026-04-24 12:56:00,Encargado de marketing,Celular,Resumen general,8,1,No
+SES-00799,CLI-038,2026-04-24 13:01:00,Analista de agencia,Celular,Resumen general,10,1,No
 SES-00799,CLI-038,2026-04-24 13:01:00,Analista de agencia,Celular,Resumen general,10,1,No
 SES-00800,CLI-026,2026-04-24 14:36:00,Encargado de marketing,Computadora,Resumen general,9,0,No
 SES-00801,CLI-004,2026-04-24 17:44:00,Encargado de marketing,Celular,Resumen general,7,0,No
@@ -858,14 +860,14 @@ SES-00851,CLI-020,2026-05-01 17:54:00,Community manager,Computadora,Alertas,12,0
 SES-00852,CLI-038,2026-05-01 19:41:00,Director de cuentas,Celular,Resumen general,3,0,No
 SES-00853,CLI-005,2026-05-02 06:14:00,Encargado de marketing,Celular,Resumen general,8,0,Sí
 SES-00854,CLI-020,2026-05-02 09:56:00,Analista de agencia,Computadora,Comparación de canales,6,1,Sí
-SES-00855,CLI-030,2026-05-02 11:36:00,Director de cuentas,Celular,Comparación de canales,7,4,Sí
+SES-00855,cli-030,2026-05-02 11:36:00,Director de cuentas,Celular,Comparación de canales,7,4,Sí
 SES-00856,CLI-020,2026-05-02 13:11:00,Community manager,Computadora,Comparación de canales,4,1,No
 SES-00857,CLI-020,2026-05-02 14:58:00,Director de cuentas,Computadora,Alertas,6,1,No
 SES-00858,CLI-030,2026-05-02 15:00:00,Analista de agencia,Celular,Comparación de canales,5,0,No
 SES-00859,CLI-024,2026-05-02 16:51:00,Encargado de marketing,Celular,Reporte mensual,10,2,Sí
 SES-00860,CLI-003,2026-05-03 11:32:00,Encargado de marketing,Computadora,Resumen general,5,1,Sí
 SES-00861,CLI-020,2026-05-03 12:25:00,Director de cuentas,Computadora,Comparación de canales,7,4,No
-SES-00862,cli-017,2026-05-03 12:34:00,Encargado de marketing,Celular,Comparación de canales,6,0,No
+SES-00862,CLI-017,2026-05-03 12:34:00,Encargado de marketing,Celular,Comparación de canales,6,0,No
 SES-00863,CLI-031,2026-05-03 13:49:00,Dueño o dueña,Computadora,Comparación de canales,6,0,Sí
 SES-00864,CLI-024,2026-05-03 14:26:00,Encargado de marketing,Computadora,Comparación de canales,7,1,Sí
 SES-00865,CLI-020,2026-05-03 14:54:00,Community manager,Celular,Resumen general,14,1,No
@@ -900,11 +902,10 @@ SES-00893,CLI-024,2026-05-06 19:27:00,Dueño o dueña,Computadora,Alertas,3,0,No
 SES-00894,CLI-029,2026-05-07 08:59:00,Analista de agencia,Computadora,Resumen general,8,0,No
 SES-00895,CLI-019,2026-05-07 13:38:00,Dueño o dueña,Computadora,Resumen general,6,2,No
 SES-00896,CLI-017,2026-05-07 18:01:00,Dueño o dueña,Celular,Campañas,4,1,No
-SES-00896,CLI-017,2026-05-07 18:01:00,Dueño o dueña,Celular,Campañas,4,1,No
 SES-00897,CLI-024,2026-05-07 20:46:00,Dueño o dueña,Celular,Campañas,11,0,No
 SES-00898,CLI-019,2026-05-08 08:59:00,Dueño o dueña,Computadora,Comparación de canales,13,2,No
 SES-00899,CLI-015,2026-05-08 10:28:00,Encargado de marketing,Computadora,Resumen general,4,1,No
-SES-00900,CLI-018,2026-05-08 11:19:00,Dueño o dueña,Celular,Comparación de canales,9,0,No
+SES-00900,cli-018,2026-05-08 11:19:00,Dueño o dueña,Celular,Comparación de canales,9,0,No
 SES-00901,CLI-021,2026-05-08 11:38:00,Encargado de marketing,Celular,Campañas,11,0,No
 SES-00902,CLI-025,2026-05-08 12:10:00,Encargado de marketing,Celular,Campañas,5,0,No
 SES-00903,CLI-030,2026-05-08 12:34:00,Director de cuentas,Tableta,Alertas,9,2,No
@@ -958,6 +959,7 @@ SES-00950,CLI-038,2026-05-13 18:20:00,Director de cuentas,Celular,Campañas,6,1,
 SES-00951,CLI-026,2026-05-13 19:41:00,Encargado de marketing,Celular,Resumen general,7,0,No
 SES-00952,CLI-038,2026-05-13 20:27:00,Community manager,Computadora,Resumen general,4,1,No
 SES-00953,CLI-029,2026-05-13 22:18:00,Director de cuentas,Celular,Reporte mensual,4,0,Sí
+SES-00953,CLI-029,2026-05-13 22:18:00,Director de cuentas,Celular,Reporte mensual,4,0,Sí
 SES-00954,CLI-017,2026-05-14 08:37:00,Encargado de marketing,Computadora,Resumen general,13,0,No
 SES-00955,CLI-038,2026-05-14 09:34:00,Director de cuentas,Celular,Resumen general,11,1,No
 SES-00956,CLI-015,2026-05-14 11:12:00,Dueño o dueña,Computadora,Comparación de canales,17,4,No
@@ -979,7 +981,7 @@ SES-00971,CLI-018,2026-05-16 10:57:00,Dueño o dueña,Computadora,Resumen genera
 SES-00972,CLI-029,2026-05-16 11:01:00,Analista de agencia,Computadora,Campañas,6,0,No
 SES-00973,CLI-026,2026-05-16 13:04:00,Encargado de marketing,Computadora,Campañas,5,0,No
 SES-00974,CLI-017,2026-05-16 13:14:00,Encargado de marketing,Celular,Resumen general,3,0,No
-SES-00975,cli-004,2026-05-16 14:03:00,Dueño o dueña,Computadora,Resumen general,4,0,No
+SES-00975,CLI-004,2026-05-16 14:03:00,Dueño o dueña,Computadora,Resumen general,4,0,No
 SES-00976,CLI-024,2026-05-16 14:18:00,Encargado de marketing,Computadora,Resumen general,6,0,No
 SES-00977,CLI-019,2026-05-16 17:26:00,Encargado de marketing,Computadora,Campañas,10,1,No
 SES-00978,CLI-029,2026-05-16 17:42:00,Director de cuentas,Computadora,Resumen general,5,0,No
@@ -1003,7 +1005,7 @@ SES-00995,CLI-037,2026-05-19 09:32:00,Community manager,Computadora,Campañas,8,
 SES-00996,CLI-019,2026-05-19 10:33:00,Encargado de marketing,Computadora,Comparación de canales,15,2,No
 SES-00997,CLI-015,2026-05-19 10:52:00,Encargado de marketing,Computadora,Comparación de canales,14,0,No
 SES-00998,CLI-037,2026-05-19 16:53:00,Community manager,Celular,Reporte mensual,9,2,Sí
-SES-00999,CLI-018,2026-05-19 18:28:00,Encargado de marketing,Celular,Resumen general,12,0,No
+SES-00999,cli-018,2026-05-19 18:28:00,Encargado de marketing,Celular,Resumen general,12,0,No
 SES-01000,CLI-015,2026-05-19 20:08:00,Encargado de marketing,Computadora,Comparación de canales,3,1,No
 SES-01001,CLI-015,2026-05-20 09:01:00,Dueño o dueña,Celular,Resumen general,14,1,No
 SES-01002,CLI-026,2026-05-20 09:11:00,Encargado de marketing,Celular,Campañas,8,0,No
@@ -1031,7 +1033,7 @@ SES-01023,CLI-037,2026-05-21 20:52:00,Director de cuentas,Celular,Resumen genera
 SES-01024,CLI-015,2026-05-22 07:45:00,Encargado de marketing,Computadora,Resumen general,5,1,No
 SES-01025,CLI-005,2026-05-22 08:57:00,Encargado de marketing,Computadora,Resumen general,8,0,No
 SES-01026,CLI-034,2026-05-22 09:04:00,Encargado de marketing,Computadora,Campañas,11,0,No
-SES-01027,CLI-037,2026-05-22 09:49:00,Community manager,Computadora,Resumen general,7,0,No
+SES-01027,cli-037,2026-05-22 09:49:00,Community manager,Computadora,Resumen general,7,0,No
 SES-01028,CLI-019,2026-05-22 10:09:00,Encargado de marketing,Computadora,Comparación de canales,5,1,No
 SES-01029,CLI-028,2026-05-22 10:32:00,Dueño o dueña,Computadora,Resumen general,7,0,No
 SES-01030,CLI-004,2026-05-22 11:11:00,Encargado de marketing,Computadora,Resumen general,7,0,No
@@ -1059,6 +1061,7 @@ SES-01051,CLI-037,2026-05-24 10:59:00,Analista de agencia,Computadora,Campañas,
 SES-01052,CLI-029,2026-05-24 11:26:00,Community manager,Celular,Comparación de canales,5,0,No
 SES-01053,CLI-034,2026-05-24 11:33:00,Encargado de marketing,Computadora,Campañas,2,0,No
 SES-01054,CLI-028,2026-05-24 12:00:00,Encargado de marketing,Celular,Resumen general,9,0,No
+SES-01054,CLI-028,2026-05-24 12:00:00,Encargado de marketing,Celular,Resumen general,9,0,No
 SES-01055,CLI-034,2026-05-24 14:24:00,Dueño o dueña,Computadora,Campañas,2,0,No
 SES-01056,CLI-008,2026-05-24 15:48:00,Dueño o dueña,Computadora,Resumen general,9,1,No
 SES-01057,CLI-038,2026-05-24 16:19:00,Community manager,Tableta,Comparación de canales,7,0,No
@@ -1069,7 +1072,7 @@ SES-01061,CLI-037,2026-05-24 19:42:00,Analista de agencia,Computadora,Resumen ge
 SES-01062,CLI-026,2026-05-25 13:12:00,Dueño o dueña,Celular,Resumen general,13,0,No
 SES-01063,CLI-003,2026-05-25 14:39:00,Encargado de marketing,Celular,Resumen general,19,2,No
 SES-01064,CLI-025,2026-05-25 15:35:00,Encargado de marketing,Computadora,Resumen general,8,0,No
-SES-01065,cli-037,2026-05-25 17:46:00,Analista de agencia,Tableta,Alertas,9,1,No
+SES-01065,CLI-037,2026-05-25 17:46:00,Analista de agencia,Tableta,Alertas,9,1,No
 SES-01066,CLI-037,2026-05-25 18:30:00,Director de cuentas,Computadora,Alertas,5,1,No
 SES-01067,CLI-037,2026-05-25 22:35:00,Director de cuentas,Celular,Comparación de canales,7,1,No
 SES-01068,CLI-017,2026-05-26 08:38:00,Encargado de marketing,Computadora,Alertas,3,1,No
@@ -1077,7 +1080,7 @@ SES-01069,CLI-026,2026-05-26 08:49:00,Encargado de marketing,Computadora,Compara
 SES-01070,CLI-015,2026-05-26 09:06:00,Dueño o dueña,Celular,Resumen general,7,2,No
 SES-01071,CLI-015,2026-05-26 10:29:00,Dueño o dueña,Computadora,Campañas,9,1,No
 SES-01072,CLI-005,2026-05-26 11:58:00,Dueño o dueña,Computadora,Campañas,10,0,No
-SES-01073,CLI-034,2026-05-26 14:23:00,Dueño o dueña,Celular,Campañas,5,0,No
+SES-01073,cli-034,2026-05-26 14:23:00,Dueño o dueña,Celular,Campañas,5,0,No
 SES-01074,CLI-024,2026-05-26 14:38:00,Dueño o dueña,Computadora,Campañas,6,2,No
 SES-01075,CLI-004,2026-05-26 17:21:00,Encargado de marketing,Computadora,Campañas,3,0,No
 SES-01076,CLI-028,2026-05-26 17:36:00,Dueño o dueña,Celular,Resumen general,5,1,No
@@ -1086,7 +1089,7 @@ SES-01078,CLI-030,2026-05-26 21:03:00,Community manager,Celular,Comparación de 
 SES-01079,CLI-034,2026-05-27 08:22:00,Dueño o dueña,Computadora,Campañas,10,0,No
 SES-01080,CLI-038,2026-05-27 09:30:00,Community manager,Celular,Campañas,10,1,No
 SES-01081,CLI-003,2026-05-27 10:02:00,Dueño o dueña,Celular,Resumen general,6,0,No
-SES-01082,cli-037,2026-05-27 10:04:00,Community manager,Celular,Resumen general,9,1,No
+SES-01082,CLI-037,2026-05-27 10:04:00,Community manager,Celular,Resumen general,9,1,No
 SES-01083,CLI-030,2026-05-27 10:15:00,Director de cuentas,Computadora,Alertas,4,2,No
 SES-01084,CLI-008,2026-05-27 11:18:00,Encargado de marketing,Computadora,Resumen general,6,2,No
 SES-01085,CLI-038,2026-05-27 12:13:00,Analista de agencia,Computadora,Alertas,14,0,No
@@ -1095,9 +1098,9 @@ SES-01087,CLI-022,2026-05-27 14:38:00,Dueño o dueña,Celular,Resumen general,7,
 SES-01088,CLI-038,2026-05-27 16:59:00,Analista de agencia,Computadora,Resumen general,7,0,No
 SES-01089,CLI-028,2026-05-27 17:59:00,Dueño o dueña,Computadora,Comparación de canales,12,1,No
 SES-01090,CLI-024,2026-05-27 18:41:00,Dueño o dueña,Celular,Resumen general,9,0,No
-SES-01091,CLI-025,2026-05-27 19:24:00,Encargado de marketing,Computadora,Campañas,14,0,No
+SES-01091,cli-025,2026-05-27 19:24:00,Encargado de marketing,Computadora,Campañas,14,0,No
 SES-01092,CLI-034,2026-05-27 20:44:00,Encargado de marketing,Celular,Comparación de canales,5,0,No
-SES-01093,CLI-034,2026-05-27 21:09:00,Dueño o dueña,Computadora,Resumen general,18,0,No
+SES-01093,cli-034,2026-05-27 21:09:00,Dueño o dueña,Computadora,Resumen general,18,0,No
 SES-01094,CLI-037,2026-05-27 22:13:00,Director de cuentas,Computadora,Resumen general,7,3,No
 SES-01095,CLI-008,2026-05-28 07:36:00,Dueño o dueña,Celular,Resumen general,10,2,No
 SES-01096,CLI-005,2026-05-28 11:14:00,Encargado de marketing,Celular,Resumen general,10,0,No
@@ -1112,12 +1115,13 @@ SES-01104,CLI-004,2026-05-28 16:09:00,Encargado de marketing,Computadora,Resumen
 SES-01105,CLI-038,2026-05-28 17:10:00,Director de cuentas,Celular,Resumen general,5,3,No
 SES-01106,CLI-019,2026-05-28 17:33:00,Encargado de marketing,Computadora,Reporte mensual,5,2,Sí
 SES-01107,CLI-037,2026-05-28 19:49:00,Analista de agencia,Celular,Resumen general,8,4,No
+SES-01107,CLI-037,2026-05-28 19:49:00,Analista de agencia,Celular,Resumen general,8,4,No
 SES-01108,CLI-028,2026-05-28 20:26:00,Encargado de marketing,Computadora,Reporte mensual,7,2,Sí
 SES-01109,CLI-028,2026-05-29 09:16:00,Dueño o dueña,Celular,Alertas,7,3,No
 SES-01110,CLI-015,2026-05-29 10:57:00,Dueño o dueña,Celular,Comparación de canales,10,1,No
 SES-01111,CLI-003,2026-05-29 12:18:00,Dueño o dueña,Computadora,Alertas,8,2,No
 SES-01112,CLI-038,2026-05-29 14:08:00,Community manager,Celular,Campañas,5,0,No
-SES-01113,cli-029,2026-05-29 14:31:00,Community manager,Celular,Comparación de canales,5,0,No
+SES-01113,CLI-029,2026-05-29 14:31:00,Community manager,Celular,Comparación de canales,5,0,No
 SES-01114,CLI-028,2026-05-29 15:01:00,Dueño o dueña,Celular,Campañas,3,1,No
 SES-01115,CLI-028,2026-05-29 15:39:00,Encargado de marketing,Computadora,Resumen general,16,0,No
 SES-01116,CLI-019,2026-05-29 18:26:00,Dueño o dueña,Computadora,Alertas,6,1,No
@@ -1151,6 +1155,7 @@ SES-01143,CLI-008,2026-06-01 13:17:00,Encargado de marketing,Computadora,Compara
 SES-01144,CLI-034,2026-06-01 13:21:00,Dueño o dueña,Computadora,Campañas,8,0,No
 SES-01145,CLI-010,2026-06-01 13:24:00,Dueño o dueña,Celular,Comparación de canales,5,0,No
 SES-01146,CLI-021,2026-06-01 14:48:00,Dueño o dueña,Celular,Resumen general,18,0,No
+SES-01147,CLI-003,2026-06-01 14:54:00,Dueño o dueña,Celular,Resumen general,17,1,No
 SES-01147,CLI-003,2026-06-01 14:54:00,Dueño o dueña,Celular,Resumen general,17,1,No
 SES-01148,CLI-028,2026-06-01 19:34:00,Dueño o dueña,Computadora,Resumen general,5,2,No
 SES-01149,CLI-024,2026-06-01 19:42:00,Encargado de marketing,Computadora,Campañas,3,0,Sí
@@ -1187,7 +1192,6 @@ SES-01179,CLI-003,2026-06-04 07:36:00,Dueño o dueña,Computadora,Alertas,4,0,No
 SES-01180,CLI-017,2026-06-04 08:55:00,Dueño o dueña,Computadora,Resumen general,6,0,No
 SES-01181,CLI-034,2026-06-04 09:11:00,Encargado de marketing,Computadora,Resumen general,10,0,Sí
 SES-01182,CLI-028,2026-06-04 09:15:00,Dueño o dueña,Computadora,Comparación de canales,4,1,No
-SES-01183,CLI-029,2026-06-04 09:29:00,Director de cuentas,Computadora,Resumen general,6,0,No
 SES-01183,CLI-029,2026-06-04 09:29:00,Director de cuentas,Computadora,Resumen general,6,0,No
 SES-01184,CLI-038,2026-06-04 11:12:00,Analista de agencia,Celular,Resumen general,6,1,No
 SES-01185,CLI-025,2026-06-04 13:37:00,Encargado de marketing,Computadora,Resumen general,11,0,No
@@ -1228,7 +1232,6 @@ SES-01219,CLI-037,2026-06-07 13:53:00,Director de cuentas,Celular,Campañas,5,1,
 SES-01220,CLI-018,2026-06-07 16:58:00,Encargado de marketing,Computadora,Campañas,4,2,No
 SES-01221,CLI-002,2026-06-07 18:58:00,Dueño o dueña,Celular,Campañas,4,0,No
 SES-01222,CLI-029,2026-06-07 19:33:00,Community manager,Celular,Resumen general,7,1,No
-SES-01223,CLI-002,2026-06-07 20:03:00,Dueño o dueña,Computadora,Comparación de canales,6,0,No
 SES-01223,CLI-002,2026-06-07 20:03:00,Dueño o dueña,Computadora,Comparación de canales,6,0,No
 SES-01224,CLI-019,2026-06-07 20:20:00,Encargado de marketing,Computadora,Comparación de canales,5,1,No
 SES-01225,CLI-020,2026-06-07 20:28:00,Director de cuentas,Celular,Alertas,3,1,No
@@ -1277,14 +1280,12 @@ SES-01267,CLI-029,2026-06-11 20:20:00,Director de cuentas,Celular,Reporte mensua
 SES-01268,CLI-018,2026-06-11 21:48:00,Encargado de marketing,Computadora,Comparación de canales,10,1,No
 SES-01269,CLI-030,2026-06-12 08:04:00,Community manager,Computadora,Reporte mensual,7,2,Sí
 SES-01270,CLI-005,2026-06-12 09:07:00,Dueño o dueña,Computadora,Resumen general,11,0,No
-SES-01270,CLI-005,2026-06-12 09:07:00,Dueño o dueña,Computadora,Resumen general,11,0,No
 SES-01271,CLI-004,2026-06-12 11:47:00,Dueño o dueña,Computadora,Reporte mensual,4,0,Sí
-SES-01272,cli-034,2026-06-12 12:47:00,Dueño o dueña,Computadora,Campañas,2,0,No
+SES-01272,CLI-034,2026-06-12 12:47:00,Dueño o dueña,Computadora,Campañas,2,0,No
 SES-01273,CLI-015,2026-06-12 14:24:00,Dueño o dueña,Computadora,Campañas,12,0,No
 SES-01274,CLI-008,2026-06-12 14:58:00,Dueño o dueña,Computadora,Comparación de canales,5,2,No
 SES-01275,CLI-020,2026-06-12 17:19:00,Analista de agencia,Celular,Reporte mensual,4,1,Sí
 SES-01276,CLI-015,2026-06-12 20:00:00,Encargado de marketing,Celular,Resumen general,4,0,No
-SES-01277,CLI-037,2026-06-13 11:48:00,Community manager,Celular,Resumen general,20,1,No
 SES-01277,CLI-037,2026-06-13 11:48:00,Community manager,Celular,Resumen general,20,1,No
 SES-01278,CLI-038,2026-06-13 12:20:00,Analista de agencia,Computadora,Campañas,10,0,No
 SES-01279,CLI-020,2026-06-13 14:11:00,Director de cuentas,Computadora,Reporte mensual,10,3,Sí
@@ -1312,7 +1313,7 @@ SES-01300,CLI-028,2026-06-15 10:17:00,Dueño o dueña,Celular,Reporte mensual,21
 SES-01301,CLI-015,2026-06-15 13:35:00,Encargado de marketing,Computadora,Resumen general,24,1,No
 SES-01302,CLI-015,2026-06-15 14:48:00,Encargado de marketing,Computadora,Comparación de canales,9,2,No
 SES-01303,CLI-002,2026-06-15 15:08:00,Dueño o dueña,Celular,Resumen general,11,0,No
-SES-01304,CLI-009,2026-06-15 16:22:00,Dueño o dueña,Tableta,Campañas,7,0,No
+SES-01304,cli-009,2026-06-15 16:22:00,Dueño o dueña,Tableta,Campañas,7,0,No
 SES-01305,CLI-021,2026-06-15 18:36:00,Dueño o dueña,Celular,Resumen general,2,0,No
 SES-01306,CLI-008,2026-06-16 10:40:00,Dueño o dueña,Computadora,Resumen general,10,2,No
 SES-01307,CLI-037,2026-06-16 10:57:00,Community manager,Celular,Resumen general,3,3,No
@@ -1321,7 +1322,7 @@ SES-01309,CLI-010,2026-06-16 14:39:00,Dueño o dueña,Celular,Campañas,9,0,No
 SES-01310,CLI-037,2026-06-16 14:57:00,Analista de agencia,Celular,Resumen general,11,3,No
 SES-01311,CLI-008,2026-06-16 15:27:00,Dueño o dueña,Computadora,Comparación de canales,7,1,No
 SES-01312,CLI-028,2026-06-16 15:47:00,Dueño o dueña,Celular,Campañas,3,2,No
-SES-01313,cli-020,2026-06-16 18:50:00,Director de cuentas,Computadora,Resumen general,7,1,No
+SES-01313,CLI-020,2026-06-16 18:50:00,Director de cuentas,Computadora,Resumen general,7,1,No
 SES-01314,CLI-038,2026-06-16 22:27:00,Analista de agencia,Celular,Comparación de canales,7,0,No
 SES-01315,CLI-010,2026-06-17 07:53:00,Encargado de marketing,Computadora,Campañas,11,0,No
 SES-01316,CLI-004,2026-06-17 08:38:00,Encargado de marketing,Computadora,Campañas,7,0,No
@@ -1329,12 +1330,11 @@ SES-01317,CLI-015,2026-06-17 09:06:00,Dueño o dueña,Celular,Alertas,4,1,No
 SES-01318,CLI-038,2026-06-17 09:29:00,Director de cuentas,Computadora,Resumen general,6,3,No
 SES-01319,CLI-009,2026-06-17 09:30:00,Encargado de marketing,Computadora,Resumen general,8,0,No
 SES-01320,CLI-038,2026-06-17 09:56:00,Analista de agencia,Celular,Comparación de canales,6,1,No
-SES-01320,CLI-038,2026-06-17 09:56:00,Analista de agencia,Celular,Comparación de canales,6,1,No
 SES-01321,CLI-037,2026-06-17 12:01:00,Community manager,Computadora,Resumen general,4,0,No
 SES-01322,CLI-037,2026-06-17 12:15:00,Analista de agencia,Computadora,Resumen general,6,1,No
 SES-01323,CLI-037,2026-06-17 13:24:00,Director de cuentas,Computadora,Comparación de canales,4,1,No
 SES-01324,CLI-002,2026-06-17 13:34:00,Dueño o dueña,Computadora,Resumen general,5,0,No
-SES-01325,CLI-034,2026-06-17 13:42:00,Dueño o dueña,Celular,Resumen general,16,0,No
+SES-01325,cli-034,2026-06-17 13:42:00,Dueño o dueña,Celular,Resumen general,16,0,No
 SES-01326,CLI-008,2026-06-17 15:49:00,Encargado de marketing,Celular,Resumen general,25,1,No
 SES-01327,CLI-002,2026-06-17 15:56:00,Encargado de marketing,Computadora,Reporte mensual,13,0,Sí
 SES-01328,CLI-029,2026-06-17 16:14:00,Analista de agencia,Celular,Resumen general,15,1,No
@@ -1345,6 +1345,7 @@ SES-01332,CLI-009,2026-06-17 19:35:00,Encargado de marketing,Computadora,Resumen
 SES-01333,CLI-003,2026-06-17 20:12:00,Encargado de marketing,Computadora,Alertas,13,1,No
 SES-01334,CLI-017,2026-06-17 21:44:00,Dueño o dueña,Celular,Alertas,4,1,No
 SES-01335,CLI-019,2026-06-17 21:49:00,Dueño o dueña,Celular,Comparación de canales,3,0,No
+SES-01335,CLI-019,2026-06-17 21:49:00,Dueño o dueña,Celular,Comparación de canales,3,0,No
 SES-01336,CLI-020,2026-06-18 09:54:00,Director de cuentas,Computadora,Comparación de canales,8,3,No
 SES-01337,CLI-020,2026-06-18 10:05:00,Director de cuentas,Computadora,Resumen general,2,0,No
 SES-01338,CLI-004,2026-06-18 15:30:00,Encargado de marketing,Celular,Resumen general,5,0,No
@@ -1353,7 +1354,6 @@ SES-01340,CLI-038,2026-06-18 16:26:00,Community manager,Computadora,Comparación
 SES-01341,CLI-002,2026-06-18 19:19:00,Encargado de marketing,Computadora,Resumen general,8,0,No
 SES-01342,CLI-008,2026-06-18 19:53:00,Dueño o dueña,Computadora,Resumen general,5,0,No
 SES-01343,CLI-025,2026-06-18 20:42:00,Encargado de marketing,Celular,Reporte mensual,6,0,Sí
-SES-01344,CLI-026,2026-06-18 21:00:00,Dueño o dueña,Computadora,Campañas,15,0,No
 SES-01344,CLI-026,2026-06-18 21:00:00,Dueño o dueña,Computadora,Campañas,15,0,No
 SES-01345,CLI-020,2026-06-19 07:17:00,Director de cuentas,Computadora,Resumen general,8,2,No
 SES-01346,CLI-038,2026-06-19 10:12:00,Community manager,Computadora,Resumen general,7,0,No
@@ -1369,6 +1369,7 @@ SES-01355,CLI-010,2026-06-19 19:49:00,Encargado de marketing,Celular,Resumen gen
 SES-01356,CLI-026,2026-06-19 21:47:00,Encargado de marketing,Computadora,Resumen general,8,0,No
 SES-01357,CLI-037,2026-06-20 08:26:00,Analista de agencia,Computadora,Campañas,7,0,No
 SES-01358,CLI-003,2026-06-20 09:20:00,Encargado de marketing,Celular,Resumen general,5,3,No
+SES-01359,CLI-037,2026-06-20 10:16:00,Community manager,Computadora,Comparación de canales,10,0,No
 SES-01359,CLI-037,2026-06-20 10:16:00,Community manager,Computadora,Comparación de canales,10,0,No
 SES-01360,CLI-038,2026-06-20 11:40:00,Director de cuentas,Computadora,Resumen general,9,0,No
 SES-01361,CLI-038,2026-06-20 14:44:00,Analista de agencia,Tableta,Resumen general,5,0,No
@@ -1413,7 +1414,6 @@ SES-01399,CLI-018,2026-06-24 10:38:00,Dueño o dueña,Computadora,Campañas,12,2
 SES-01400,CLI-020,2026-06-24 11:21:00,Director de cuentas,Celular,Reporte mensual,25,2,Sí
 SES-01401,CLI-021,2026-06-24 11:25:00,Dueño o dueña,Celular,Resumen general,13,0,No
 SES-01402,CLI-002,2026-06-24 11:29:00,Encargado de marketing,Celular,Resumen general,3,0,No
-SES-01402,CLI-002,2026-06-24 11:29:00,Encargado de marketing,Celular,Resumen general,3,0,No
 SES-01403,CLI-008,2026-06-24 12:25:00,Encargado de marketing,Computadora,Resumen general,9,3,No
 SES-01404,CLI-018,2026-06-24 13:06:00,Encargado de marketing,Computadora,Resumen general,7,1,No
 SES-01405,CLI-004,2026-06-24 14:09:00,Dueño o dueña,Computadora,Campañas,4,0,No
@@ -1432,7 +1432,7 @@ SES-01417,CLI-029,2026-06-25 12:19:00,Community manager,Celular,Resumen general,
 SES-01418,CLI-020,2026-06-25 13:59:00,Director de cuentas,Computadora,Campañas,8,2,No
 SES-01419,CLI-038,2026-06-25 14:46:00,Community manager,Computadora,Reporte mensual,8,1,Sí
 SES-01420,CLI-009,2026-06-25 16:06:00,Encargado de marketing,Computadora,Resumen general,8,0,No
-SES-01421,CLI-018,2026-06-25 17:03:00,Encargado de marketing,Celular,Campañas,2,0,No
+SES-01421,cli-018,2026-06-25 17:03:00,Encargado de marketing,Celular,Campañas,2,0,No
 SES-01422,CLI-020,2026-06-25 20:19:00,Analista de agencia,Computadora,Resumen general,2,1,No
 SES-01423,CLI-037,2026-06-25 20:31:00,Analista de agencia,Computadora,Campañas,9,0,No
 SES-01424,CLI-009,2026-06-25 22:46:00,Encargado de marketing,Computadora,Reporte mensual,3,0,Sí
@@ -1443,7 +1443,7 @@ SES-01428,CLI-013,2026-06-26 11:46:00,Dueño o dueña,Computadora,Resumen genera
 SES-01429,CLI-021,2026-06-26 12:17:00,Dueño o dueña,Celular,Resumen general,6,0,No
 SES-01430,CLI-004,2026-06-26 12:54:00,Dueño o dueña,Celular,Comparación de canales,6,0,No
 SES-01431,CLI-037,2026-06-26 18:21:00,Director de cuentas,Computadora,Resumen general,11,1,No
-SES-01432,CLI-034,2026-06-26 18:32:00,Encargado de marketing,Computadora,Resumen general,5,0,No
+SES-01432,cli-034,2026-06-26 18:32:00,Encargado de marketing,Computadora,Resumen general,5,0,No
 SES-01433,CLI-030,2026-06-26 18:36:00,Analista de agencia,Computadora,Resumen general,3,0,No
 SES-01434,CLI-023,2026-06-26 18:37:00,Dueño o dueña,Celular,Resumen general,3,0,No
 SES-01435,CLI-029,2026-06-26 20:17:00,Director de cuentas,Celular,Resumen general,4,2,No
@@ -1457,7 +1457,6 @@ SES-01442,CLI-037,2026-06-27 13:57:00,Analista de agencia,Celular,Campañas,11,1
 SES-01443,CLI-028,2026-06-27 17:25:00,Encargado de marketing,Celular,Alertas,11,2,No
 SES-01444,CLI-013,2026-06-27 18:36:00,Encargado de marketing,Computadora,Resumen general,11,1,No
 SES-01445,CLI-019,2026-06-27 18:58:00,Dueño o dueña,Celular,Resumen general,5,1,No
-SES-01446,CLI-019,2026-06-27 19:23:00,Dueño o dueña,Computadora,Campañas,4,0,No
 SES-01446,CLI-019,2026-06-27 19:23:00,Dueño o dueña,Computadora,Campañas,4,0,No
 SES-01447,CLI-013,2026-06-27 19:33:00,Dueño o dueña,Celular,Campañas,3,2,No
 SES-01448,CLI-038,2026-06-27 21:14:00,Analista de agencia,Computadora,Comparación de canales,6,1,No
@@ -1544,7 +1543,7 @@ SES-01528,CLI-008,2026-07-04 09:25:00,Encargado de marketing,Computadora,Resumen
 SES-01529,CLI-018,2026-07-04 09:33:00,Dueño o dueña,Celular,Campañas,7,0,No
 SES-01530,CLI-015,2026-07-04 10:13:00,Dueño o dueña,Computadora,Alertas,5,1,No
 SES-01531,CLI-021,2026-07-04 10:57:00,Encargado de marketing,Celular,Campañas,4,0,No
-SES-01532,cli-029,2026-07-04 11:18:00,Community manager,Computadora,Resumen general,3,4,No
+SES-01532,CLI-029,2026-07-04 11:18:00,Community manager,Computadora,Resumen general,3,4,No
 SES-01533,CLI-020,2026-07-04 11:35:00,Community manager,Celular,Alertas,5,0,No
 SES-01534,CLI-020,2026-07-04 11:36:00,Director de cuentas,Computadora,Resumen general,5,0,Sí
 SES-01535,CLI-029,2026-07-04 13:04:00,Community manager,Computadora,Resumen general,17,0,No
@@ -1569,6 +1568,7 @@ SES-01553,CLI-025,2026-07-06 12:10:00,Dueño o dueña,Computadora,Resumen genera
 SES-01554,CLI-010,2026-07-06 12:24:00,Encargado de marketing,Computadora,Reporte mensual,5,0,Sí
 SES-01555,CLI-038,2026-07-06 14:42:00,Director de cuentas,Computadora,Campañas,5,0,No
 SES-01556,CLI-024,2026-07-06 18:39:00,Dueño o dueña,Celular,Resumen general,5,1,No
+SES-01556,CLI-024,2026-07-06 18:39:00,Dueño o dueña,Celular,Resumen general,5,1,No
 SES-01557,CLI-004,2026-07-06 20:04:00,Encargado de marketing,Celular,Resumen general,4,0,No
 SES-01558,CLI-037,2026-07-06 20:32:00,Director de cuentas,Celular,Resumen general,4,2,No
 SES-01559,CLI-034,2026-07-06 20:40:00,Dueño o dueña,Computadora,Resumen general,14,0,No
@@ -1584,7 +1584,7 @@ SES-01568,CLI-026,2026-07-07 16:33:00,Encargado de marketing,Computadora,Resumen
 SES-01569,CLI-028,2026-07-07 19:20:00,Dueño o dueña,Celular,Resumen general,70,0,No
 SES-01570,CLI-010,2026-07-07 20:05:00,Encargado de marketing,Celular,Resumen general,16,0,No
 SES-01571,CLI-004,2026-07-08 06:22:00,Dueño o dueña,Computadora,Campañas,7,0,No
-SES-01572,cli-018,2026-07-08 07:04:00,Encargado de marketing,Computadora,Comparación de canales,13,0,No
+SES-01572,CLI-018,2026-07-08 07:04:00,Encargado de marketing,Computadora,Comparación de canales,13,0,No
 SES-01573,CLI-018,2026-07-08 10:19:00,Encargado de marketing,Celular,Resumen general,17,1,No
 SES-01574,CLI-021,2026-07-08 10:29:00,Dueño o dueña,Computadora,Comparación de canales,6,0,No
 SES-01575,CLI-015,2026-07-08 11:23:00,Encargado de marketing,Computadora,Comparación de canales,7,0,No
@@ -1751,30 +1751,30 @@ SES-01735,CLI-030,2026-07-22 13:09:00,Director de cuentas,Computadora,Resumen ge
 SES-01736,CLI-015,2026-07-22 13:20:00,Dueño o dueña,Celular,Alertas,17,0,No
 SES-01737,CLI-029,2026-07-22 13:34:00,Director de cuentas,Celular,Alertas,4,1,No
 SES-01738,CLI-003,2026-07-22 13:48:00,Encargado de marketing,Computadora,Resumen general,11,1,No
-SES-01739,CLI-008,2026-07-22 14:30:00,Encargado de marketing,Celular,Campañas,15,3,No
+SES-01739,cli-008,2026-07-22 14:30:00,Encargado de marketing,Celular,Campañas,15,3,No
 SES-01740,CLI-037,2026-07-22 16:29:00,Community manager,Computadora,Campañas,2,3,No
 SES-01741,CLI-030,2026-07-22 18:24:00,Analista de agencia,Computadora,Comparación de canales,5,1,No
 SES-01742,CLI-034,2026-07-22 18:52:00,Dueño o dueña,Computadora,Campañas,6,0,No
 SES-01743,CLI-024,2026-07-22 21:16:00,Encargado de marketing,Computadora,Campañas,5,4,No
 SES-01744,CLI-028,2026-07-22 21:32:00,Dueño o dueña,Celular,Resumen general,9,4,No
-SES-01745,CLI-028,2026-07-23 06:58:00,Encargado de marketing,Computadora,Comparación de canales,13,2,No
+SES-01745,cli-028,2026-07-23 06:58:00,Encargado de marketing,Computadora,Comparación de canales,13,2,No
 SES-01746,CLI-020,2026-07-23 07:32:00,Community manager,Computadora,Reporte mensual,6,1,Sí
 SES-01747,CLI-037,2026-07-23 09:01:00,Analista de agencia,Computadora,Campañas,4,2,No
 SES-01748,CLI-020,2026-07-23 11:29:00,Director de cuentas,Celular,Comparación de canales,7,0,No
 SES-01749,CLI-018,2026-07-23 12:16:00,Encargado de marketing,Celular,Reporte mensual,22,2,Sí
-SES-01750,cli-018,2026-07-23 16:59:00,Encargado de marketing,Computadora,Campañas,4,1,No
+SES-01750,CLI-018,2026-07-23 16:59:00,Encargado de marketing,Computadora,Campañas,4,1,No
 SES-01751,CLI-029,2026-07-23 17:48:00,Director de cuentas,Celular,Campañas,12,0,No
 SES-01752,CLI-037,2026-07-23 18:23:00,Analista de agencia,Tableta,Campañas,8,1,No
 SES-01753,CLI-037,2026-07-23 20:41:00,Analista de agencia,Celular,Campañas,12,0,No
 SES-01754,CLI-038,2026-07-23 21:03:00,Community manager,Celular,Resumen general,3,0,No
 SES-01755,CLI-023,2026-07-24 08:03:00,Encargado de marketing,Computadora,Reporte mensual,7,0,Sí
-SES-01756,cli-013,2026-07-24 09:42:00,Encargado de marketing,Computadora,Resumen general,14,1,No
+SES-01756,CLI-013,2026-07-24 09:42:00,Encargado de marketing,Computadora,Resumen general,14,1,No
 SES-01757,CLI-026,2026-07-24 10:38:00,Encargado de marketing,Tableta,Resumen general,39,0,No
 SES-01758,CLI-019,2026-07-24 11:04:00,Encargado de marketing,Computadora,Campañas,3,0,No
 SES-01759,CLI-038,2026-07-24 12:35:00,Community manager,Computadora,Campañas,12,1,No
 SES-01760,CLI-034,2026-07-24 14:52:00,Dueño o dueña,Celular,Resumen general,7,0,No
 SES-01761,CLI-017,2026-07-24 19:47:00,Dueño o dueña,Celular,Resumen general,9,0,No
-SES-01762,cli-037,2026-07-24 20:17:00,Analista de agencia,Computadora,Resumen general,6,2,No
+SES-01762,CLI-037,2026-07-24 20:17:00,Analista de agencia,Computadora,Resumen general,6,2,No
 SES-01763,CLI-038,2026-07-24 21:43:00,Community manager,Celular,Resumen general,6,2,No
 SES-01764,CLI-028,2026-07-24 21:54:00,Encargado de marketing,Computadora,Campañas,6,2,No
 SES-01765,CLI-010,2026-07-25 08:40:00,Dueño o dueña,Computadora,Resumen general,3,0,No
@@ -1853,7 +1853,7 @@ SES-01837,CLI-015,2026-07-31 11:29:00,Dueño o dueña,Computadora,Campañas,17,3
 SES-01838,CLI-020,2026-07-31 12:51:00,Analista de agencia,Computadora,Reporte mensual,15,1,Sí
 SES-01839,CLI-029,2026-07-31 13:02:00,Analista de agencia,Celular,Resumen general,6,1,No
 SES-01840,CLI-023,2026-07-31 13:27:00,Encargado de marketing,Computadora,Campañas,18,0,No
-SES-01841,CLI-030,2026-07-31 14:19:00,Analista de agencia,Computadora,Reporte mensual,9,0,Sí
+SES-01841,cli-030,2026-07-31 14:19:00,Analista de agencia,Computadora,Reporte mensual,9,0,Sí
 SES-01842,CLI-004,2026-07-31 15:03:00,Dueño o dueña,Computadora,Comparación de canales,3,0,No
 SES-01843,CLI-002,2026-07-31 16:40:00,Encargado de marketing,Tableta,Comparación de canales,5,0,No
 SES-01844,CLI-030,2026-07-31 18:26:00,Director de cuentas,Computadora,Resumen general,5,1,No
@@ -1864,7 +1864,7 @@ SES-01848,CLI-017,2026-08-01 08:40:00,Encargado de marketing,Computadora,Resumen
 SES-01849,CLI-038,2026-08-01 09:04:00,Director de cuentas,Computadora,Campañas,16,0,Sí
 SES-01850,CLI-006,2026-08-01 10:53:00,Encargado de marketing,Celular,Campañas,15,0,No
 SES-01851,CLI-008,2026-08-01 15:29:00,Encargado de marketing,Computadora,Resumen general,6,3,No
-SES-01852,cli-026,2026-08-01 16:22:00,Dueño o dueña,Celular,Resumen general,7,0,Sí
+SES-01852,CLI-026,2026-08-01 16:22:00,Dueño o dueña,Celular,Resumen general,7,0,Sí
 SES-01853,CLI-006,2026-08-01 18:06:00,Dueño o dueña,Computadora,Campañas,10,0,No
 SES-01854,CLI-023,2026-08-01 18:09:00,Dueño o dueña,Celular,Campañas,22,0,No
 SES-01855,CLI-009,2026-08-01 18:30:00,Encargado de marketing,Computadora,Resumen general,3,0,No
@@ -1935,7 +1935,7 @@ SES-01919,CLI-034,2026-08-06 16:41:00,Dueño o dueña,Computadora,Resumen genera
 SES-01920,CLI-009,2026-08-06 17:20:00,Dueño o dueña,Computadora,Campañas,3,0,No
 SES-01921,CLI-037,2026-08-06 17:28:00,Analista de agencia,Computadora,Campañas,9,4,No
 SES-01922,CLI-037,2026-08-06 19:00:00,Analista de agencia,Computadora,Campañas,25,2,No
-SES-01923,CLI-034,2026-08-06 19:59:00,Dueño o dueña,Celular,Campañas,5,0,No
+SES-01923,cli-034,2026-08-06 19:59:00,Dueño o dueña,Celular,Campañas,5,0,No
 SES-01924,CLI-002,2026-08-06 22:44:00,Encargado de marketing,Celular,Comparación de canales,11,0,No
 SES-01925,CLI-029,2026-08-07 07:01:00,Director de cuentas,Celular,Resumen general,5,1,No
 SES-01926,CLI-010,2026-08-07 07:06:00,Dueño o dueña,Computadora,Comparación de canales,10,2,No
@@ -1947,7 +1947,7 @@ SES-01931,CLI-014,2026-08-07 11:16:00,Dueño o dueña,Celular,Reporte mensual,3,
 SES-01932,CLI-037,2026-08-07 12:00:00,Analista de agencia,Celular,Resumen general,12,2,No
 SES-01933,CLI-021,2026-08-07 13:01:00,Dueño o dueña,Celular,Resumen general,6,0,No
 SES-01934,CLI-008,2026-08-07 14:46:00,Encargado de marketing,Celular,Reporte mensual,26,2,Sí
-SES-01935,cli-038,2026-08-07 19:46:00,Analista de agencia,Computadora,Resumen general,9,2,No
+SES-01935,CLI-038,2026-08-07 19:46:00,Analista de agencia,Computadora,Resumen general,9,2,No
 SES-01936,CLI-009,2026-08-07 20:02:00,Dueño o dueña,Celular,Resumen general,6,0,No
 SES-01937,CLI-014,2026-08-07 20:40:00,Encargado de marketing,Computadora,Campañas,5,0,No
 SES-01938,CLI-037,2026-08-07 20:59:00,Analista de agencia,Computadora,Resumen general,21,0,No
@@ -1968,7 +1968,7 @@ SES-01952,CLI-013,2026-08-09 09:16:00,Encargado de marketing,Celular,Resumen gen
 SES-01953,CLI-021,2026-08-09 09:21:00,Encargado de marketing,Computadora,Campañas,10,0,No
 SES-01954,CLI-038,2026-08-09 12:56:00,Community manager,Celular,Reporte mensual,6,0,Sí
 SES-01955,CLI-026,2026-08-09 17:20:00,Encargado de marketing,Computadora,Resumen general,2,0,No
-SES-01956,cli-030,2026-08-09 18:19:00,Community manager,Tableta,Resumen general,7,3,No
+SES-01956,CLI-030,2026-08-09 18:19:00,Community manager,Tableta,Resumen general,7,3,No
 SES-01957,CLI-004,2026-08-09 19:26:00,Encargado de marketing,Computadora,Campañas,3,0,No
 SES-01958,CLI-037,2026-08-09 19:47:00,Analista de agencia,Celular,Campañas,8,4,No
 SES-01959,CLI-018,2026-08-09 19:52:00,Dueño o dueña,Celular,Comparación de canales,2,4,No
@@ -1987,7 +1987,7 @@ SES-01971,CLI-003,2026-08-10 19:36:00,Encargado de marketing,Celular,Campañas,8
 SES-01972,CLI-019,2026-08-10 21:30:00,Dueño o dueña,Computadora,Reporte mensual,8,1,Sí
 SES-01973,CLI-002,2026-08-11 06:08:00,Dueño o dueña,Computadora,Resumen general,13,0,No
 SES-01974,CLI-033,2026-08-11 07:26:00,Encargado de marketing,Computadora,Comparación de canales,6,0,No
-SES-01975,CLI-019,2026-08-11 09:26:00,Dueño o dueña,Celular,Alertas,7,3,No
+SES-01975,cli-019,2026-08-11 09:26:00,Dueño o dueña,Celular,Alertas,7,3,No
 SES-01976,CLI-029,2026-08-11 10:05:00,Director de cuentas,Computadora,Resumen general,13,3,No
 SES-01977,CLI-023,2026-08-11 14:22:00,Dueño o dueña,Computadora,Resumen general,6,0,No
 SES-01978,CLI-037,2026-08-11 14:58:00,Community manager,Celular,Comparación de canales,8,2,No
@@ -2052,13 +2052,14 @@ SES-02036,CLI-038,2026-08-15 15:00:00,Director de cuentas,Celular,Comparación d
 SES-02037,CLI-015,2026-08-15 15:04:00,Dueño o dueña,Computadora,Campañas,6,3,No
 SES-02038,CLI-009,2026-08-15 15:12:00,Encargado de marketing,Computadora,Resumen general,4,0,No
 SES-02039,CLI-037,2026-08-15 18:00:00,Director de cuentas,Celular,Resumen general,4,2,No
+SES-02039,CLI-037,2026-08-15 18:00:00,Director de cuentas,Celular,Resumen general,4,2,No
 SES-02040,CLI-020,2026-08-15 18:58:00,Community manager,Celular,Comparación de canales,4,0,No
 SES-02041,CLI-016,2026-08-15 20:37:00,Encargado de marketing,Celular,Resumen general,12,0,No
 SES-02042,CLI-014,2026-08-15 20:52:00,Dueño o dueña,Celular,Resumen general,2,0,No
 SES-02043,CLI-013,2026-08-15 22:48:00,Dueño o dueña,Celular,Reporte mensual,6,1,Sí
 SES-02044,CLI-029,2026-08-16 08:20:00,Director de cuentas,Computadora,Resumen general,15,0,No
 SES-02045,CLI-005,2026-08-16 09:12:00,Encargado de marketing,Celular,Comparación de canales,8,0,No
-SES-02046,cli-037,2026-08-16 09:49:00,Director de cuentas,Celular,Campañas,8,2,No
+SES-02046,CLI-037,2026-08-16 09:49:00,Director de cuentas,Celular,Campañas,8,2,No
 SES-02047,CLI-006,2026-08-16 10:26:00,Dueño o dueña,Computadora,Comparación de canales,17,0,No
 SES-02048,CLI-018,2026-08-16 10:32:00,Encargado de marketing,Celular,Resumen general,15,5,No
 SES-02049,CLI-030,2026-08-16 11:38:00,Director de cuentas,Computadora,Campañas,5,2,No
@@ -2068,9 +2069,9 @@ SES-02052,CLI-037,2026-08-16 15:41:00,Director de cuentas,Computadora,Alertas,8,
 SES-02053,CLI-030,2026-08-16 15:42:00,Community manager,Computadora,Resumen general,5,0,No
 SES-02054,CLI-016,2026-08-16 15:57:00,Dueño o dueña,Celular,Campañas,16,0,No
 SES-02055,CLI-037,2026-08-16 16:12:00,Community manager,Computadora,Campañas,44,1,No
+SES-02055,CLI-037,2026-08-16 16:12:00,Community manager,Computadora,Campañas,44,1,No
 SES-02056,CLI-028,2026-08-16 17:30:00,Encargado de marketing,Celular,Comparación de canales,23,2,No
 SES-02057,CLI-016,2026-08-16 17:37:00,Dueño o dueña,Computadora,Comparación de canales,6,0,No
-SES-02058,CLI-004,2026-08-16 17:54:00,Encargado de marketing,Computadora,Resumen general,5,0,No
 SES-02058,CLI-004,2026-08-16 17:54:00,Encargado de marketing,Computadora,Resumen general,5,0,No
 SES-02059,CLI-037,2026-08-16 18:29:00,Director de cuentas,Computadora,Campañas,2,1,No
 SES-02060,CLI-010,2026-08-16 19:24:00,Encargado de marketing,Tableta,Campañas,15,2,No
@@ -2088,7 +2089,7 @@ SES-02071,CLI-002,2026-08-17 20:20:00,Encargado de marketing,Computadora,Resumen
 SES-02072,CLI-028,2026-08-17 21:49:00,Encargado de marketing,Computadora,Resumen general,4,3,No
 SES-02073,CLI-010,2026-08-18 07:41:00,Dueño o dueña,Celular,Comparación de canales,7,1,No
 SES-02074,CLI-019,2026-08-18 09:39:00,Dueño o dueña,Celular,Campañas,11,0,No
-SES-02075,cli-016,2026-08-18 10:45:00,Dueño o dueña,Celular,Comparación de canales,9,0,No
+SES-02075,CLI-016,2026-08-18 10:45:00,Dueño o dueña,Celular,Comparación de canales,9,0,No
 SES-02076,CLI-038,2026-08-18 10:46:00,Analista de agencia,Computadora,Resumen general,7,2,No
 SES-02077,CLI-019,2026-08-18 10:54:00,Encargado de marketing,Celular,Comparación de canales,3,1,No
 SES-02078,CLI-032,2026-08-18 12:13:00,Dueño o dueña,Computadora,Resumen general,2,0,No
@@ -2113,6 +2114,7 @@ SES-02096,CLI-003,2026-08-20 08:07:00,Encargado de marketing,Celular,Campañas,9
 SES-02097,CLI-037,2026-08-20 09:19:00,Analista de agencia,Computadora,Campañas,5,2,No
 SES-02098,CLI-002,2026-08-20 09:37:00,Dueño o dueña,Computadora,Comparación de canales,4,0,No
 SES-02099,CLI-029,2026-08-20 10:36:00,Analista de agencia,Celular,Campañas,9,2,No
+SES-02100,CLI-038,2026-08-20 10:50:00,Analista de agencia,Celular,Resumen general,10,1,No
 SES-02100,CLI-038,2026-08-20 10:50:00,Analista de agencia,Celular,Resumen general,10,1,No
 SES-02101,CLI-004,2026-08-20 12:35:00,Dueño o dueña,Computadora,Campañas,10,0,No
 SES-02102,CLI-019,2026-08-20 13:13:00,Encargado de marketing,Computadora,Comparación de canales,11,0,No
@@ -2139,7 +2141,7 @@ SES-02122,CLI-019,2026-08-21 18:39:00,Encargado de marketing,Computadora,Resumen
 SES-02123,CLI-004,2026-08-21 19:59:00,Encargado de marketing,Computadora,Campañas,5,0,No
 SES-02124,CLI-034,2026-08-21 20:27:00,Dueño o dueña,Celular,Resumen general,2,0,No
 SES-02125,CLI-015,2026-08-22 09:46:00,Dueño o dueña,Celular,Reporte mensual,4,0,Sí
-SES-02126,CLI-037,2026-08-22 10:23:00,Community manager,Computadora,Campañas,8,1,No
+SES-02126,cli-037,2026-08-22 10:23:00,Community manager,Computadora,Campañas,8,1,No
 SES-02127,CLI-032,2026-08-22 11:01:00,Encargado de marketing,Computadora,Campañas,6,0,No
 SES-02128,CLI-037,2026-08-22 11:51:00,Analista de agencia,Computadora,Resumen general,10,0,No
 SES-02129,CLI-026,2026-08-22 13:06:00,Dueño o dueña,Celular,Resumen general,9,0,No
@@ -2197,11 +2199,11 @@ SES-02180,CLI-019,2026-08-26 10:42:00,Encargado de marketing,Tableta,Reporte men
 SES-02181,CLI-013,2026-08-26 11:45:00,Encargado de marketing,Celular,Campañas,16,1,No
 SES-02182,CLI-002,2026-08-26 12:57:00,Dueño o dueña,Computadora,Campañas,7,0,No
 SES-02183,CLI-038,2026-08-26 13:13:00,Analista de agencia,Tableta,Campañas,6,1,No
-SES-02184,CLI-037,2026-08-26 14:05:00,Community manager,Celular,Resumen general,6,0,No
+SES-02184,cli-037,2026-08-26 14:05:00,Community manager,Celular,Resumen general,6,0,No
 SES-02185,CLI-023,2026-08-26 16:41:00,Dueño o dueña,Computadora,Comparación de canales,6,0,No
 SES-02186,CLI-023,2026-08-26 18:22:00,Dueño o dueña,Tableta,Resumen general,5,0,No
 SES-02187,CLI-030,2026-08-27 07:09:00,Analista de agencia,Computadora,Campañas,7,3,No
-SES-02188,cli-004,2026-08-27 09:16:00,Encargado de marketing,Computadora,Comparación de canales,4,0,No
+SES-02188,CLI-004,2026-08-27 09:16:00,Encargado de marketing,Computadora,Comparación de canales,4,0,No
 SES-02189,CLI-034,2026-08-27 09:29:00,Encargado de marketing,Computadora,Resumen general,6,1,No
 SES-02190,CLI-003,2026-08-27 09:45:00,Dueño o dueña,Computadora,Resumen general,6,3,No
 SES-02191,CLI-003,2026-08-27 10:00:00,Encargado de marketing,Computadora,Campañas,6,2,No
@@ -2284,7 +2286,7 @@ SES-02267,CLI-015,2026-09-01 11:59:00,Dueño o dueña,Computadora,Resumen genera
 SES-02268,CLI-028,2026-09-01 12:17:00,Dueño o dueña,Computadora,Campañas,13,2,No
 SES-02269,CLI-003,2026-09-01 13:05:00,Encargado de marketing,Computadora,Resumen general,9,1,No
 SES-02270,CLI-015,2026-09-01 15:20:00,Dueño o dueña,Computadora,Resumen general,11,0,No
-SES-02271,CLI-038,2026-09-01 16:01:00,Director de cuentas,Computadora,Alertas,12,0,No
+SES-02271,cli-038,2026-09-01 16:01:00,Director de cuentas,Computadora,Alertas,12,0,No
 SES-02272,CLI-037,2026-09-01 16:58:00,Director de cuentas,Celular,Resumen general,5,2,Sí
 SES-02273,CLI-038,2026-09-01 17:16:00,Analista de agencia,Celular,Reporte mensual,15,2,Sí
 SES-02274,CLI-010,2026-09-01 19:35:00,Dueño o dueña,Computadora,Campañas,7,2,No
@@ -2295,16 +2297,16 @@ SES-02278,CLI-019,2026-09-02 08:44:00,Encargado de marketing,Computadora,Resumen
 SES-02279,CLI-005,2026-09-02 10:58:00,Encargado de marketing,Celular,Comparación de canales,5,0,No
 SES-02280,CLI-018,2026-09-02 11:23:00,Dueño o dueña,Computadora,Alertas,7,2,No
 SES-02281,CLI-021,2026-09-02 11:49:00,Encargado de marketing,Celular,Comparación de canales,9,0,No
-SES-02282,CLI-015,2026-09-02 13:10:00,Encargado de marketing,Celular,Resumen general,8,2,No
+SES-02282,cli-015,2026-09-02 13:10:00,Encargado de marketing,Celular,Resumen general,8,2,No
 SES-02283,CLI-009,2026-09-02 13:41:00,Dueño o dueña,Celular,Resumen general,4,0,No
 SES-02284,CLI-017,2026-09-02 13:54:00,Encargado de marketing,Computadora,Resumen general,4,0,No
 SES-02285,CLI-033,2026-09-02 18:00:00,Dueño o dueña,Celular,Resumen general,7,0,No
 SES-02286,CLI-002,2026-09-02 18:37:00,Dueño o dueña,Celular,Resumen general,9,0,No
-SES-02287,cli-033,2026-09-02 19:40:00,Dueño o dueña,Computadora,Resumen general,6,0,No
+SES-02287,CLI-033,2026-09-02 19:40:00,Dueño o dueña,Computadora,Resumen general,6,0,No
 SES-02288,CLI-026,2026-09-02 19:53:00,Dueño o dueña,Celular,Campañas,6,0,No
 SES-02289,CLI-037,2026-09-02 20:13:00,Community manager,Computadora,Comparación de canales,3,0,No
 SES-02290,CLI-037,2026-09-02 20:30:00,Community manager,Computadora,Comparación de canales,14,1,No
-SES-02291,CLI-019,2026-09-02 20:57:00,Encargado de marketing,Tableta,Reporte mensual,4,0,Sí
+SES-02291,cli-019,2026-09-02 20:57:00,Encargado de marketing,Tableta,Reporte mensual,4,0,Sí
 SES-02292,CLI-034,2026-09-03 08:02:00,Dueño o dueña,Celular,Alertas,5,1,No
 SES-02293,CLI-021,2026-09-03 09:22:00,Encargado de marketing,Celular,Comparación de canales,11,0,No
 SES-02294,CLI-008,2026-09-03 09:26:00,Encargado de marketing,Computadora,Comparación de canales,15,2,No
@@ -2321,7 +2323,7 @@ SES-02304,CLI-032,2026-09-03 18:54:00,Encargado de marketing,Celular,Resumen gen
 SES-02305,CLI-015,2026-09-03 19:18:00,Dueño o dueña,Celular,Campañas,9,0,Sí
 SES-02306,CLI-026,2026-09-03 20:09:00,Dueño o dueña,Computadora,Resumen general,6,0,No
 SES-02307,CLI-003,2026-09-03 21:17:00,Dueño o dueña,Computadora,Alertas,7,1,No
-SES-02308,cli-017,2026-09-03 21:39:00,Encargado de marketing,Computadora,Reporte mensual,8,0,Sí
+SES-02308,CLI-017,2026-09-03 21:39:00,Encargado de marketing,Computadora,Reporte mensual,8,0,Sí
 SES-02309,CLI-009,2026-09-03 22:18:00,Dueño o dueña,Celular,Resumen general,17,0,No
 SES-02310,CLI-026,2026-09-04 07:33:00,Dueño o dueña,Celular,Campañas,4,0,Sí
 SES-02311,CLI-011,2026-09-04 08:39:00,Encargado de marketing,Computadora,Campañas,2,0,Sí
@@ -2332,7 +2334,8 @@ SES-02315,CLI-005,2026-09-04 15:21:00,Encargado de marketing,Celular,Reporte men
 SES-02316,CLI-019,2026-09-04 15:40:00,Dueño o dueña,Celular,Alertas,7,2,Sí
 SES-02317,CLI-008,2026-09-04 16:58:00,Dueño o dueña,Celular,Campañas,5,1,No
 SES-02318,CLI-003,2026-09-04 18:08:00,Dueño o dueña,Computadora,Campañas,10,2,No
-SES-02319,CLI-016,2026-09-04 18:22:00,Dueño o dueña,Computadora,Resumen general,6,0,No
+SES-02319,cli-016,2026-09-04 18:22:00,Dueño o dueña,Computadora,Resumen general,6,0,No
+SES-02320,CLI-034,2026-09-04 19:46:00,Encargado de marketing,Computadora,Alertas,9,1,No
 SES-02320,CLI-034,2026-09-04 19:46:00,Encargado de marketing,Computadora,Alertas,9,1,No
 SES-02321,CLI-004,2026-09-04 22:22:00,Encargado de marketing,Computadora,Resumen general,13,0,No
 SES-02322,CLI-004,2026-09-05 08:07:00,Dueño o dueña,Computadora,Resumen general,7,0,No
@@ -2348,7 +2351,7 @@ SES-02331,CLI-003,2026-09-05 15:24:00,Dueño o dueña,Celular,Comparación de ca
 SES-02332,CLI-009,2026-09-05 16:15:00,Encargado de marketing,Computadora,Campañas,8,0,Sí
 SES-02333,CLI-028,2026-09-05 18:26:00,Dueño o dueña,Celular,Comparación de canales,4,2,No
 SES-02334,CLI-038,2026-09-05 20:56:00,Analista de agencia,Celular,Resumen general,3,0,No
-SES-02335,cli-009,2026-09-06 08:01:00,Encargado de marketing,Computadora,Resumen general,5,0,No
+SES-02335,CLI-009,2026-09-06 08:01:00,Encargado de marketing,Computadora,Resumen general,5,0,No
 SES-02336,CLI-004,2026-09-06 08:12:00,Dueño o dueña,Celular,Campañas,6,0,No
 SES-02337,CLI-023,2026-09-06 09:03:00,Dueño o dueña,Tableta,Resumen general,5,0,No
 SES-02338,CLI-008,2026-09-06 10:02:00,Encargado de marketing,Computadora,Campañas,7,0,No
@@ -2361,13 +2364,12 @@ SES-02344,CLI-038,2026-09-06 19:09:00,Community manager,Computadora,Campañas,9,
 SES-02345,CLI-005,2026-09-06 20:04:00,Encargado de marketing,Celular,Comparación de canales,8,0,No
 SES-02346,CLI-038,2026-09-06 20:48:00,Analista de agencia,Computadora,Reporte mensual,12,1,Sí
 SES-02347,CLI-015,2026-09-07 08:55:00,Dueño o dueña,Computadora,Campañas,16,1,No
-SES-02348,CLI-034,2026-09-07 10:27:00,Encargado de marketing,Computadora,Reporte mensual,4,1,Sí
+SES-02348,cli-034,2026-09-07 10:27:00,Encargado de marketing,Computadora,Reporte mensual,4,1,Sí
 SES-02349,CLI-037,2026-09-07 11:32:00,Director de cuentas,Celular,Resumen general,2,1,No
 SES-02350,CLI-009,2026-09-07 11:53:00,Encargado de marketing,Celular,Reporte mensual,15,0,Sí
 SES-02351,CLI-028,2026-09-07 11:55:00,Encargado de marketing,Celular,Campañas,10,1,No
 SES-02352,CLI-004,2026-09-07 13:47:00,Dueño o dueña,Tableta,Campañas,3,0,No
 SES-02353,CLI-026,2026-09-07 14:20:00,Dueño o dueña,Computadora,Resumen general,8,0,No
-SES-02354,CLI-009,2026-09-07 15:28:00,Dueño o dueña,Celular,Campañas,7,0,No
 SES-02354,CLI-009,2026-09-07 15:28:00,Dueño o dueña,Celular,Campañas,7,0,No
 SES-02355,CLI-019,2026-09-07 15:44:00,Dueño o dueña,Celular,Comparación de canales,7,0,No
 SES-02356,CLI-005,2026-09-07 18:19:00,Encargado de marketing,Computadora,Comparación de canales,17,0,No
@@ -2379,7 +2381,7 @@ SES-02361,CLI-037,2026-09-08 09:34:00,Community manager,Computadora,Alertas,8,0,
 SES-02362,CLI-004,2026-09-08 11:13:00,Encargado de marketing,Celular,Campañas,14,0,No
 SES-02363,CLI-011,2026-09-08 12:15:00,Dueño o dueña,Computadora,Resumen general,21,0,No
 SES-02364,CLI-018,2026-09-08 14:27:00,Dueño o dueña,Celular,Resumen general,5,1,No
-SES-02365,cli-032,2026-09-08 14:49:00,Encargado de marketing,Computadora,Comparación de canales,4,0,No
+SES-02365,CLI-032,2026-09-08 14:49:00,Encargado de marketing,Computadora,Comparación de canales,4,0,No
 SES-02366,CLI-016,2026-09-08 15:15:00,Dueño o dueña,Celular,Reporte mensual,4,0,Sí
 SES-02367,CLI-014,2026-09-08 16:41:00,Dueño o dueña,Tableta,Reporte mensual,6,0,Sí
 SES-02368,CLI-029,2026-09-08 17:32:00,Analista de agencia,Computadora,Alertas,23,1,No
@@ -2454,7 +2456,6 @@ SES-02436,CLI-034,2026-09-12 14:53:00,Encargado de marketing,Computadora,Resumen
 SES-02437,CLI-019,2026-09-12 17:38:00,Dueño o dueña,Computadora,Resumen general,4,1,No
 SES-02438,CLI-016,2026-09-12 18:08:00,Dueño o dueña,Celular,Resumen general,6,0,No
 SES-02439,CLI-010,2026-09-12 18:55:00,Encargado de marketing,Computadora,Resumen general,6,0,No
-SES-02439,CLI-010,2026-09-12 18:55:00,Encargado de marketing,Computadora,Resumen general,6,0,No
 SES-02440,CLI-037,2026-09-12 20:10:00,Director de cuentas,Computadora,Comparación de canales,6,4,No
 SES-02441,CLI-008,2026-09-12 20:24:00,Dueño o dueña,Celular,Comparación de canales,5,1,No
 SES-02442,CLI-015,2026-09-12 21:50:00,Encargado de marketing,Celular,Comparación de canales,9,1,No
@@ -2473,6 +2474,7 @@ SES-02454,CLI-037,2026-09-13 22:22:00,Analista de agencia,Computadora,Comparaci�
 SES-02455,CLI-004,2026-09-14 10:40:00,Encargado de marketing,Computadora,Resumen general,6,0,No
 SES-02456,CLI-013,2026-09-14 10:54:00,Encargado de marketing,Celular,Resumen general,6,0,No
 SES-02457,CLI-011,2026-09-14 11:14:00,Dueño o dueña,Celular,Campañas,9,0,No
+SES-02458,CLI-038,2026-09-14 11:24:00,Community manager,Computadora,Campañas,12,2,No
 SES-02458,CLI-038,2026-09-14 11:24:00,Community manager,Computadora,Campañas,12,2,No
 SES-02459,CLI-011,2026-09-14 11:36:00,Dueño o dueña,Computadora,Comparación de canales,8,0,No
 SES-02460,CLI-008,2026-09-14 14:18:00,Encargado de marketing,Celular,Resumen general,3,1,No
@@ -2527,7 +2529,7 @@ SES-02508,CLI-033,2026-09-17 09:47:00,Encargado de marketing,Celular,Comparació
 SES-02509,CLI-018,2026-09-17 10:26:00,Encargado de marketing,Computadora,Reporte mensual,5,1,Sí
 SES-02510,CLI-008,2026-09-17 10:55:00,Encargado de marketing,Computadora,Alertas,6,1,No
 SES-02511,CLI-028,2026-09-17 10:57:00,Encargado de marketing,Computadora,Resumen general,6,3,No
-SES-02512,CLI-004,2026-09-17 11:45:00,Dueño o dueña,Celular,Comparación de canales,35,0,No
+SES-02512,cli-004,2026-09-17 11:45:00,Dueño o dueña,Celular,Comparación de canales,35,0,No
 SES-02513,CLI-009,2026-09-17 11:49:00,Encargado de marketing,Celular,Comparación de canales,5,0,No
 SES-02514,CLI-023,2026-09-17 13:15:00,Encargado de marketing,Computadora,Resumen general,5,0,No
 SES-02515,CLI-017,2026-09-17 14:11:00,Dueño o dueña,Celular,Alertas,8,0,No
@@ -2584,6 +2586,7 @@ SES-02565,CLI-012,2026-09-21 19:48:00,Community manager,Celular,Reporte mensual,
 SES-02566,CLI-004,2026-09-21 19:55:00,Dueño o dueña,Computadora,Comparación de canales,12,0,No
 SES-02567,CLI-032,2026-09-21 20:39:00,Dueño o dueña,Computadora,Reporte mensual,5,0,Sí
 SES-02568,CLI-016,2026-09-21 20:55:00,Dueño o dueña,Computadora,Reporte mensual,9,0,Sí
+SES-02568,CLI-016,2026-09-21 20:55:00,Dueño o dueña,Computadora,Reporte mensual,9,0,Sí
 SES-02569,CLI-012,2026-09-21 21:00:00,Community manager,Computadora,Campañas,5,0,No
 SES-02570,CLI-034,2026-09-21 21:52:00,Encargado de marketing,Celular,Resumen general,17,3,No
 SES-02571,CLI-003,2026-09-22 07:15:00,Encargado de marketing,Computadora,Reporte mensual,24,0,Sí
@@ -2601,7 +2604,6 @@ SES-02582,CLI-036,2026-09-22 19:06:00,Dueño o dueña,Computadora,Reporte mensua
 SES-02583,CLI-023,2026-09-22 21:13:00,Dueño o dueña,Computadora,Campañas,15,0,No
 SES-02584,CLI-012,2026-09-22 22:19:00,Analista de agencia,Computadora,Campañas,10,2,No
 SES-02585,CLI-028,2026-09-23 06:16:00,Dueño o dueña,Celular,Resumen general,6,1,No
-SES-02586,CLI-016,2026-09-23 08:09:00,Encargado de marketing,Computadora,Campañas,31,0,No
 SES-02586,CLI-016,2026-09-23 08:09:00,Encargado de marketing,Computadora,Campañas,31,0,No
 SES-02587,CLI-012,2026-09-23 10:29:00,Director de cuentas,Computadora,Comparación de canales,10,0,No
 SES-02588,CLI-023,2026-09-23 12:18:00,Dueño o dueña,Computadora,Resumen general,7,0,No
@@ -2659,14 +2661,14 @@ SES-02639,CLI-012,2026-09-25 14:16:00,Director de cuentas,Computadora,Campañas,
 SES-02640,CLI-037,2026-09-25 14:59:00,Director de cuentas,Celular,Campañas,11,2,No
 SES-02641,CLI-011,2026-09-25 15:09:00,Encargado de marketing,Celular,Reporte mensual,7,0,Sí
 SES-02642,CLI-009,2026-09-25 15:57:00,Dueño o dueña,Computadora,Reporte mensual,9,0,Sí
-SES-02642,CLI-009,2026-09-25 15:57:00,Dueño o dueña,Computadora,Reporte mensual,9,0,Sí
 SES-02643,CLI-028,2026-09-25 17:04:00,Dueño o dueña,Computadora,Reporte mensual,4,0,Sí
 SES-02644,CLI-005,2026-09-25 17:36:00,Dueño o dueña,Celular,Resumen general,9,0,No
 SES-02645,CLI-015,2026-09-25 18:22:00,Dueño o dueña,Tableta,Alertas,11,0,No
 SES-02646,CLI-016,2026-09-25 21:01:00,Dueño o dueña,Celular,Reporte mensual,8,0,Sí
-SES-02647,cli-028,2026-09-25 21:23:00,Dueño o dueña,Computadora,Alertas,4,0,No
+SES-02647,CLI-028,2026-09-25 21:23:00,Dueño o dueña,Computadora,Alertas,4,0,No
 SES-02648,CLI-012,2026-09-25 21:43:00,Analista de agencia,Celular,Comparación de canales,6,2,No
 SES-02649,CLI-015,2026-09-25 21:44:00,Encargado de marketing,Computadora,Comparación de canales,3,1,No
+SES-02650,CLI-010,2026-09-25 21:46:00,Dueño o dueña,Computadora,Campañas,3,2,No
 SES-02650,CLI-010,2026-09-25 21:46:00,Dueño o dueña,Computadora,Campañas,3,2,No
 SES-02651,CLI-007,2026-09-26 08:07:00,Dueño o dueña,Computadora,Campañas,14,0,No
 SES-02652,CLI-010,2026-09-26 08:30:00,Encargado de marketing,Celular,Campañas,6,1,No
@@ -2683,7 +2685,6 @@ SES-02662,CLI-023,2026-09-27 10:31:00,Dueño o dueña,Computadora,Reporte mensua
 SES-02663,CLI-007,2026-09-27 11:05:00,Encargado de marketing,Computadora,Campañas,14,0,No
 SES-02664,CLI-037,2026-09-27 11:50:00,Director de cuentas,Computadora,Resumen general,14,0,No
 SES-02665,CLI-006,2026-09-27 13:02:00,Encargado de marketing,Computadora,Resumen general,14,0,No
-SES-02665,CLI-006,2026-09-27 13:02:00,Encargado de marketing,Computadora,Resumen general,14,0,No
 SES-02666,CLI-030,2026-09-27 13:30:00,Analista de agencia,Celular,Reporte mensual,10,2,Sí
 SES-02667,CLI-023,2026-09-27 14:32:00,Dueño o dueña,Computadora,Reporte mensual,10,0,Sí
 SES-02668,CLI-030,2026-09-27 15:20:00,Director de cuentas,Computadora,Campañas,12,0,No
@@ -2691,7 +2692,6 @@ SES-02669,CLI-021,2026-09-27 16:23:00,Dueño o dueña,Computadora,Resumen genera
 SES-02670,CLI-034,2026-09-27 16:57:00,Encargado de marketing,Computadora,Comparación de canales,14,1,No
 SES-02671,CLI-014,2026-09-27 18:29:00,Encargado de marketing,Celular,Comparación de canales,9,0,No
 SES-02672,CLI-023,2026-09-27 19:35:00,Encargado de marketing,Computadora,Resumen general,7,0,No
-SES-02673,CLI-023,2026-09-27 20:14:00,Dueño o dueña,Celular,Resumen general,2,0,No
 SES-02673,CLI-023,2026-09-27 20:14:00,Dueño o dueña,Celular,Resumen general,2,0,No
 SES-02674,CLI-007,2026-09-27 20:59:00,Encargado de marketing,Computadora,Reporte mensual,7,0,Sí
 SES-02675,CLI-007,2026-09-27 21:16:00,Dueño o dueña,Computadora,Resumen general,6,0,No
@@ -2703,7 +2703,7 @@ SES-02680,CLI-006,2026-09-28 09:34:00,Encargado de marketing,Celular,Reporte men
 SES-02681,CLI-029,2026-09-28 09:58:00,Director de cuentas,Celular,Alertas,6,2,No
 SES-02682,CLI-016,2026-09-28 10:12:00,Encargado de marketing,Computadora,Campañas,10,0,No
 SES-02683,CLI-037,2026-09-28 10:34:00,Director de cuentas,Computadora,Resumen general,4,1,No
-SES-02684,cli-016,2026-09-28 13:34:00,Encargado de marketing,Computadora,Reporte mensual,9,0,Sí
+SES-02684,CLI-016,2026-09-28 13:34:00,Encargado de marketing,Computadora,Reporte mensual,9,0,Sí
 SES-02685,CLI-030,2026-09-28 13:37:00,Community manager,Celular,Resumen general,13,2,No
 SES-02686,CLI-008,2026-09-28 16:26:00,Dueño o dueña,Celular,Campañas,3,3,No
 SES-02687,CLI-038,2026-09-28 16:34:00,Director de cuentas,Celular,Alertas,4,0,No
@@ -2717,7 +2717,7 @@ SES-02694,CLI-016,2026-09-29 09:13:00,Encargado de marketing,Computadora,Resumen
 SES-02695,CLI-014,2026-09-29 10:44:00,Dueño o dueña,Computadora,Campañas,6,0,No
 SES-02696,CLI-012,2026-09-29 11:45:00,Community manager,Computadora,Comparación de canales,4,0,No
 SES-02697,CLI-015,2026-09-29 12:12:00,Encargado de marketing,Celular,Reporte mensual,9,3,Sí
-SES-02698,CLI-006,2026-09-29 13:27:00,Encargado de marketing,Tableta,Resumen general,9,0,No
+SES-02698,cli-006,2026-09-29 13:27:00,Encargado de marketing,Tableta,Resumen general,9,0,No
 SES-02699,CLI-030,2026-09-29 14:47:00,Analista de agencia,Computadora,Campañas,2,0,No
 SES-02700,CLI-034,2026-09-29 16:02:00,Dueño o dueña,Celular,Resumen general,13,1,No
 SES-02701,CLI-012,2026-09-29 19:10:00,Community manager,Computadora,Comparación de canales,13,1,No
@@ -2755,8 +2755,7 @@ SES-02732,CLI-030,2026-10-01 16:50:00,Community manager,Computadora,Campañas,10
 SES-02733,CLI-023,2026-10-01 18:17:00,Dueño o dueña,Computadora,Campañas,9,0,No
 SES-02734,CLI-009,2026-10-02 07:47:00,Dueño o dueña,Computadora,Resumen general,10,0,No
 SES-02735,CLI-028,2026-10-02 09:07:00,Dueño o dueña,Celular,Comparación de canales,9,2,No
-SES-02736,CLI-015,2026-10-02 13:31:00,Encargado de marketing,Computadora,Resumen general,3,0,Sí
-SES-02737,CLI-007,2026-10-02 15:11:00,Encargado de marketing,Computadora,Resumen general,6,0,No
+SES-02736,cli-015,2026-10-02 13:31:00,Encargado de marketing,Computadora,Resumen general,3,0,Sí
 SES-02737,CLI-007,2026-10-02 15:11:00,Encargado de marketing,Computadora,Resumen general,6,0,No
 SES-02738,CLI-012,2026-10-02 15:36:00,Analista de agencia,Computadora,Comparación de canales,4,2,No
 SES-02739,CLI-028,2026-10-02 17:01:00,Encargado de marketing,Computadora,Reporte mensual,10,1,Sí
@@ -2778,6 +2777,7 @@ SES-02754,CLI-012,2026-10-03 14:25:00,Community manager,Computadora,Comparación
 SES-02755,CLI-012,2026-10-03 14:53:00,Community manager,Computadora,Resumen general,7,1,No
 SES-02756,CLI-038,2026-10-03 16:45:00,Community manager,Computadora,Campañas,4,1,No
 SES-02757,CLI-004,2026-10-03 17:16:00,Dueño o dueña,Computadora,Campañas,20,0,No
+SES-02758,CLI-029,2026-10-03 17:52:00,Community manager,Celular,Campañas,6,2,Sí
 SES-02758,CLI-029,2026-10-03 17:52:00,Community manager,Celular,Campañas,6,2,Sí
 SES-02759,CLI-029,2026-10-03 18:17:00,Director de cuentas,Computadora,Resumen general,13,2,Sí
 SES-02760,CLI-032,2026-10-03 19:04:00,Encargado de marketing,Celular,Campañas,12,0,No
@@ -2814,7 +2814,6 @@ SES-02790,CLI-026,2026-10-05 10:45:00,Dueño o dueña,Computadora,Comparación d
 SES-02791,CLI-011,2026-10-05 11:18:00,Encargado de marketing,Celular,Campañas,6,0,No
 SES-02792,CLI-039,2026-10-05 11:20:00,Dueño o dueña,Celular,Resumen general,6,2,No
 SES-02793,CLI-009,2026-10-05 11:34:00,Dueño o dueña,Computadora,Resumen general,10,0,No
-SES-02793,CLI-009,2026-10-05 11:34:00,Dueño o dueña,Computadora,Resumen general,10,0,No
 SES-02794,CLI-024,2026-10-05 12:55:00,Encargado de marketing,Computadora,Resumen general,17,1,No
 SES-02795,CLI-007,2026-10-05 13:27:00,Dueño o dueña,Tableta,Resumen general,6,0,No
 SES-02796,CLI-032,2026-10-05 13:56:00,Dueño o dueña,Computadora,Comparación de canales,9,0,Sí
@@ -2849,7 +2848,7 @@ SES-02824,CLI-028,2026-10-07 10:40:00,Dueño o dueña,Celular,Resumen general,10
 SES-02825,CLI-033,2026-10-07 11:17:00,Dueño o dueña,Computadora,Resumen general,4,0,No
 SES-02826,CLI-012,2026-10-07 11:29:00,Community manager,Celular,Resumen general,2,1,No
 SES-02827,CLI-029,2026-10-07 12:16:00,Analista de agencia,Celular,Resumen general,15,1,No
-SES-02828,cli-008,2026-10-07 12:34:00,Dueño o dueña,Computadora,Campañas,3,2,No
+SES-02828,CLI-008,2026-10-07 12:34:00,Dueño o dueña,Computadora,Campañas,3,2,No
 SES-02829,CLI-007,2026-10-07 13:09:00,Encargado de marketing,Computadora,Resumen general,16,0,No
 SES-02830,CLI-019,2026-10-07 13:12:00,Encargado de marketing,Computadora,Resumen general,8,3,No
 SES-02831,CLI-018,2026-10-07 13:31:00,Encargado de marketing,Computadora,Resumen general,14,5,No
@@ -2877,7 +2876,7 @@ SES-02852,CLI-033,2026-10-08 18:27:00,Encargado de marketing,Celular,Resumen gen
 SES-02853,CLI-037,2026-10-08 18:45:00,Community manager,Tableta,Reporte mensual,6,0,Sí
 SES-02854,CLI-014,2026-10-08 19:05:00,Dueño o dueña,Computadora,Campañas,5,0,No
 SES-02855,CLI-030,2026-10-08 20:57:00,Community manager,Celular,Resumen general,5,3,No
-SES-02856,CLI-037,2026-10-09 06:28:00,Community manager,Celular,Comparación de canales,3,0,No
+SES-02856,cli-037,2026-10-09 06:28:00,Community manager,Celular,Comparación de canales,3,0,No
 SES-02857,CLI-033,2026-10-09 09:19:00,Dueño o dueña,Celular,Reporte mensual,5,0,Sí
 SES-02858,CLI-021,2026-10-09 15:03:00,Encargado de marketing,Computadora,Campañas,5,0,No
 SES-02859,CLI-016,2026-10-09 18:18:00,Dueño o dueña,Celular,Resumen general,7,0,No
@@ -2894,7 +2893,7 @@ SES-02869,CLI-017,2026-10-10 17:37:00,Dueño o dueña,Computadora,Campañas,14,4
 SES-02870,CLI-013,2026-10-10 19:17:00,Dueño o dueña,Celular,Resumen general,7,1,No
 SES-02871,CLI-008,2026-10-10 20:40:00,Encargado de marketing,Computadora,Comparación de canales,9,1,No
 SES-02872,CLI-029,2026-10-10 21:33:00,Director de cuentas,Computadora,Resumen general,4,2,No
-SES-02873,cli-023,2026-10-10 21:49:00,Dueño o dueña,Computadora,Resumen general,2,0,No
+SES-02873,CLI-023,2026-10-10 21:49:00,Dueño o dueña,Computadora,Resumen general,2,0,No
 SES-02874,CLI-007,2026-10-10 22:28:00,Encargado de marketing,Celular,Resumen general,17,0,No
 SES-02875,CLI-010,2026-10-11 07:45:00,Dueño o dueña,Celular,Alertas,3,0,No
 SES-02876,CLI-028,2026-10-11 08:29:00,Dueño o dueña,Computadora,Resumen general,6,0,No
@@ -2917,7 +2916,7 @@ SES-02892,CLI-006,2026-10-12 08:49:00,Encargado de marketing,Computadora,Compara
 SES-02893,CLI-004,2026-10-12 09:23:00,Encargado de marketing,Celular,Comparación de canales,13,0,No
 SES-02894,CLI-034,2026-10-12 09:46:00,Encargado de marketing,Celular,Alertas,3,0,No
 SES-02895,CLI-003,2026-10-12 09:52:00,Encargado de marketing,Celular,Comparación de canales,17,2,No
-SES-02896,CLI-024,2026-10-12 10:17:00,Encargado de marketing,Celular,Resumen general,7,2,No
+SES-02896,cli-024,2026-10-12 10:17:00,Encargado de marketing,Celular,Resumen general,7,2,No
 SES-02897,CLI-017,2026-10-12 10:32:00,Encargado de marketing,Computadora,Reporte mensual,5,0,Sí
 SES-02898,CLI-030,2026-10-12 10:46:00,Analista de agencia,Computadora,Resumen general,4,1,No
 SES-02899,CLI-029,2026-10-12 12:14:00,Community manager,Celular,Alertas,13,0,No
@@ -2933,8 +2932,8 @@ SES-02908,CLI-015,2026-10-12 17:46:00,Dueño o dueña,Computadora,Resumen genera
 SES-02909,CLI-029,2026-10-12 18:03:00,Director de cuentas,Celular,Alertas,8,0,No
 SES-02910,CLI-008,2026-10-12 18:10:00,Encargado de marketing,Computadora,Reporte mensual,9,0,Sí
 SES-02911,CLI-008,2026-10-12 18:47:00,Dueño o dueña,Computadora,Campañas,21,2,No
-SES-02912,cli-019,2026-10-12 19:24:00,Encargado de marketing,Celular,Reporte mensual,12,2,Sí
-SES-02913,cli-021,2026-10-12 20:04:00,Encargado de marketing,Celular,Resumen general,6,0,No
+SES-02912,CLI-019,2026-10-12 19:24:00,Encargado de marketing,Celular,Reporte mensual,12,2,Sí
+SES-02913,CLI-021,2026-10-12 20:04:00,Encargado de marketing,Celular,Resumen general,6,0,No
 SES-02914,CLI-036,2026-10-12 20:10:00,Dueño o dueña,Celular,Campañas,4,0,No
 SES-02915,CLI-008,2026-10-12 20:18:00,Dueño o dueña,Computadora,Campañas,3,0,No
 SES-02916,CLI-029,2026-10-12 20:40:00,Community manager,Computadora,Comparación de canales,7,1,No
@@ -2975,6 +2974,7 @@ SES-02950,CLI-012,2026-10-16 09:54:00,Director de cuentas,Computadora,Resumen ge
 SES-02951,CLI-009,2026-10-16 11:10:00,Dueño o dueña,Celular,Campañas,4,0,No
 SES-02952,CLI-007,2026-10-16 11:52:00,Dueño o dueña,Computadora,Comparación de canales,6,0,No
 SES-02953,CLI-008,2026-10-16 12:48:00,Encargado de marketing,Celular,Alertas,4,1,No
+SES-02953,CLI-008,2026-10-16 12:48:00,Encargado de marketing,Celular,Alertas,4,1,No
 SES-02954,CLI-009,2026-10-16 13:32:00,Dueño o dueña,Computadora,Campañas,23,0,No
 SES-02955,CLI-006,2026-10-16 13:47:00,Encargado de marketing,Computadora,Campañas,6,0,No
 SES-02956,CLI-004,2026-10-16 14:20:00,Dueño o dueña,Computadora,Reporte mensual,15,0,Sí
@@ -2987,6 +2987,7 @@ SES-02962,CLI-007,2026-10-16 19:24:00,Encargado de marketing,Computadora,Reporte
 SES-02963,CLI-038,2026-10-16 20:48:00,Analista de agencia,Computadora,Alertas,9,2,No
 SES-02964,CLI-016,2026-10-17 06:34:00,Encargado de marketing,Computadora,Resumen general,4,0,No
 SES-02965,CLI-024,2026-10-17 08:29:00,Encargado de marketing,Celular,Campañas,10,0,No
+SES-02966,CLI-013,2026-10-17 09:01:00,Dueño o dueña,Computadora,Resumen general,6,1,No
 SES-02966,CLI-013,2026-10-17 09:01:00,Dueño o dueña,Computadora,Resumen general,6,1,No
 SES-02967,CLI-029,2026-10-17 10:02:00,Analista de agencia,Computadora,Campañas,11,2,No
 SES-02968,CLI-006,2026-10-17 10:03:00,Encargado de marketing,Computadora,Comparación de canales,7,0,No
@@ -3002,7 +3003,6 @@ SES-02977,CLI-018,2026-10-17 14:56:00,Encargado de marketing,Computadora,Alertas
 SES-02978,CLI-008,2026-10-17 15:27:00,Encargado de marketing,Computadora,Campañas,23,0,No
 SES-02979,CLI-012,2026-10-17 17:09:00,Community manager,Celular,Campañas,8,2,No
 SES-02980,CLI-030,2026-10-17 17:17:00,Community manager,Celular,Reporte mensual,9,0,Sí
-SES-02980,CLI-030,2026-10-17 17:17:00,Community manager,Celular,Reporte mensual,9,0,Sí
 SES-02981,CLI-010,2026-10-17 19:14:00,Dueño o dueña,Tableta,Alertas,2,3,No
 SES-02982,CLI-007,2026-10-17 20:44:00,Dueño o dueña,Computadora,Campañas,7,0,No
 SES-02983,CLI-024,2026-10-18 07:07:00,Encargado de marketing,Celular,Comparación de canales,7,0,No
@@ -3012,7 +3012,7 @@ SES-02986,CLI-006,2026-10-18 09:57:00,Dueño o dueña,Celular,Campañas,10,0,No
 SES-02987,CLI-003,2026-10-18 10:23:00,Encargado de marketing,Computadora,Alertas,7,1,No
 SES-02988,CLI-037,2026-10-18 12:49:00,Analista de agencia,Celular,Resumen general,13,3,No
 SES-02989,CLI-029,2026-10-18 15:06:00,Analista de agencia,Computadora,Reporte mensual,13,3,Sí
-SES-02990,CLI-004,2026-10-18 16:44:00,Dueño o dueña,Computadora,Reporte mensual,8,0,Sí
+SES-02990,cli-004,2026-10-18 16:44:00,Dueño o dueña,Computadora,Reporte mensual,8,0,Sí
 SES-02991,CLI-018,2026-10-18 16:44:00,Encargado de marketing,Computadora,Resumen general,6,1,No
 SES-02992,CLI-037,2026-10-18 17:28:00,Community manager,Celular,Comparación de canales,4,1,No
 SES-02993,CLI-023,2026-10-18 18:59:00,Dueño o dueña,Computadora,Resumen general,2,0,No
@@ -3150,7 +3150,6 @@ SES-03124,CLI-006,2026-10-28 12:53:00,Encargado de marketing,Computadora,Compara
 SES-03125,CLI-028,2026-10-28 13:05:00,Encargado de marketing,Computadora,Campañas,4,3,No
 SES-03126,CLI-037,2026-10-28 14:29:00,Analista de agencia,Computadora,Alertas,8,1,No
 SES-03127,CLI-037,2026-10-28 17:57:00,Analista de agencia,Computadora,Resumen general,11,2,No
-SES-03127,CLI-037,2026-10-28 17:57:00,Analista de agencia,Computadora,Resumen general,11,2,No
 SES-03128,CLI-004,2026-10-28 18:58:00,Dueño o dueña,Celular,Comparación de canales,13,0,No
 SES-03129,CLI-038,2026-10-28 20:18:00,Director de cuentas,Celular,Resumen general,8,4,No
 SES-03130,CLI-020,2026-10-28 21:59:00,Analista de agencia,Tableta,Resumen general,6,0,No
@@ -3171,11 +3170,12 @@ SES-03144,CLI-023,2026-10-29 16:59:00,Encargado de marketing,Celular,Comparació
 SES-03145,CLI-033,2026-10-29 17:38:00,Encargado de marketing,Computadora,Comparación de canales,10,0,No
 SES-03146,CLI-012,2026-10-29 18:08:00,Community manager,Celular,Resumen general,18,3,No
 SES-03147,CLI-026,2026-10-29 18:17:00,Dueño o dueña,Computadora,Resumen general,9,0,No
+SES-03147,CLI-026,2026-10-29 18:17:00,Dueño o dueña,Computadora,Resumen general,9,0,No
 SES-03148,CLI-037,2026-10-29 19:56:00,Director de cuentas,Tableta,Comparación de canales,7,0,No
 SES-03149,CLI-014,2026-10-29 20:08:00,Encargado de marketing,Tableta,Campañas,14,0,No
 SES-03150,CLI-024,2026-10-30 08:17:00,Dueño o dueña,Celular,Resumen general,12,1,No
 SES-03151,CLI-007,2026-10-30 08:28:00,Encargado de marketing,Celular,Campañas,8,0,No
-SES-03152,CLI-037,2026-10-30 08:49:00,Analista de agencia,Computadora,Comparación de canales,6,0,No
+SES-03152,cli-037,2026-10-30 08:49:00,Analista de agencia,Computadora,Comparación de canales,6,0,No
 SES-03153,CLI-011,2026-10-30 09:14:00,Encargado de marketing,Computadora,Campañas,9,0,No
 SES-03154,CLI-038,2026-10-30 09:21:00,Community manager,Celular,Campañas,5,2,No
 SES-03155,CLI-037,2026-10-30 10:04:00,Community manager,Celular,Resumen general,12,3,No
@@ -3195,7 +3195,7 @@ SES-03168,CLI-036,2026-10-30 18:49:00,Encargado de marketing,Celular,Comparació
 SES-03169,CLI-020,2026-10-30 19:45:00,Community manager,Celular,Reporte mensual,8,2,Sí
 SES-03170,CLI-036,2026-10-30 21:45:00,Encargado de marketing,Computadora,Comparación de canales,6,0,No
 SES-03171,CLI-034,2026-10-30 22:30:00,Dueño o dueña,Computadora,Reporte mensual,10,0,Sí
-SES-03172,cli-007,2026-10-30 22:41:00,Dueño o dueña,Celular,Reporte mensual,5,0,Sí
+SES-03172,CLI-007,2026-10-30 22:41:00,Dueño o dueña,Celular,Reporte mensual,5,0,Sí
 SES-03173,CLI-012,2026-10-31 08:15:00,Analista de agencia,Computadora,Campañas,7,1,No
 SES-03174,CLI-006,2026-10-31 09:46:00,Dueño o dueña,Computadora,Resumen general,12,0,No
 SES-03175,CLI-028,2026-10-31 09:47:00,Encargado de marketing,Celular,Resumen general,13,3,No

@@ -9,12 +9,12 @@ Examen parcial 02 · Emprendimiento BI.
 
 | Carpeta o archivo | Contenido | Responsable |
 |---|---|---|
-| 01_LeanCanvas | Lean Canvas y justificación | Persona 1 |
-| 02_Arquitectura | Diagrama de flujo y modelo dimensional | Persona 1 |
-| 03_Datos_Sinteticos | Script generador, datos brutos e instrucciones | Persona 1 |
-| 04_Prototipo_BI | Archivo .pbix (ETL, modelo, DAX y dashboards) | Personas 2 y 3 |
-| 05_Resumen_Tecnico | Informe técnico | Persona 1 |
-| README.txt | Orden de ejecución y enlaces | Persona 1 |
+| 01_LeanCanvas | Lean Canvas y justificación | Melody |
+| 02_Arquitectura | Diagrama de flujo y modelo dimensional | Melody |
+| 03_Datos_Sinteticos | Script generador, datos brutos e instrucciones | Melody |
+| 04_Prototipo_BI | Archivo .pbix con ETL y modelo (Pamela) y con medidas DAX y dashboards (Valeria) | Pamela y Valeria |
+| 05_Resumen_Tecnico | Informe técnico | Melody |
+| README.txt | Orden de ejecución y enlaces | Melody |
 
 ## Empezar
 
@@ -25,3 +25,7 @@ python generar_datos.py
 ```
 
 Ver `03_Datos_Sinteticos/INSTRUCCIONES_DATOS.md` para el diccionario de datos y las anomalías sembradas.
+
+## Documentos
+
+Los documentos se generan desde `herramientas/` con el formato del curso. Lo resaltado en amarillo está pendiente de completar.
