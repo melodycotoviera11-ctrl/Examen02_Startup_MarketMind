@@ -92,12 +92,12 @@ function rel(x1, y1, x2, y2, lx, ly) {
     isTextBox: true, objectName: "Cardinalidad" });
 }
 entidad("Dim_Plan", 35, 42, 195, ["PK id_plan", "nombre, precio, límites"], false);
-entidad("Hecho_Facturacion", 265, 8, 510, ["PK id_factura", "FK id_cliente, id_plan", "FK fecha_emision", "subtotal, descuento, iva, total", "dias_para_pagar, estado_pago", "_Grano una factura por cliente y mes"], true);
+entidad("Fact_Facturacion", 265, 8, 510, ["PK id_factura", "FK id_cliente, id_plan", "FK fecha_emision", "subtotal, descuento, iva, total", "dias_para_pagar, estado_pago", "_Grano una factura por cliente y mes"], true);
 entidad("Dim_Cliente", 7, 222, 222, ["PK id_cliente", "nombre, industria, tamaño", "provincia, canal_adquisicion", "fecha_alta, fecha_baja, estado"], false);
-entidad("Hecho_UsoPlataforma", 275, 209, 502, ["PK id_sesion", "FK id_cliente, fecha", "duracion_min, alertas_revisadas", "reporte_descargado, pagina", "_Grano una sesión"], true);
+entidad("Fact_UsoPlataforma", 275, 209, 502, ["PK id_sesion", "FK id_cliente, fecha", "duracion_min, alertas_revisadas", "reporte_descargado, pagina", "_Grano una sesión"], true);
 entidad("Dim_Calendario", 557, 222, 765, ["PK Fecha", "Año, Mes, NombreMes", "Trimestre, DíaSemana", "EsFinDeSemana, Temporada"], false);
-entidad("Hecho_Costos", 812, 222, 1027, ["PK id_costo", "FK fecha, concepto, tipo_costo", "monto_crc", "_Grano un concepto por mes"], true);
-entidad("Hecho_ResultadosCampana", 281, 394, 495, ["PK id_resultado", "FK id_campana, id_cliente", "FK id_canal, fecha", "impresiones, clics, gasto", "conversiones, ingresos", "_Grano una campaña por día"], true);
+entidad("Fact_Costos", 812, 222, 1027, ["PK id_costo", "FK fecha, concepto, tipo_costo", "monto_crc", "_Grano un concepto por mes"], true);
+entidad("Fact_ResultadosCampana", 281, 394, 495, ["PK id_resultado", "FK id_campana, id_cliente", "FK id_canal, fecha", "impresiones, clics, gasto", "conversiones, ingresos", "_Grano una campaña por día"], true);
 entidad("Dim_Campana", 10, 455, 217, ["PK id_campana", "marca, industria_marca", "objetivo, fechas, presupuesto"], false);
 entidad("Dim_Canal", 574, 475, 748, ["PK id_canal", "nombre, plataforma, tipo"], false);
 

@@ -62,18 +62,18 @@ d.parrafo("El modelo tiene cuatro tablas de hechos (facturación, resultados de 
           "filtro en una sola dirección. El detalle está en el documento 02_Arquitectura.", despues=80)
 d.leyenda("Medidas DAX del modelo")
 d.tabla(["Medida", "Fórmula"],
-        [["Ingresos", "SUM(Hecho_Facturacion[subtotal_crc])"],
-         ["Clientes activos", "DISTINCTCOUNT(Hecho_Facturacion[id_cliente])"],
+        [["Ingresos", "SUM(Fact_Facturacion[subtotal_crc])"],
+         ["Clientes activos", "DISTINCTCOUNT(Fact_Facturacion[id_cliente])"],
          ["Ticket medio", "DIVIDE([Ingresos], [Clientes activos])"],
          ["Variación mensual de ingresos %", "VAR ant = CALCULATE([Ingresos], DATEADD(Dim_Calendario[Fecha], -1, MONTH)) RETURN DIVIDE([Ingresos] - ant, ant)"],
          ["Ingresos acumulados del año", "TOTALYTD([Ingresos], Dim_Calendario[Fecha], \"10/31\")"],
-         ["Costos", "SUM(Hecho_Costos[monto_crc])"],
+         ["Costos", "SUM(Fact_Costos[monto_crc])"],
          ["Margen %", "DIVIDE([Ingresos] - [Costos], [Ingresos])"],
          ["Tasa de cancelación", "DIVIDE(COUNTROWS(FILTER(Dim_Cliente, NOT ISBLANK(Dim_Cliente[fecha_baja]))), DISTINCTCOUNT(Dim_Cliente[id_cliente]))"],
-         ["CAC del cliente", "DIVIDE(SUM(Hecho_ResultadosCampana[gasto_crc]), SUM(Hecho_ResultadosCampana[conversiones]))"],
-         ["ROAS", "DIVIDE(SUM(Hecho_ResultadosCampana[ingresos_atribuidos_crc]), SUM(Hecho_ResultadosCampana[gasto_crc]))"],
-         ["Gasto promedio móvil 3 meses", "DIVIDE(CALCULATE(SUM(Hecho_ResultadosCampana[gasto_crc]), DATESINPERIOD(Dim_Calendario[Fecha], MAX(Dim_Calendario[Fecha]), -3, MONTH)), 3)"],
-         ["Sesiones por cliente", "DIVIDE(COUNTROWS(Hecho_UsoPlataforma), DISTINCTCOUNT(Hecho_UsoPlataforma[id_cliente]))"]],
+         ["CAC del cliente", "DIVIDE(SUM(Fact_ResultadosCampana[gasto_crc]), SUM(Fact_ResultadosCampana[conversiones]))"],
+         ["ROAS", "DIVIDE(SUM(Fact_ResultadosCampana[ingresos_atribuidos_crc]), SUM(Fact_ResultadosCampana[gasto_crc]))"],
+         ["Gasto promedio móvil 3 meses", "DIVIDE(CALCULATE(SUM(Fact_ResultadosCampana[gasto_crc]), DATESINPERIOD(Dim_Calendario[Fecha], MAX(Dim_Calendario[Fecha]), -3, MONTH)), 3)"],
+         ["Sesiones por cliente", "DIVIDE(COUNTROWS(Fact_UsoPlataforma), DISTINCTCOUNT(Fact_UsoPlataforma[id_cliente]))"]],
         [3, 8.8], size=17, negrita_col1=True)
 d.nota("[[Valeria ajusta nombres y fórmulas para que coincidan con las medidas del archivo .pbix.]]")
 

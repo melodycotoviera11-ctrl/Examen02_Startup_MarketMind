@@ -48,11 +48,11 @@ d.parrafo("Los archivos de origen son datos operacionales, porque registran lo q
           "con errores de captura. En el modelo se separan en dimensiones, que describen el quién, el qué y el "
           "cuándo, y en tablas de hechos, que guardan lo que se mide. Cada tabla de hechos tiene un grano definido.", despues=80)
 d.leyenda("Tablas de hechos del modelo")
-d.tabla(["Tabla de hechos", "Proceso", "Granularidad", "Medidas base"],
-        [["Hecho_Facturacion", "Comercial de MarketMind", "Una factura por cliente por mes", "subtotal, descuento, IVA, total, días para pagar"],
-         ["Hecho_ResultadosCampana", "Servicio que recibe el cliente", "Una campaña por día", "impresiones, clics, gasto, conversiones, ingresos atribuidos"],
-         ["Hecho_UsoPlataforma", "Uso del producto", "Una sesión de un usuario", "minutos, alertas revisadas, reportes descargados"],
-         ["Hecho_Costos", "Rentabilidad de MarketMind", "Un concepto de costo por mes", "monto en colones"]],
+d.tabla(["Tabla de hechos (Fact)", "Proceso", "Granularidad", "Medidas base"],
+        [["Fact_Facturacion", "Comercial de MarketMind", "Una factura por cliente por mes", "subtotal, descuento, IVA, total, días para pagar"],
+         ["Fact_ResultadosCampana", "Servicio que recibe el cliente", "Una campaña por día", "impresiones, clics, gasto, conversiones, ingresos atribuidos"],
+         ["Fact_UsoPlataforma", "Uso del producto", "Una sesión de un usuario", "minutos, alertas revisadas, reportes descargados"],
+         ["Fact_Costos", "Rentabilidad de MarketMind", "Un concepto de costo por mes", "monto en colones"]],
         [3.1, 2.3, 2.5, 3.9], size=18, negrita_col1=True)
 
 d.h2("Modelo dimensional")
