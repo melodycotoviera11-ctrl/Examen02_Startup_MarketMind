@@ -11,7 +11,7 @@ Examen parcial 02, TI-6900 Inteligencia de Negocios.
 |---|---|
 | 01_LeanCanvas.pdf | Lean Canvas y justificación del negocio |
 | 02_Arquitectura/ | Documento de arquitectura y las imágenes del flujo de datos y del modelo dimensional |
-| 03_Datos_Sinteticos/ | Script generador, datos brutos, registro de anomalías e instrucciones |
+| 03_Datos_Sinteticos/ | Carpetas datos_brutos, script_python, instrucciones y anomalias |
 | 04_Prototipo_BI.pbix | ETL, modelo, medidas DAX y dashboards (pendiente) |
 | 05_Resumen_Tecnico/ | Resumen técnico y sus capturas de evidencia |
 | README.txt | Orden de ejecución, dependencias, rutas y enlaces |
@@ -19,12 +19,12 @@ Examen parcial 02, TI-6900 Inteligencia de Negocios.
 ## Generar los datos
 
 ```
-cd 03_Datos_Sinteticos
+cd 03_Datos_Sinteticos/script_python
 pip install pandas numpy openpyxl
 python generar_datos.py
 ```
 
-El diccionario de datos y las anomalías sembradas están en `03_Datos_Sinteticos/INSTRUCCIONES_DATOS.md`.
+El diccionario de datos y las anomalías sembradas están en `03_Datos_Sinteticos/instrucciones/INSTRUCCIONES_DATOS.md`.
 
 ## Notas para el modelo en Power BI
 

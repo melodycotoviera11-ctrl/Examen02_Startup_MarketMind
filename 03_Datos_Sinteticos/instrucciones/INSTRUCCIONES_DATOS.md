@@ -6,11 +6,20 @@
 
 1. Instalar Python 3.10 o superior.
 2. Instalar las librerías con `pip install pandas numpy openpyxl`
-3. Desde esta carpeta, ejecutar `python generar_datos.py`
+3. Entrar a la carpeta `script_python` y ejecutar `python generar_datos.py`
 
 La semilla aleatoria es **2026**. Con esa semilla el script produce siempre exactamente los mismos archivos. Para probar otra semilla se usa `python generar_datos.py --semilla 123`
 
-El script borra y vuelve a escribir los archivos de `datos_brutos/` y el archivo `documentacion/registro_anomalias.csv`.
+El script borra y vuelve a escribir los archivos de `datos_brutos/` y el archivo `anomalias/registro_anomalias.csv`.
+
+## Organización de la carpeta
+
+| Carpeta | Contenido |
+|---|---|
+| datos_brutos | Los 8 archivos de origen generados, con las anomalías sembradas |
+| script_python | El script `generar_datos.py` que produce todos los datos |
+| instrucciones | Este archivo, con el diccionario de datos |
+| anomalias | `registro_anomalias.csv`, con el detalle de cada anomalía y su corrección |
 
 ## Periodo y volumen
 
@@ -146,7 +155,7 @@ Estos patrones se programaron a propósito para que el análisis encuentre algo.
 
 ## Anomalías sembradas
 
-El detalle exacto, con la cantidad de filas afectadas, queda en `documentacion/registro_anomalias.csv`. Ninguna se corrige a mano, todas se limpian en Power Query.
+El detalle exacto, con la cantidad de filas afectadas, queda en `anomalias/registro_anomalias.csv`. Ninguna se corrige a mano, todas se limpian en Power Query.
 
 | Código | Tipo | Archivo | Corrección esperada |
 |---|---|---|---|

@@ -9,11 +9,11 @@ CONTENIDO
 
 01_LeanCanvas.pdf                          Lienzo y justificación del negocio
 02_Arquitectura.pdf                        Flujo de datos, modelo dimensional, calidad y seguridad
-03_Datos_Sinteticos/                       Script generador, datos brutos e instrucciones
-    generar_datos.py                       Script de Python (semilla 2026)
-    INSTRUCCIONES_DATOS.md                 Instrucciones, diccionario de datos y anomalías sembradas
+03_Datos_Sinteticos/                       Datos simulados y su generador
     datos_brutos/                          8 archivos de origen, con anomalías a propósito
-    documentacion/registro_anomalias.csv   Detalle de cada anomalía y su corrección
+    script_python/generar_datos.py         Script de Python (semilla 2026)
+    instrucciones/INSTRUCCIONES_DATOS.md   Instrucciones, diccionario de datos y semilla
+    anomalias/registro_anomalias.csv       Detalle de cada anomalía y su corrección
 04_Prototipo_BI.pbix                       ETL, modelo, medidas DAX y dashboards
 05_Resumen_Tecnico.pdf                     Integrantes, transformaciones, medidas, hallazgos y recomendaciones
 README.txt                                 Este archivo
@@ -25,7 +25,7 @@ ORDEN DE EJECUCIÓN
        pip install pandas numpy openpyxl
 
 2. Generar los datos (opcional, ya vienen generados en datos_brutos)
-       cd 03_Datos_Sinteticos
+       cd 03_Datos_Sinteticos/script_python
        python generar_datos.py
    Con la semilla 2026 se obtienen exactamente los mismos archivos.
 
@@ -50,7 +50,8 @@ Cuenta institucional con permiso de lector en el área de trabajo de Power BI Se
 RUTAS RELATIVAS
 
 Todas las rutas del paquete son relativas a la carpeta principal del .zip.
-El script guarda los datos en 03_Datos_Sinteticos/datos_brutos sin importar desde dónde se ejecute.
+El script guarda los datos en 03_Datos_Sinteticos/datos_brutos y el registro en 03_Datos_Sinteticos/anomalias,
+sin importar desde dónde se ejecute.
 El archivo .pbix toma los datos desde esa misma carpeta por medio del parámetro RutaDatos.
 
 

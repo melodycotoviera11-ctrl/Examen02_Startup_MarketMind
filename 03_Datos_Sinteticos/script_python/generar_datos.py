@@ -6,9 +6,12 @@ TODOS LOS DATOS QUE PRODUCE ESTE SCRIPT SON SIMULADOS.
 Las empresas, campañas, montos y usuarios son ficticios y no representan
 resultados de ninguna empresa real.
 
-Uso
+Uso (desde la carpeta script_python)
     python generar_datos.py
-    python generar_datos.py --semilla 2026 --salida datos_brutos
+    python generar_datos.py --semilla 2026
+
+Los datos se guardan en ../datos_brutos y el registro de anomalías en ../anomalias,
+sin importar desde qué carpeta se ejecute el script.
 
 Requisitos
     Python 3.10 o superior, pandas, numpy, openpyxl
@@ -611,7 +614,7 @@ class Generador:
         self.uso.to_csv(os.path.join(carpeta, "uso_plataforma.csv"), index=False, encoding=enc)
         self.costos.to_csv(os.path.join(carpeta, "costos_operativos.csv"), index=False, encoding=enc)
 
-        doc = os.path.join(os.path.dirname(os.path.abspath(carpeta)), "documentacion")
+        doc = os.path.join(os.path.dirname(os.path.abspath(carpeta)), "anomalias")
         os.makedirs(doc, exist_ok=True)
         pd.DataFrame(self.anomalias).to_csv(os.path.join(doc, "registro_anomalias.csv"), index=False, encoding=enc)
 
@@ -619,7 +622,8 @@ class Generador:
 def main():
     parser = argparse.ArgumentParser(description="Genera los datos simulados de MarketMind BI.")
     parser.add_argument("--semilla", type=int, default=SEMILLA_POR_DEFECTO)
-    parser.add_argument("--salida", default=os.path.join(os.path.dirname(os.path.abspath(__file__)), "datos_brutos"))
+    raiz = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    parser.add_argument("--salida", default=os.path.join(raiz, "datos_brutos"))
     args = parser.parse_args()
 
     g = Generador(args.semilla)
