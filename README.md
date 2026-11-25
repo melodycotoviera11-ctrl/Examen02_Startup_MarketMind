@@ -10,11 +10,23 @@ Examen parcial 02, TI-6900 Inteligencia de Negocios.
 | Archivo o carpeta | Contenido |
 |---|---|
 | 01_LeanCanvas.pdf | Lean Canvas y justificación del negocio |
-| 02_Arquitectura/ | Documento de arquitectura y las imágenes del flujo de datos y del modelo dimensional |
+| 02_Arquitectura/ | Documento de arquitectura, diagrama de flujo de datos y diagrama del modelo dimensional |
 | 03_Datos_Sinteticos/ | Carpetas datos_brutos, script_python, instrucciones y anomalias |
-| 04_Prototipo_BI.pbix | ETL, modelo, medidas DAX y dashboards (pendiente) |
-| 05_Resumen_Tecnico/ | Resumen técnico y sus capturas de evidencia |
+| 04_Prototipo_BI.pbix | ETL en Power Query, modelo, medidas DAX, dashboards y RLS |
+| 05_Resumen_Tecnico/ | Resumen técnico y las siete capturas de evidencia |
 | README.txt | Orden de ejecución, dependencias, rutas y enlaces |
+
+## Capturas de evidencia (05_Resumen_Tecnico)
+
+| Archivo | Contenido |
+|---|---|
+| figura_1_dashboard_campanas.png | Página 01, análisis de campañas |
+| figura_2_dashboard_comercial.png | Página 02, desempeño comercial |
+| figura_3_dashboard_uso_retencion.png | Página 03, uso y retención |
+| figura_4_modelo_power_bi.png | Modelo dimensional en la vista de modelo de Power BI |
+| figura_5_power_query.png | Transformaciones y validaciones en Power Query |
+| figura_6_rls_asignacion.png | Asignación de la cuenta de prueba al rol de RLS |
+| figura_7_rls_validacion.png | Vista restringida al cliente CLI-001 |
 
 ## Generar los datos
 
@@ -26,14 +38,8 @@ python generar_datos.py
 
 El diccionario de datos y las anomalías sembradas están en `03_Datos_Sinteticos/instrucciones/INSTRUCCIONES_DATOS.md`.
 
-## Notas para el modelo en Power BI
+## Abrir el prototipo
 
-- Tablas de hechos `Fact_Facturacion`, `Fact_ResultadosCampana`, `Fact_UsoPlataforma` y `Fact_Costos`.
-- Dimensiones `Dim_Cliente`, `Dim_Plan`, `Dim_Campana`, `Dim_Canal` y `Dim_Calendario`.
-- `Fact_ResultadosCampana` lleva `id_cliente` (desde campañas), `id_canal` (homologando el canal y combinando con canales.csv) e `id_plan`.
-- `id_plan` en resultados es el plan vigente del cliente ese mes. Se combina con facturas por `id_cliente` y mes. En el mes de alta (prueba gratis) no hay factura, así que se usa `id_plan_inicial` de clientes.
-- `Fact_UsoPlataforma` no lleva `id_plan`.
-- `Dim_Calendario` lleva una columna `AñoMes` (por ejemplo 2026-03) para ordenar los meses, porque el periodo cruza dos años.
-- No hay relación entre `Dim_Calendario` y `fecha_baja`. Las cancelaciones se cuentan con la medida `Clientes cancelados` del resumen técnico.
-- Las consultas leen los archivos desde un parámetro `RutaDatos`, para que el profesor solo cambie una ruta.
-- El archivo .pbix se sube a la raíz con el nombre `04_Prototipo_BI.pbix`.
+Abrir `04_Prototipo_BI.pbix` en Power BI Desktop. Para actualizar los datos, cambiar el parámetro `RutaDatos`
+(Transformar datos, Administrar parámetros) por la ruta de la carpeta `03_Datos_Sinteticos\datos_brutos\` y presionar Actualizar.
+Los pasos completos y los enlaces al informe publicado están en `README.txt`.
