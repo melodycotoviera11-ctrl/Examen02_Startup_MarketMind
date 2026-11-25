@@ -65,7 +65,7 @@ RutaDatos & "nombre_del_archivo", así que basta con cambiar el parámetro RutaD
 ENLACES
 
 Informe publicado en Power BI Service
-https://app.powerbi.com/groups/me/reports/ea8102a8-429b-4076-84f0-c091a4705b3f/2c54bed546c90e9727c9?experience=power-bi
+https://app.powerbi.com/links/brxfhZToYN?ctid=bfcf1d9d-93ea-43b1-b902-1daa68a64248&pbi_source=linkShare
 
 Modelo semántico
 https://app.powerbi.com/groups/me/modeling/35351294-fbe1-4d0a-96ce-e30c2c3faf59/modelView?experience=power-bi
@@ -76,6 +76,9 @@ https://github.com/melodycotoviera11-ctrl/Examen02_Startup_MarketMind
 
 SEGURIDAD POR FILAS (RLS)
 
-Rol Cliente_MarketMind con el filtro [id_cliente] = "CLI-001" sobre Dim_Cliente.
-Se probó en Power BI Service con una cuenta de lector (Viewer), que solo ve la información
-de ese cliente. El informe y el modelo se compartieron con permiso de lectura.
+El modelo tiene dos roles.
+Cliente_MarketMind, con el filtro [id_cliente] = "CLI-001" sobre Dim_Cliente. Se asignó a una
+cuenta de prueba con permiso de lectura, que solo ve la información de ese cliente.
+Direccion_MarketMind, sin filtros, asignado a la cuenta de revisión docente, que ve la
+información completa de todos los clientes.
+El informe y el modelo semántico se compartieron con permiso de lectura.
